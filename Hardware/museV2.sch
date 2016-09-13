@@ -143,7 +143,6 @@ Text Label 8700 6250 0    60   ~ 0
 LED_G_1
 Text Label 8700 6150 0    60   ~ 0
 LED_R_1
-NoConn ~ 11900 7550
 Text Notes 6950 1900 0    60   ~ 0
 Optical Output
 Text Notes 6950 800  0    60   ~ 0
@@ -396,9 +395,9 @@ F 3 "" H 6000 10000 60  0000 C CNN
 $EndComp
 NoConn ~ 6950 9950
 NoConn ~ 4700 8600
-Text Label 5350 8700 2    60   ~ 0
+Text Label 5400 8700 2    60   ~ 0
 I2C_SDA
-Text Label 5350 8800 2    60   ~ 0
+Text Label 5400 8800 2    60   ~ 0
 I2C_SCL
 Text Notes 5700 9700 1    60   ~ 0
 Pulled LOW for\nI2C mode
@@ -1838,7 +1837,6 @@ NoConn ~ 9500 4550
 NoConn ~ 9500 4150
 NoConn ~ 9500 4050
 NoConn ~ 4700 8250
-NoConn ~ 4700 8350
 Text Label 12600 7150 2    60   ~ 0
 I2S_MCU_DIN
 Text Label 5400 9350 2    60   ~ 0
@@ -2768,7 +2766,7 @@ Text Label 12600 7950 2    60   ~ 0
 I2C_SCL
 Text Notes 12750 8000 0    60   ~ 0
 To DFE/\n   ADC/\n   DAC
-Text Label 5350 8450 2    60   ~ 0
+Text Label 5400 8450 2    60   ~ 0
 ADC_ESEN_INT
 Text Label 12600 7450 2    60   ~ 0
 ADC_ESEN_INT
@@ -3372,7 +3370,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 10000 6000 10100
 Wire Wire Line
-	4700 8700 5350 8700
+	4700 8700 5400 8700
 Wire Wire Line
 	5500 9000 5500 10950
 Wire Wire Line
@@ -4178,7 +4176,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 9000 5500 9000
 Wire Wire Line
-	4700 8800 5350 8800
+	4700 8800 5400 8800
 Wire Wire Line
 	950  6050 1850 6050
 Wire Wire Line
@@ -4466,7 +4464,7 @@ Wire Notes Line
 Wire Notes Line
 	12700 7750 12650 7750
 Wire Wire Line
-	4700 8450 5350 8450
+	4700 8450 5400 8450
 Wire Wire Line
 	11900 7450 12600 7450
 Wire Wire Line
@@ -4638,4 +4636,12 @@ Wire Wire Line
 	2750 9500 3100 9500
 Wire Wire Line
 	1400 10400 1400 9500
+Wire Wire Line
+	4700 8350 5400 8350
+Text Label 5400 8350 2    60   ~ 0
+ADC_CLKE_INT
+Wire Wire Line
+	11900 7550 12600 7550
+Text Label 12600 7550 2    60   ~ 0
+ADC_CLKE_INT
 $EndSCHEMATC
