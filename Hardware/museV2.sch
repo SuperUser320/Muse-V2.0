@@ -237,9 +237,9 @@ F 3 "" H 8600 2600 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 6950 2400 0    60   ~ 0
-DIGITAL_OUT
+SPDIF_OUT
 Text Label 8650 1400 2    60   ~ 0
-DIGITAL_IN
+SPDIF_IN
 $Comp
 L GND-RESCUE-museV2 #PWR07
 U 1 1 57B79ABE
@@ -419,7 +419,7 @@ NoConn ~ 4300 5750
 NoConn ~ 4300 5950
 NoConn ~ 4300 6050
 Text Label 3650 5850 0    60   ~ 0
-DIGITAL_IN
+SPDIF_IN
 Text Notes 12500 2000 0    60   ~ 0
 ADC
 $Comp
@@ -1970,7 +1970,7 @@ Text Label 11850 4150 0    60   ~ 0
 LED_B_1
 Text Notes 11850 3200 0    60   ~ 0
 Single RGB LED Strips
-Text Notes 14850 3400 0    60   ~ 0
+Text Notes 14700 3400 0    60   ~ 0
 Individually \nAddressable\nRGB LED Strips
 $Comp
 L CONN_01X03 P7
