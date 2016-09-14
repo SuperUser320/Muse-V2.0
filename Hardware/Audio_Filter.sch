@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:museV2-rescue
 LIBS:IntelEdisonBlockTemplate-cache
 LIBS:74xgxx
 LIBS:ac-dc
@@ -33,7 +34,6 @@ LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip
-LIBS:microchip1
 LIBS:microcontrollers
 LIBS:motorola
 LIBS:msp430
@@ -48,7 +48,6 @@ LIBS:regul
 LIBS:relays
 LIBS:sensors
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -79,7 +78,7 @@ $EndDescr
 Wire Wire Line
 	2950 3100 3200 3100
 $Comp
-L GND #PWR141
+L GND-RESCUE-museV2 #PWR141
 U 1 1 57B0E099
 P 3150 3450
 AR Path="/57B136AF/57B0E099" Ref="#PWR141"  Part="1" 
@@ -126,7 +125,7 @@ $EndComp
 Wire Wire Line
 	3600 2700 3600 2800
 $Comp
-L C C54
+L C-RESCUE-museV2 C54
 U 1 1 57B0E0AF
 P 3700 2200
 AR Path="/57B136AF/57B0E0AF" Ref="C54"  Part="1" 
@@ -139,7 +138,7 @@ F 3 "" H 3700 2200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R58
+L R-RESCUE-museV2 R58
 U 1 1 57B0E0B6
 P 3700 2400
 AR Path="/57B136AF/57B0E0B6" Ref="R58"  Part="1" 
@@ -170,7 +169,7 @@ Wire Wire Line
 	3900 2200 4300 2200
 Connection ~ 4300 2400
 $Comp
-L C C55
+L C-RESCUE-museV2 C55
 U 1 1 57B0E0C8
 P 3950 2600
 AR Path="/57B136AF/57B0E0C8" Ref="C55"  Part="1" 
@@ -185,7 +184,7 @@ $EndComp
 Wire Wire Line
 	3000 5150 3200 5150
 $Comp
-L GND #PWR148
+L GND-RESCUE-museV2 #PWR148
 U 1 1 57B0E0D2
 P 3150 5500
 AR Path="/57B136AF/57B0E0D2" Ref="#PWR148"  Part="1" 
@@ -232,7 +231,7 @@ $EndComp
 Wire Wire Line
 	3600 4750 3600 4850
 $Comp
-L C C58
+L C-RESCUE-museV2 C58
 U 1 1 57B0E0E8
 P 3700 4250
 AR Path="/57B136AF/57B0E0E8" Ref="C58"  Part="1" 
@@ -245,7 +244,7 @@ F 3 "" H 3700 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R65
+L R-RESCUE-museV2 R65
 U 1 1 57B0E0EF
 P 3700 4450
 AR Path="/57B136AF/57B0E0EF" Ref="R65"  Part="1" 
@@ -276,7 +275,7 @@ Wire Wire Line
 	3900 4250 4300 4250
 Connection ~ 4300 4450
 $Comp
-L R R63
+L R-RESCUE-museV2 R63
 U 1 1 57B0E101
 P 4850 4350
 AR Path="/57B136AF/57B0E101" Ref="R63"  Part="1" 
@@ -289,7 +288,7 @@ F 3 "" H 4850 4350 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R60
+L R-RESCUE-museV2 R60
 U 1 1 57B0E108
 P 4850 4150
 AR Path="/57B136AF/57B0E108" Ref="R60"  Part="1" 
@@ -314,7 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 4150 5900 4150
 $Comp
-L C C59
+L C-RESCUE-museV2 C59
 U 1 1 57B0E115
 P 5450 4250
 AR Path="/57B136AF/57B0E115" Ref="C59"  Part="1" 
@@ -337,7 +336,7 @@ Wire Wire Line
 	5700 4250 5700 4150
 Connection ~ 5700 4150
 $Comp
-L R R61
+L R-RESCUE-museV2 R61
 U 1 1 57B0E122
 P 6150 4150
 AR Path="/57B136AF/57B0E122" Ref="R61"  Part="1" 
@@ -350,7 +349,7 @@ F 3 "" H 6150 4150 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R64
+L R-RESCUE-museV2 R64
 U 1 1 57B0E129
 P 6150 4350
 AR Path="/57B136AF/57B0E129" Ref="R64"  Part="1" 
@@ -367,7 +366,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4150 6600 4150
 $Comp
-L GND #PWR145
+L GND-RESCUE-museV2 #PWR145
 U 1 1 57B0E132
 P 5850 5050
 AR Path="/57B136AF/57B0E132" Ref="#PWR145"  Part="1" 
@@ -383,7 +382,7 @@ Connection ~ 5850 4350
 Wire Wire Line
 	7000 4650 7000 5050
 $Comp
-L R R66
+L R-RESCUE-museV2 R66
 U 1 1 57B0E13A
 P 5850 4700
 AR Path="/57B136AF/57B0E13A" Ref="R66"  Part="1" 
@@ -400,7 +399,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 4350 5850 4450
 $Comp
-L R R59
+L R-RESCUE-museV2 R59
 U 1 1 57B0E143
 P 5850 3800
 AR Path="/57B136AF/57B0E143" Ref="R59"  Part="1" 
@@ -416,7 +415,7 @@ Wire Wire Line
 	5850 4050 5850 4150
 Connection ~ 5850 4150
 $Comp
-L C C57
+L C-RESCUE-museV2 C57
 U 1 1 57B0E14C
 P 6500 3800
 AR Path="/57B136AF/57B0E14C" Ref="C57"  Part="1" 
@@ -432,7 +431,7 @@ Wire Wire Line
 	6500 4000 6500 4150
 Connection ~ 6500 4150
 $Comp
-L C C61
+L C-RESCUE-museV2 C61
 U 1 1 57B0E155
 P 6500 4700
 AR Path="/57B136AF/57B0E155" Ref="C61"  Part="1" 
@@ -448,7 +447,7 @@ Wire Wire Line
 	6500 4350 6500 4500
 Connection ~ 6500 4350
 $Comp
-L GND #PWR146
+L GND-RESCUE-museV2 #PWR146
 U 1 1 57B0E15E
 P 6500 5050
 AR Path="/57B136AF/57B0E15E" Ref="#PWR146"  Part="1" 
@@ -488,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2600 4150 2600
 $Comp
-L C C60
+L C-RESCUE-museV2 C60
 U 1 1 57B0E172
 P 3950 4650
 AR Path="/57B136AF/57B0E172" Ref="C60"  Part="1" 
@@ -567,7 +566,7 @@ $EndComp
 Wire Wire Line
 	7000 3750 7000 3850
 $Comp
-L C C56
+L C-RESCUE-museV2 C56
 U 1 1 57B0E19A
 P 7350 3650
 AR Path="/57B136AF/57B0E19A" Ref="C56"  Part="1" 
@@ -603,7 +602,7 @@ Wire Wire Line
 	6500 3600 6500 3450
 Connection ~ 6500 3450
 $Comp
-L R R62
+L R-RESCUE-museV2 R62
 U 1 1 57B0E1AD
 P 8050 4250
 AR Path="/57B136AF/57B0E1AD" Ref="R62"  Part="1" 
