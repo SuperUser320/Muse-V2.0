@@ -1,4 +1,4 @@
-update=9/13/2016 6:04:35 PM
+update=9/14/2016 1:24:41 AM
 last_client=kicad
 [general]
 version=1
@@ -47,8 +47,8 @@ LibName38=motorola
 LibName39=msp430
 LibName40=nxp_armmcu
 LibName41=opto
-LibName42=philips
-LibName43=power
+LibName42=power
+LibName43=philips
 LibName44=powerint
 LibName45=pspice
 LibName46=references
