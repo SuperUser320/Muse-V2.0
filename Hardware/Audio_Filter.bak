@@ -39,8 +39,8 @@ LIBS:motorola
 LIBS:msp430
 LIBS:nxp_armmcu
 LIBS:opto
-LIBS:philips
 LIBS:power
+LIBS:philips
 LIBS:powerint
 LIBS:pspice
 LIBS:references
