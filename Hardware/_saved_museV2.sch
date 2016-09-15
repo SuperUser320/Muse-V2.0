@@ -286,7 +286,7 @@ F 3 "" H 7350 1100 60  0000 C CNN
 	1    7350 1100
 	1    0    0    -1  
 $EndComp
-Text Label 6800 5750 2    60   ~ 0
+Text Label 3650 5550 0    60   ~ 0
 I2S_SCK
 Text Notes 11350 7100 0    60   ~ 0
 To DFE\n(IADC/\n DAC/\n SPDIF)
@@ -296,27 +296,27 @@ Text Notes 6950 3900 0    60   ~ 0
 To S/PDIF\n(Digital Out)
 Text Notes 3500 5900 2    60   ~ 0
 From S/PDIF\n(Digital In)
-Text Notes 3500 5450 2    60   ~ 0
+Text Notes 6950 5250 0    60   ~ 0
 From ADC\n(Analog In)
-Text Notes 6950 5300 0    60   ~ 0
+Text Notes 6950 5700 0    60   ~ 0
 To DAC\n(Bluetooth/\nDigital/Analog)
-Text Notes 6950 5650 0    60   ~ 0
+Text Notes 3500 5500 2    60   ~ 0
 From Edison\n(Bluetooth/\nAnalog input)
 Text Notes 6950 4350 0    60   ~ 0
 To Edison\n(Digital/Analog\ninput)
-Text Label 6800 5650 2    60   ~ 0
-I2S_MCU_BCK
-Text Label 6800 5550 2    60   ~ 0
-I2S_MCU_LRCK
-Text Label 6800 5450 2    60   ~ 0
-I2S_MCU_DOUT
-Text Label 3650 5550 0    60   ~ 0
-I2S_SCK
 Text Label 3650 5450 0    60   ~ 0
-I2S_ADC_BCK
+I2S_MCU_BCK
 Text Label 3650 5350 0    60   ~ 0
-I2S_ADC_LRCK
+I2S_MCU_LRCK
 Text Label 3650 5250 0    60   ~ 0
+I2S_MCU_DOUT
+Text Label 6800 5050 2    60   ~ 0
+I2S_SCK
+Text Label 6800 5150 2    60   ~ 0
+I2S_ADC_BCK
+Text Label 6800 5250 2    60   ~ 0
+I2S_ADC_LRCK
+Text Label 6800 5350 2    60   ~ 0
 I2S_ADC_DOUT
 Text Label 6800 4350 2    60   ~ 0
 I2S_MCU_BCK
@@ -324,13 +324,13 @@ Text Label 6800 4250 2    60   ~ 0
 I2S_MCU_LRCK
 Text Label 6800 4150 2    60   ~ 0
 I2S_MCU_DIN
-Text Label 6800 5050 2    60   ~ 0
+Text Label 7250 5900 2    60   ~ 0
 I2S_DAC_DIN
-Text Label 6800 5150 2    60   ~ 0
+Text Label 7400 6050 2    60   ~ 0
 I2S_DAC_LRCK
-Text Label 6800 5250 2    60   ~ 0
+Text Label 6800 5550 2    60   ~ 0
 I2S_DAC_BCK
-Text Label 6800 5350 2    60   ~ 0
+Text Label 6800 5450 2    60   ~ 0
 I2S_SCK
 Text Notes 2800 3350 0    60   ~ 0
 Digital Front-End (DFE)
@@ -4212,8 +4212,6 @@ Wire Wire Line
 Wire Wire Line
 	14700 3700 15200 3700
 Wire Notes Line
-	6900 4950 6900 5750
-Wire Notes Line
 	6850 4950 6900 4950
 Wire Wire Line
 	10550 7550 11200 7550
@@ -5579,4 +5577,6 @@ Wire Notes Line
 	6800 500  6800 3050
 NoConn ~ 8150 8700
 NoConn ~ 8150 8800
+Wire Notes Line
+	6900 4950 6900 5750
 $EndSCHEMATC
