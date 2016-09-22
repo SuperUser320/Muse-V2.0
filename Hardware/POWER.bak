@@ -1,0 +1,791 @@
+EESchema Schematic File Version 2
+LIBS:museV2-rescue
+LIBS:IntelEdisonBlockTemplate-cache
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:motorola
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:opto
+LIBS:power
+LIBS:philips
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:sensors
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:atx24
+LIBS:muse-cache
+LIBS:museV2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +3.3VSB #PWR?
+U 1 1 57EAFFEF
+P 3800 4050
+F 0 "#PWR?" H 3800 4010 30  0001 C CNN
+F 1 "+3.3VSB" H 3800 4160 30  0000 C CNN
+F 2 "" H 3800 4050 60  0000 C CNN
+F 3 "" H 3800 4050 60  0000 C CNN
+	1    3800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8VSB #PWR?
+U 1 1 57EAFFF5
+P 3400 4050
+F 0 "#PWR?" H 3400 4190 20  0001 C CNN
+F 1 "+1.8VSB" H 3400 4160 30  0000 C CNN
+F 2 "" H 3400 4050 60  0000 C CNN
+F 3 "" H 3400 4050 60  0000 C CNN
+	1    3400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-museV2 R?
+U 1 1 57EAFFFB
+P 3800 4500
+F 0 "R?" V 3880 4500 40  0000 C CNN
+F 1 "576" V 3807 4501 40  0000 C CNN
+F 2 "" V 3730 4500 30  0000 C CNN
+F 3 "" H 3800 4500 30  0000 C CNN
+	1    3800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-museV2 D?
+U 1 1 57EB0002
+P 3800 5050
+F 0 "D?" H 3800 5150 50  0000 C CNN
+F 1 "PWR_LED" H 3800 4950 50  0000 C CNN
+F 2 "" H 3800 5050 60  0000 C CNN
+F 3 "" H 3800 5050 60  0000 C CNN
+	1    3800 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND-RESCUE-museV2 #PWR?
+U 1 1 57EB0009
+P 3800 5900
+F 0 "#PWR?" H 3800 5900 30  0001 C CNN
+F 1 "GND" H 3800 5830 30  0001 C CNN
+F 2 "" H 3800 5900 60  0000 C CNN
+F 3 "" H 3800 5900 60  0000 C CNN
+	1    3800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSS138 Q?
+U 1 1 57EB000F
+P 3700 5550
+F 0 "Q?" H 3700 5401 40  0000 R CNN
+F 1 "BSS138" H 3700 5700 40  0000 R CNN
+F 2 "SOT-23" H 3570 5652 29  0000 C CNN
+F 3 "" H 3700 5550 60  0000 C CNN
+	1    3700 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-museV2 R?
+U 1 1 57EB0016
+P 3400 4500
+F 0 "R?" V 3480 4500 40  0000 C CNN
+F 1 "10K" V 3407 4501 40  0000 C CNN
+F 2 "" V 3330 4500 30  0000 C CNN
+F 3 "" H 3400 4500 30  0000 C CNN
+	1    3400 4500
+	1    0    0    -1  
+$EndComp
+Text Label 2400 5600 0    60   ~ 0
+EDISON_RST_OUT(1.8)
+Text Label 2450 4150 0    60   ~ 0
+EDISON_PWR_BTN
+Text Notes 2050 3850 0    60   ~ 0
+Intel Edison Power Control
+$Comp
+L GND-RESCUE-museV2 #PWR?
+U 1 1 57EB0020
+P 2150 5900
+F 0 "#PWR?" H 2150 5900 30  0001 C CNN
+F 1 "GND" H 2150 5830 30  0001 C CNN
+F 2 "" H 2150 5900 60  0000 C CNN
+F 3 "" H 2150 5900 60  0000 C CNN
+	1    2150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-museV2 R?
+U 1 1 57EB0026
+P 2150 4450
+F 0 "R?" V 2230 4450 40  0000 C CNN
+F 1 "10K" V 2157 4451 40  0000 C CNN
+F 2 "" V 2080 4450 30  0000 C CNN
+F 3 "" H 2150 4450 30  0000 C CNN
+	1    2150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 57EB002D
+P 2150 5150
+F 0 "SW?" H 2300 5260 50  0000 C CNN
+F 1 "PWR_BTN" H 2150 5070 50  0000 C CNN
+F 2 "" H 2150 5150 60  0000 C CNN
+F 3 "" H 2150 5150 60  0000 C CNN
+	1    2150 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4050 3800 4250
+Wire Wire Line
+	3800 4750 3800 4850
+Wire Wire Line
+	3800 5250 3800 5350
+Wire Wire Line
+	3800 5900 3800 5750
+Connection ~ 3400 5600
+Wire Wire Line
+	3400 4050 3400 4250
+Wire Wire Line
+	3400 5600 3400 4750
+Wire Wire Line
+	2400 5600 3400 5600
+Wire Wire Line
+	3400 5600 3500 5600
+Wire Wire Line
+	2150 5900 2150 5450
+Wire Wire Line
+	2150 4200 2150 4050
+Connection ~ 2150 4750
+Wire Wire Line
+	2150 4700 2150 4750
+Wire Wire Line
+	2150 4750 2150 4850
+$Comp
+L R-RESCUE-museV2 R?
+U 1 1 57EB0040
+P 2350 4450
+F 0 "R?" V 2430 4450 40  0000 C CNN
+F 1 "220" V 2357 4451 40  0000 C CNN
+F 2 "" V 2280 4450 30  0000 C CNN
+F 3 "" H 2350 4450 30  0000 C CNN
+	1    2350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4750 2350 4750
+$Comp
+L +3.3VSB #PWR?
+U 1 1 57EB0048
+P 2150 4050
+F 0 "#PWR?" H 2150 4010 30  0001 C CNN
+F 1 "+3.3VSB" H 2150 4160 30  0000 C CNN
+F 2 "" H 2150 4050 60  0000 C CNN
+F 3 "" H 2150 4050 60  0000 C CNN
+	1    2150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4750 2350 4700
+Wire Wire Line
+	2350 4150 3250 4150
+Wire Wire Line
+	2350 4200 2350 4150
+$Comp
+L +3.3VSB #PWR?
+U 1 1 57EB0786
+P 6350 4050
+F 0 "#PWR?" H 6350 4010 30  0001 C CNN
+F 1 "+3.3VSB" H 6350 4160 30  0000 C CNN
+F 2 "" H 6350 4050 60  0000 C CNN
+F 3 "" H 6350 4050 60  0000 C CNN
+	1    6350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VSB #PWR?
+U 1 1 57EB078C
+P 5050 4050
+F 0 "#PWR?" H 5050 4140 20  0001 C CNN
+F 1 "+5VSB" H 5050 4140 30  0000 C CNN
+F 2 "" H 5050 4050 60  0000 C CNN
+F 3 "" H 5050 4050 60  0000 C CNN
+	1    5050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LP38692 U?
+U 1 1 57EB0792
+P 5450 4150
+F 0 "U?" H 5450 4250 60  0000 L CNN
+F 1 "LP38692" H 5750 3400 60  0000 L CNN
+F 2 "" H 5450 4150 60  0000 C CNN
+F 3 "" H 5450 4150 60  0000 C CNN
+	1    5450 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 4450
+$Comp
+L GND-RESCUE-museV2 #PWR?
+U 1 1 57EB079A
+P 5700 5350
+F 0 "#PWR?" H 5700 5350 30  0001 C CNN
+F 1 "GND" H 5700 5280 30  0001 C CNN
+F 2 "" H 5700 5350 60  0000 C CNN
+F 3 "" H 5700 5350 60  0000 C CNN
+	1    5700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-museV2 C?
+U 1 1 57EB07A0
+P 6350 4800
+F 0 "C?" H 6350 4900 40  0000 L CNN
+F 1 "1uF" H 6356 4715 40  0000 L CNN
+F 2 "" H 6388 4650 30  0000 C CNN
+F 3 "" H 6350 4800 60  0000 C CNN
+	1    6350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-museV2 C?
+U 1 1 57EB07A7
+P 5050 4800
+F 0 "C?" H 5050 4900 40  0000 L CNN
+F 1 "1uF" H 5056 4715 40  0000 L CNN
+F 2 "" H 5088 4650 30  0000 C CNN
+F 3 "" H 5050 4800 60  0000 C CNN
+	1    5050 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 4800 3850 0    60   ~ 0
+5VSB->3.3VSB LDO
+Wire Wire Line
+	5050 4050 5050 4250
+Wire Wire Line
+	5050 4250 5050 4450
+Wire Wire Line
+	5050 4450 5050 4600
+Wire Wire Line
+	5050 4450 5150 4450
+Wire Wire Line
+	5150 4250 5050 4250
+Connection ~ 5050 4250
+Wire Wire Line
+	5700 5150 5700 5250
+Wire Wire Line
+	5700 5250 5700 5350
+Wire Wire Line
+	6350 4050 6350 4250
+Wire Wire Line
+	6350 4250 6350 4600
+Connection ~ 5050 4450
+Wire Wire Line
+	5050 5000 5050 5250
+Wire Wire Line
+	5050 5250 5700 5250
+Wire Wire Line
+	5700 5250 6350 5250
+Connection ~ 5700 5250
+Wire Wire Line
+	6350 5250 6350 5000
+Wire Wire Line
+	6250 4250 6350 4250
+Connection ~ 6350 4250
+$Comp
+L +5VSB #PWR?
+U 1 1 57EB4383
+P 2200 1900
+F 0 "#PWR?" H 2200 1990 20  0001 C CNN
+F 1 "+5VSB" H 2200 2000 30  0000 C CNN
+F 2 "" H 2200 1900 60  0000 C CNN
+F 3 "" H 2200 1900 60  0000 C CNN
+	1    2200 1900
+	1    0    0    -1  
+$EndComp
+Text Label 4000 2300 2    60   ~ 0
+ATX_PS_1_OK
+Text Label 4000 2200 2    60   ~ 0
+ATX_PS_ON
+$Comp
+L GND-RESCUE-museV2 #PWR?
+U 1 1 57EB438B
+P 3400 3250
+F 0 "#PWR?" H 3400 3250 30  0001 C CNN
+F 1 "GND" H 3400 3180 30  0001 C CNN
+F 2 "" H 3400 3250 60  0000 C CNN
+F 3 "" H 3400 3250 60  0000 C CNN
+	1    3400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR?
+U 1 1 57EB4391
+P 3550 1900
+F 0 "#PWR?" H 3550 2030 20  0001 C CNN
+F 1 "-12V" H 3550 2000 30  0000 C CNN
+F 2 "" H 3550 1900 60  0000 C CNN
+F 3 "" H 3550 1900 60  0000 C CNN
+	1    3550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L -5V #PWR?
+U 1 1 57EB4397
+P 3400 1900
+F 0 "#PWR?" H 3400 2040 20  0001 C CNN
+F 1 "-5V" H 3400 2000 30  0000 C CNN
+F 2 "" H 3400 1900 60  0000 C CNN
+F 3 "" H 3400 1900 60  0000 C CNN
+	1    3400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 57EB439D
+P 2050 1900
+F 0 "#PWR?" H 2050 1850 20  0001 C CNN
+F 1 "+12V" H 2050 2000 30  0000 C CNN
+F 2 "" H 2050 1900 60  0000 C CNN
+F 3 "" H 2050 1900 60  0000 C CNN
+	1    2050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 57EB43A3
+P 2350 1900
+F 0 "#PWR?" H 2350 1990 20  0001 C CNN
+F 1 "+5V" H 2350 2000 30  0000 C CNN
+F 2 "" H 2350 1900 60  0000 C CNN
+F 3 "" H 2350 1900 60  0000 C CNN
+	1    2350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V-RESCUE-museV2 #PWR?
+U 1 1 57EB43A9
+P 2500 1900
+F 0 "#PWR?" H 2500 1860 30  0001 C CNN
+F 1 "+3.3V" H 2500 2000 30  0000 C CNN
+F 2 "" H 2500 1900 60  0000 C CNN
+F 3 "" H 2500 1900 60  0000 C CNN
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+Text Notes 2000 1600 0    60   ~ 0
+ATX Power Connectors
+$Comp
+L ATX24 J?
+U 1 1 57EB43B0
+P 2950 2550
+F 0 "J?" H 2950 1850 60  0000 C CNN
+F 1 "ATX24" H 2950 3250 60  0000 C CNN
+F 2 "" H 2950 2550 60  0000 C CNN
+F 3 "" H 2950 2550 60  0000 C CNN
+	1    2950 2550
+	1    0    0    -1  
+$EndComp
+Text Label 5900 2300 2    60   ~ 0
+ATX_PS_2_OK
+Text Label 5900 2200 2    60   ~ 0
+ATX_PS_ON
+$Comp
+L GND-RESCUE-museV2 #PWR?
+U 1 1 57EB43B9
+P 5300 3250
+F 0 "#PWR?" H 5300 3250 30  0001 C CNN
+F 1 "GND" H 5300 3180 30  0001 C CNN
+F 2 "" H 5300 3250 60  0000 C CNN
+F 3 "" H 5300 3250 60  0000 C CNN
+	1    5300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATX24 J?
+U 1 1 57EB43BF
+P 4850 2550
+F 0 "J?" H 4850 1850 60  0000 C CNN
+F 1 "ATX24" H 4850 3250 60  0000 C CNN
+F 2 "" H 4850 2550 60  0000 C CNN
+F 3 "" H 4850 2550 60  0000 C CNN
+	1    4850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V_AUX #PWR?
+U 1 1 57EB43C6
+P 4150 1900
+F 0 "#PWR?" H 4150 1850 20  0001 C CNN
+F 1 "+12V_AUX" H 4150 2000 30  0000 C CNN
+F 2 "" H 4150 1900 60  0000 C CNN
+F 3 "" H 4150 1900 60  0000 C CNN
+	1    4150 1900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4500 2300
+NoConn ~ 4500 2200
+NoConn ~ 4500 2100
+NoConn ~ 4500 2000
+$Comp
+L +5V_AUX #PWR?
+U 1 1 57EB43D0
+P 4400 1900
+F 0 "#PWR?" H 4400 1990 20  0001 C CNN
+F 1 "+5V_AUX" H 4400 2000 30  0000 C CNN
+F 2 "" H 4400 1900 60  0000 C CNN
+F 3 "" H 4400 1900 60  0000 C CNN
+	1    4400 1900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5200 2000
+NoConn ~ 5200 2100
+NoConn ~ 4500 2900
+Wire Wire Line
+	4500 2400 4400 2400
+Wire Wire Line
+	4400 1900 4400 2400
+Wire Wire Line
+	4400 2400 4400 2500
+Wire Wire Line
+	4400 2500 4400 2600
+Wire Wire Line
+	4400 2600 4400 2700
+Wire Wire Line
+	4400 2700 4400 2800
+Wire Wire Line
+	4400 2500 4500 2500
+Connection ~ 4400 2400
+Wire Wire Line
+	4400 2600 4500 2600
+Connection ~ 4400 2500
+Wire Wire Line
+	4400 2700 4500 2700
+Connection ~ 4400 2600
+Wire Wire Line
+	4400 2800 4500 2800
+Connection ~ 4400 2700
+Wire Wire Line
+	4150 1900 4150 3000
+Wire Wire Line
+	4150 3000 4150 3100
+Wire Wire Line
+	4150 3000 4500 3000
+Wire Wire Line
+	4150 3100 4500 3100
+Connection ~ 4150 3000
+Wire Wire Line
+	5200 2400 5300 2400
+Wire Wire Line
+	5300 2400 5300 2500
+Wire Wire Line
+	5300 2500 5300 2600
+Wire Wire Line
+	5300 2600 5300 2700
+Wire Wire Line
+	5300 2700 5300 2800
+Wire Wire Line
+	5300 2800 5300 2900
+Wire Wire Line
+	5300 2900 5300 3000
+Wire Wire Line
+	5300 3000 5300 3100
+Wire Wire Line
+	5300 3100 5300 3250
+Wire Wire Line
+	5200 2500 5300 2500
+Connection ~ 5300 2500
+Wire Wire Line
+	5300 2600 5200 2600
+Connection ~ 5300 2600
+Wire Wire Line
+	5300 2700 5200 2700
+Connection ~ 5300 2700
+Wire Wire Line
+	5300 2800 5200 2800
+Connection ~ 5300 2800
+Wire Wire Line
+	5300 2900 5200 2900
+Connection ~ 5300 2900
+Wire Wire Line
+	5300 3000 5200 3000
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3100 5200 3100
+Connection ~ 5300 3100
+Wire Wire Line
+	5200 2200 5900 2200
+Wire Wire Line
+	5200 2300 5900 2300
+Wire Wire Line
+	2500 1900 2500 2000
+Wire Wire Line
+	2500 2000 2500 2100
+Wire Wire Line
+	2500 2100 2500 2200
+Wire Wire Line
+	2500 2200 2500 2300
+Wire Wire Line
+	2500 2300 2600 2300
+Wire Wire Line
+	2500 2200 2600 2200
+Connection ~ 2500 2200
+Wire Wire Line
+	2500 2100 2600 2100
+Connection ~ 2500 2100
+Wire Wire Line
+	2600 2000 2500 2000
+Connection ~ 2500 2000
+Wire Wire Line
+	2600 2400 2350 2400
+Wire Wire Line
+	2350 1900 2350 2400
+Wire Wire Line
+	2350 2400 2350 2500
+Wire Wire Line
+	2350 2500 2350 2600
+Wire Wire Line
+	2350 2600 2350 2700
+Wire Wire Line
+	2350 2700 2350 2800
+Wire Wire Line
+	2350 2500 2600 2500
+Connection ~ 2350 2400
+Wire Wire Line
+	2350 2600 2600 2600
+Connection ~ 2350 2500
+Wire Wire Line
+	2350 2700 2600 2700
+Connection ~ 2350 2600
+Wire Wire Line
+	2350 2800 2600 2800
+Connection ~ 2350 2700
+Wire Wire Line
+	2200 2900 2600 2900
+Wire Wire Line
+	2050 1900 2050 3000
+Wire Wire Line
+	2050 3000 2050 3100
+Wire Wire Line
+	2050 3000 2600 3000
+Wire Wire Line
+	2050 3100 2600 3100
+Connection ~ 2050 3000
+Wire Wire Line
+	3400 1900 3400 2000
+Wire Wire Line
+	3400 2000 3300 2000
+Wire Wire Line
+	3550 1900 3550 2100
+Wire Wire Line
+	3550 2100 3300 2100
+Wire Wire Line
+	3300 2400 3400 2400
+Wire Wire Line
+	3400 2400 3400 2500
+Wire Wire Line
+	3400 2500 3400 2600
+Wire Wire Line
+	3400 2600 3400 2700
+Wire Wire Line
+	3400 2700 3400 2800
+Wire Wire Line
+	3400 2800 3400 2900
+Wire Wire Line
+	3400 2900 3400 3000
+Wire Wire Line
+	3400 3000 3400 3100
+Wire Wire Line
+	3400 3100 3400 3250
+Wire Wire Line
+	3300 2500 3400 2500
+Connection ~ 3400 2500
+Wire Wire Line
+	3400 2600 3300 2600
+Connection ~ 3400 2600
+Wire Wire Line
+	3400 2700 3300 2700
+Connection ~ 3400 2700
+Wire Wire Line
+	3400 2800 3300 2800
+Connection ~ 3400 2800
+Wire Wire Line
+	3400 2900 3300 2900
+Connection ~ 3400 2900
+Wire Wire Line
+	3400 3000 3300 3000
+Connection ~ 3400 3000
+Wire Wire Line
+	3400 3100 3300 3100
+Connection ~ 3400 3100
+Wire Wire Line
+	3300 2200 4000 2200
+Wire Wire Line
+	3300 2300 4000 2300
+Wire Wire Line
+	2200 2900 2200 1900
+$Comp
+L R R?
+U 1 1 57EBFC46
+P 7100 3000
+F 0 "R?" V 7180 3000 50  0000 C CNN
+F 1 "470" V 7100 3000 50  0000 C CNN
+F 2 "" V 7030 3000 50  0000 C CNN
+F 3 "" H 7100 3000 50  0000 C CNN
+	1    7100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57EBFCB8
+P 7500 3000
+F 0 "R?" V 7580 3000 50  0000 C CNN
+F 1 "470" V 7500 3000 50  0000 C CNN
+F 2 "" V 7430 3000 50  0000 C CNN
+F 3 "" H 7500 3000 50  0000 C CNN
+	1    7500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 57EBFCF6
+P 7100 2550
+F 0 "D?" H 7100 2650 50  0000 C CNN
+F 1 "LED" H 7100 2450 50  0000 C CNN
+F 2 "" H 7100 2550 50  0000 C CNN
+F 3 "" H 7100 2550 50  0000 C CNN
+	1    7100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 57EBFDD5
+P 7500 2550
+F 0 "D?" H 7500 2650 50  0000 C CNN
+F 1 "LED" H 7500 2450 50  0000 C CNN
+F 2 "" H 7500 2550 50  0000 C CNN
+F 3 "" H 7500 2550 50  0000 C CNN
+	1    7500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57EBFE13
+P 7100 3200
+F 0 "#PWR?" H 7100 2950 50  0001 C CNN
+F 1 "GND" H 7100 3050 50  0000 C CNN
+F 2 "" H 7100 3200 50  0000 C CNN
+F 3 "" H 7100 3200 50  0000 C CNN
+	1    7100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57EBFE55
+P 7500 3200
+F 0 "#PWR?" H 7500 2950 50  0001 C CNN
+F 1 "GND" H 7500 3050 50  0000 C CNN
+F 2 "" H 7500 3200 50  0000 C CNN
+F 3 "" H 7500 3200 50  0000 C CNN
+	1    7500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3150 7100 3200
+Wire Wire Line
+	7500 3200 7500 3150
+Wire Wire Line
+	7500 2850 7500 2750
+Wire Wire Line
+	7100 2850 7100 2750
+Wire Wire Line
+	7100 2350 7100 2300
+Wire Wire Line
+	7100 2300 6400 2300
+Wire Wire Line
+	7500 2350 7500 2200
+Wire Wire Line
+	7500 2200 6400 2200
+Text Label 6400 2300 0    60   ~ 0
+AUX_PS_2_OK
+Text Label 6400 2200 0    60   ~ 0
+ATX_PS_1_OK
+Text Notes 6250 1650 0    60   ~ 0
+ATX Power Indicators
+Text HLabel 9400 2200 2    60   Input ~ 0
+EDISON_PWR_BTN
+Text HLabel 9400 2400 2    60   Input ~ 0
+EDISON_RST_OUT
+Text HLabel 9400 2600 2    60   Input ~ 0
+ATX_PS_ON
+Wire Wire Line
+	9400 2200 8400 2200
+Wire Wire Line
+	9400 2400 8400 2400
+Wire Wire Line
+	9400 2600 8400 2600
+Text Label 8400 2600 0    60   ~ 0
+ATX_PS_ON
+Text Label 8400 2200 0    60   ~ 0
+EDISON_PWR_BTN
+Text Label 8400 2400 0    60   ~ 0
+EDISON_RST_OUT(1.8)
+Text Notes 8400 1650 0    60   ~ 0
+Power Signals
+$EndSCHEMATC
