@@ -34,6 +34,7 @@ LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip
+LIBS:microchip1
 LIBS:microcontrollers
 LIBS:motorola
 LIBS:msp430
@@ -48,6 +49,7 @@ LIBS:regul
 LIBS:relays
 LIBS:sensors
 LIBS:siliconi
+LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -326,13 +328,7 @@ Connection ~ 7650 3250
 Connection ~ 7650 2650
 Connection ~ 7650 2050
 Wire Wire Line
-	7650 1450 7650 2050
-Wire Wire Line
-	7650 2050 7650 2650
-Wire Wire Line
-	7650 2650 7650 3250
-Wire Wire Line
-	7650 3250 7650 3450
+	7650 1450 7650 3450
 Wire Wire Line
 	7350 1450 7650 1450
 Wire Wire Line
@@ -386,9 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3500 3300 3500
 Wire Wire Line
-	3200 3600 3200 3700
-Wire Wire Line
-	3200 3700 3200 3900
+	3200 3600 3200 3900
 Wire Wire Line
 	3200 3600 3300 3600
 Wire Wire Line
@@ -399,9 +393,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4700 3650 4700
 Wire Wire Line
-	4750 4600 4750 4700
-Wire Wire Line
-	4750 4700 4750 4900
+	4750 4600 4750 4900
 Wire Wire Line
 	4750 4600 4650 4600
 Wire Wire Line

@@ -34,6 +34,7 @@ LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip
+LIBS:microchip1
 LIBS:microcontrollers
 LIBS:motorola
 LIBS:msp430
@@ -48,6 +49,7 @@ LIBS:regul
 LIBS:relays
 LIBS:sensors
 LIBS:siliconi
+LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -154,7 +156,7 @@ F 3 "" H 3400 4500 30  0000 C CNN
 $EndComp
 Text Label 2400 5600 0    60   ~ 0
 EDISON_RST_OUT(1.8)
-Text Label 2450 4150 0    60   ~ 0
+Text Label 3250 4150 2    60   ~ 0
 EDISON_PWR_BTN
 Text Notes 2050 3850 0    60   ~ 0
 Intel Edison Power Control
@@ -192,31 +194,27 @@ F 3 "" H 2150 5150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3800 4050 3800 4250
+	3800 4050 3800 4350
 Wire Wire Line
-	3800 4750 3800 4850
+	3800 4650 3800 4850
 Wire Wire Line
 	3800 5250 3800 5350
 Wire Wire Line
 	3800 5900 3800 5750
 Connection ~ 3400 5600
 Wire Wire Line
-	3400 4050 3400 4250
+	3400 4050 3400 4350
 Wire Wire Line
-	3400 5600 3400 4750
+	3400 4650 3400 5600
 Wire Wire Line
-	2400 5600 3400 5600
-Wire Wire Line
-	3400 5600 3500 5600
+	2400 5600 3500 5600
 Wire Wire Line
 	2150 5900 2150 5450
 Wire Wire Line
-	2150 4200 2150 4050
+	2150 4050 2150 4300
 Connection ~ 2150 4750
 Wire Wire Line
-	2150 4700 2150 4750
-Wire Wire Line
-	2150 4750 2150 4850
+	2150 4600 2150 4850
 $Comp
 L R-RESCUE-museV2 R?
 U 1 1 57EB0040
@@ -229,7 +227,7 @@ F 3 "" H 2350 4450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4750 2350 4750
+	2350 4750 2150 4750
 $Comp
 L +3.3VSB #PWR?
 U 1 1 57EB0048
@@ -242,11 +240,11 @@ F 3 "" H 2150 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 4750 2350 4700
+	2350 4600 2350 4750
 Wire Wire Line
 	2350 4150 3250 4150
 Wire Wire Line
-	2350 4200 2350 4150
+	2350 4150 2350 4300
 $Comp
 L +3.3VSB #PWR?
 U 1 1 57EB0786
@@ -270,7 +268,7 @@ F 3 "" H 5050 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LP38692 U?
+L LP38692-RESCUE-museV2 U?
 U 1 1 57EB0792
 P 5450 4150
 F 0 "U?" H 5450 4250 60  0000 L CNN
@@ -317,34 +315,24 @@ $EndComp
 Text Notes 4800 3850 0    60   ~ 0
 5VSB->3.3VSB LDO
 Wire Wire Line
-	5050 4050 5050 4250
-Wire Wire Line
-	5050 4250 5050 4450
-Wire Wire Line
-	5050 4450 5050 4600
+	5050 4050 5050 4650
 Wire Wire Line
 	5050 4450 5150 4450
 Wire Wire Line
 	5150 4250 5050 4250
 Connection ~ 5050 4250
 Wire Wire Line
-	5700 5150 5700 5250
+	5700 5150 5700 5350
 Wire Wire Line
-	5700 5250 5700 5350
-Wire Wire Line
-	6350 4050 6350 4250
-Wire Wire Line
-	6350 4250 6350 4600
+	6350 4050 6350 4650
 Connection ~ 5050 4450
 Wire Wire Line
-	5050 5000 5050 5250
+	5050 4950 5050 5250
 Wire Wire Line
-	5050 5250 5700 5250
-Wire Wire Line
-	5700 5250 6350 5250
+	6350 5250 5050 5250
 Connection ~ 5700 5250
 Wire Wire Line
-	6350 5250 6350 5000
+	6350 4950 6350 5250
 Wire Wire Line
 	6250 4250 6350 4250
 Connection ~ 6350 4250
@@ -500,15 +488,7 @@ NoConn ~ 4500 2900
 Wire Wire Line
 	4500 2400 4400 2400
 Wire Wire Line
-	4400 1900 4400 2400
-Wire Wire Line
-	4400 2400 4400 2500
-Wire Wire Line
-	4400 2500 4400 2600
-Wire Wire Line
-	4400 2600 4400 2700
-Wire Wire Line
-	4400 2700 4400 2800
+	4400 1900 4400 2800
 Wire Wire Line
 	4400 2500 4500 2500
 Connection ~ 4400 2400
@@ -522,9 +502,7 @@ Wire Wire Line
 	4400 2800 4500 2800
 Connection ~ 4400 2700
 Wire Wire Line
-	4150 1900 4150 3000
-Wire Wire Line
-	4150 3000 4150 3100
+	4150 1900 4150 3100
 Wire Wire Line
 	4150 3000 4500 3000
 Wire Wire Line
@@ -533,21 +511,7 @@ Connection ~ 4150 3000
 Wire Wire Line
 	5200 2400 5300 2400
 Wire Wire Line
-	5300 2400 5300 2500
-Wire Wire Line
-	5300 2500 5300 2600
-Wire Wire Line
-	5300 2600 5300 2700
-Wire Wire Line
-	5300 2700 5300 2800
-Wire Wire Line
-	5300 2800 5300 2900
-Wire Wire Line
-	5300 2900 5300 3000
-Wire Wire Line
-	5300 3000 5300 3100
-Wire Wire Line
-	5300 3100 5300 3250
+	5300 2400 5300 3250
 Wire Wire Line
 	5200 2500 5300 2500
 Connection ~ 5300 2500
@@ -574,13 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 2300 5900 2300
 Wire Wire Line
-	2500 1900 2500 2000
-Wire Wire Line
-	2500 2000 2500 2100
-Wire Wire Line
-	2500 2100 2500 2200
-Wire Wire Line
-	2500 2200 2500 2300
+	2500 1900 2500 2300
 Wire Wire Line
 	2500 2300 2600 2300
 Wire Wire Line
@@ -595,15 +553,7 @@ Connection ~ 2500 2000
 Wire Wire Line
 	2600 2400 2350 2400
 Wire Wire Line
-	2350 1900 2350 2400
-Wire Wire Line
-	2350 2400 2350 2500
-Wire Wire Line
-	2350 2500 2350 2600
-Wire Wire Line
-	2350 2600 2350 2700
-Wire Wire Line
-	2350 2700 2350 2800
+	2350 1900 2350 2800
 Wire Wire Line
 	2350 2500 2600 2500
 Connection ~ 2350 2400
@@ -619,9 +569,7 @@ Connection ~ 2350 2700
 Wire Wire Line
 	2200 2900 2600 2900
 Wire Wire Line
-	2050 1900 2050 3000
-Wire Wire Line
-	2050 3000 2050 3100
+	2050 1900 2050 3100
 Wire Wire Line
 	2050 3000 2600 3000
 Wire Wire Line
@@ -638,21 +586,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2400 3400 2400
 Wire Wire Line
-	3400 2400 3400 2500
-Wire Wire Line
-	3400 2500 3400 2600
-Wire Wire Line
-	3400 2600 3400 2700
-Wire Wire Line
-	3400 2700 3400 2800
-Wire Wire Line
-	3400 2800 3400 2900
-Wire Wire Line
-	3400 2900 3400 3000
-Wire Wire Line
-	3400 3000 3400 3100
-Wire Wire Line
-	3400 3100 3400 3250
+	3400 2400 3400 3250
 Wire Wire Line
 	3300 2500 3400 2500
 Connection ~ 3400 2500
@@ -681,7 +615,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2900 2200 1900
 $Comp
-L R R?
+L R-RESCUE-museV2 R?
 U 1 1 57EBFC46
 P 7100 3000
 F 0 "R?" V 7180 3000 50  0000 C CNN
@@ -692,7 +626,7 @@ F 3 "" H 7100 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R-RESCUE-museV2 R?
 U 1 1 57EBFCB8
 P 7500 3000
 F 0 "R?" V 7580 3000 50  0000 C CNN
@@ -703,7 +637,7 @@ F 3 "" H 7500 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-museV2 D?
 U 1 1 57EBFCF6
 P 7100 2550
 F 0 "D?" H 7100 2650 50  0000 C CNN
@@ -714,7 +648,7 @@ F 3 "" H 7100 2550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D?
+L LED-RESCUE-museV2 D?
 U 1 1 57EBFDD5
 P 7500 2550
 F 0 "D?" H 7500 2650 50  0000 C CNN
@@ -725,7 +659,7 @@ F 3 "" H 7500 2550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-museV2 #PWR?
 U 1 1 57EBFE13
 P 7100 3200
 F 0 "#PWR?" H 7100 2950 50  0001 C CNN
@@ -736,7 +670,7 @@ F 3 "" H 7100 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND-RESCUE-museV2 #PWR?
 U 1 1 57EBFE55
 P 7500 3200
 F 0 "#PWR?" H 7500 2950 50  0001 C CNN
