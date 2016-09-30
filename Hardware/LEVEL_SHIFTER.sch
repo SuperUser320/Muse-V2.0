@@ -34,7 +34,6 @@ LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip
-LIBS:microchip1
 LIBS:microcontrollers
 LIBS:motorola
 LIBS:msp430
@@ -49,7 +48,6 @@ LIBS:regul
 LIBS:relays
 LIBS:sensors
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -67,7 +65,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -681,7 +679,7 @@ Wire Wire Line
 	4800 1600 4800 1700
 Connection ~ 4800 1700
 $Comp
-L GND #PWR?
+L GND-RESCUE-museV2 #PWR?
 U 1 1 57EB13B0
 P 4550 1600
 F 0 "#PWR?" H 4550 1600 30  0001 C CNN
@@ -1254,7 +1252,7 @@ Wire Wire Line
 	4800 4400 4800 4500
 Connection ~ 4800 4500
 $Comp
-L GND #PWR?
+L GND-RESCUE-museV2 #PWR?
 U 1 1 57EB27CC
 P 4550 4400
 F 0 "#PWR?" H 4550 4400 30  0001 C CNN
@@ -1632,7 +1630,7 @@ Wire Wire Line
 	4800 7300 4800 7400
 Connection ~ 4800 7400
 $Comp
-L GND #PWR?
+L GND-RESCUE-museV2 #PWR?
 U 1 1 57EB3137
 P 4550 7300
 F 0 "#PWR?" H 4550 7300 30  0001 C CNN
