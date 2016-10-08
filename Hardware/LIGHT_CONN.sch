@@ -67,7 +67,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 8
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -1522,38 +1522,6 @@ F 3 "" H 1650 10750 60  0000 C CNN
 	1    1650 10750
 	1    0    0    -1  
 $EndComp
-Text HLabel 6500 3600 0    60   Input ~ 0
-LED_IA_1
-Text HLabel 6500 4000 0    60   Input ~ 0
-LED_IA_2
-Text HLabel 6500 4400 0    60   Input ~ 0
-LED_IA_3
-Text HLabel 6500 4800 0    60   Input ~ 0
-LED_IA_4
-Text HLabel 6500 5200 0    60   Input ~ 0
-LED_IA_5
-Text HLabel 6500 5600 0    60   Input ~ 0
-LED_IA_6
-Text HLabel 6500 6000 0    60   Input ~ 0
-LED_IA_7
-Text HLabel 6500 6400 0    60   Input ~ 0
-LED_IA_8
-Text HLabel 6500 6800 0    60   Input ~ 0
-LED_IA_9
-Text HLabel 6500 7200 0    60   Input ~ 0
-LED_IA_10
-Text HLabel 6500 7600 0    60   Input ~ 0
-LED_IA_11
-Text HLabel 6500 8000 0    60   Input ~ 0
-LED_IA_12
-Text HLabel 6500 8400 0    60   Input ~ 0
-LED_IA_13
-Text HLabel 6500 8800 0    60   Input ~ 0
-LED_IA_14
-Text HLabel 6500 9200 0    60   Input ~ 0
-LED_IA_15
-Text HLabel 6500 9600 0    60   Input ~ 0
-LED_IA_16
 $Comp
 L PCA9685BS U10
 U 1 1 57E4C04E
@@ -1639,10 +1607,6 @@ NoConn ~ 3750 2350
 NoConn ~ 3750 2450
 NoConn ~ 3750 2550
 NoConn ~ 3750 2650
-Text HLabel 2400 2550 0    60   Input ~ 0
-PWM_SCL
-Text HLabel 2400 2650 0    60   Input ~ 0
-PWM_SDA
 $Comp
 L GND-RESCUE-museV2 #PWR67
 U 1 1 57E689F1
@@ -1658,8 +1622,6 @@ Wire Wire Line
 	1550 3050 1550 2150
 Wire Wire Line
 	1550 2150 2650 2150
-Wire Wire Line
-	2400 2650 2650 2650
 Wire Wire Line
 	2400 2550 2650 2550
 Wire Wire Line
@@ -1694,8 +1656,6 @@ Wire Notes Line
 	5800 2900 7800 2900
 Wire Notes Line
 	450  3400 5800 3400
-Wire Notes Line
-	5800 500  5800 9950
 Wire Wire Line
 	2500 9400 3250 9400
 Wire Wire Line
@@ -2110,4 +2070,48 @@ Wire Wire Line
 	7150 9200 7250 9200
 Wire Wire Line
 	7250 9600 7150 9600
+Text GLabel 2400 2550 0    60   Input ~ 0
+PWM_SCL
+Text GLabel 2400 2700 0    60   Input ~ 0
+PWM_SDA
+Wire Wire Line
+	2400 2700 2500 2700
+Wire Wire Line
+	2500 2700 2500 2650
+Wire Wire Line
+	2500 2650 2650 2650
+Text GLabel 6500 3600 0    60   Input ~ 0
+LED_IA_1
+Wire Notes Line
+	5800 500  5800 9950
+Text GLabel 6500 4000 0    60   Input ~ 0
+LED_IA_2
+Text GLabel 6500 4400 0    60   Input ~ 0
+LED_IA_3
+Text GLabel 6500 4800 0    60   Input ~ 0
+LED_IA_4
+Text GLabel 6500 5200 0    60   Input ~ 0
+LED_IA_5
+Text GLabel 6500 5600 0    60   Input ~ 0
+LED_IA_6
+Text GLabel 6500 6000 0    60   Input ~ 0
+LED_IA_7
+Text GLabel 6500 6400 0    60   Input ~ 0
+LED_IA_8
+Text GLabel 6500 6800 0    60   Input ~ 0
+LED_IA_9
+Text GLabel 6500 7200 0    60   Input ~ 0
+LED_IA_10
+Text GLabel 6500 7600 0    60   Input ~ 0
+LED_IA_11
+Text GLabel 6500 8000 0    60   Input ~ 0
+LED_IA_12
+Text GLabel 6500 8400 0    60   Input ~ 0
+LED_IA_13
+Text GLabel 6500 8800 0    60   Input ~ 0
+LED_IA_14
+Text GLabel 6500 9200 0    60   Input ~ 0
+LED_IA_15
+Text GLabel 6500 9600 0    60   Input ~ 0
+LED_IA_16
 $EndSCHEMATC
