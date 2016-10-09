@@ -1,4 +1,4 @@
-update=9/29/2016 7:05:31 PM
+update=Friday, October 07, 2016 'PMt' 10:48:58 PM
 last_client=kicad
 [general]
 version=1
@@ -69,3 +69,13 @@ LibName60=video
 LibName61=xilinx
 LibName62=Libraries/conn-pwr_atx/atx24
 LibName63=Libraries/muse-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
