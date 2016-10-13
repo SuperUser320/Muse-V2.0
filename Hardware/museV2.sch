@@ -34,7 +34,6 @@ LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip
-LIBS:microchip1
 LIBS:microcontrollers
 LIBS:motorola
 LIBS:msp430
@@ -49,7 +48,6 @@ LIBS:regul
 LIBS:relays
 LIBS:sensors
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -108,13 +106,13 @@ F0 "EDISON" 60
 F1 "EDISON.sch" 60
 $EndSheet
 $Sheet
-S 3900 2250 900  650 
+S 4000 2250 900  650 
 U 57F9982A
 F0 "LEVEL_SHIFTER" 60
 F1 "LEVEL_SHIFTER.sch" 60
 $EndSheet
 $Sheet
-S 3900 1150 900  650 
+S 4000 1150 900  650 
 U 57F9EB06
 F0 "LIGHT_CONN" 60
 F1 "LIGHT_CONN.sch" 60

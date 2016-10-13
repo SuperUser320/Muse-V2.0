@@ -1,4 +1,4 @@
-update=Friday, October 07, 2016 'PMt' 10:48:58 PM
+update=10/12/2016 10:16:43 PM
 last_client=kicad
 [general]
 version=1

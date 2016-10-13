@@ -34,7 +34,6 @@ LIBS:microchip_pic12mcu
 LIBS:microchip_pic16mcu
 LIBS:microchip_pic18mcu
 LIBS:microchip
-LIBS:microchip1
 LIBS:microcontrollers
 LIBS:motorola
 LIBS:msp430
@@ -49,7 +48,6 @@ LIBS:regul
 LIBS:relays
 LIBS:sensors
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -78,10 +76,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L EdisonConnector U?
+L EdisonConnector U18
 U 1 1 57F8CAB1
 P 3650 1550
-F 0 "U?" H 3700 1600 60  0000 C CNN
+F 0 "U18" H 3700 1600 60  0000 C CNN
 F 1 "EdisonConnector" H 4850 -3000 60  0000 C CNN
 F 2 "" H 3650 1950 60  0000 C CNN
 F 3 "" H 3650 1950 60  0000 C CNN
@@ -91,10 +89,10 @@ $EndComp
 Text Notes 7150 5200 0    60   ~ 0
 To DFE\n(IADC/\n DAC/\n SPDIF)
 $Comp
-L +1.8VSB #PWR?
+L +1.8VSB #PWR118
 U 1 1 57F8CABA
 P 3150 1400
-F 0 "#PWR?" H 3150 1540 20  0001 C CNN
+F 0 "#PWR118" H 3150 1540 20  0001 C CNN
 F 1 "+1.8VSB" H 3150 1510 30  0000 C CNN
 F 2 "" H 3150 1400 60  0000 C CNN
 F 3 "" H 3150 1400 60  0000 C CNN
@@ -102,10 +100,10 @@ F 3 "" H 3150 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VSB #PWR?
+L +3.3VSB #PWR119
 U 1 1 57F8CAC0
 P 3350 1400
-F 0 "#PWR?" H 3350 1360 30  0001 C CNN
+F 0 "#PWR119" H 3350 1360 30  0001 C CNN
 F 1 "+3.3VSB" H 3350 1510 30  0000 C CNN
 F 2 "" H 3350 1400 60  0000 C CNN
 F 3 "" H 3350 1400 60  0000 C CNN
@@ -117,10 +115,10 @@ Edison UART \nInterface
 NoConn ~ 1250 1450
 NoConn ~ 1250 1750
 $Comp
-L GND-RESCUE-museV2 #PWR?
+L GND-RESCUE-museV2 #PWR117
 U 1 1 57F8CACB
 P 1350 2050
-F 0 "#PWR?" H 1350 2050 30  0001 C CNN
+F 0 "#PWR117" H 1350 2050 30  0001 C CNN
 F 1 "GND" H 1350 1980 30  0001 C CNN
 F 2 "" H 1350 2050 60  0000 C CNN
 F 3 "" H 1350 2050 60  0000 C CNN
@@ -128,10 +126,10 @@ F 3 "" H 1350 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 P?
+L CONN_01X06 P5
 U 1 1 57F8CAD1
 P 1050 1700
-F 0 "P?" H 1050 2050 50  0000 C CNN
+F 0 "P5" H 1050 2050 50  0000 C CNN
 F 1 "CONN_01X06" V 1150 1700 50  0000 C CNN
 F 2 "" H 1050 1700 60  0000 C CNN
 F 3 "" H 1050 1700 60  0000 C CNN
@@ -154,10 +152,10 @@ NoConn ~ 3450 2050
 Text Notes 2650 1200 0    60   ~ 0
 Intel Edison Connection
 $Comp
-L GND-RESCUE-museV2 #PWR?
+L GND-RESCUE-museV2 #PWR120
 U 1 1 57F8CAEE
 P 3350 6200
-F 0 "#PWR?" H 3350 6200 30  0001 C CNN
+F 0 "#PWR120" H 3350 6200 30  0001 C CNN
 F 1 "GND" H 3350 6130 30  0001 C CNN
 F 2 "" H 3350 6200 60  0000 C CNN
 F 3 "" H 3350 6200 60  0000 C CNN
@@ -168,27 +166,12 @@ Text Notes 7150 6150 0    60   ~ 0
 To DFE/\n   ADC/\n   DAC
 Text Notes 7150 5750 0    60   ~ 0
 To LED\nPWM\ngenerator
-NoConn ~ 5450 3150
-NoConn ~ 5450 3250
-NoConn ~ 5450 3350
-NoConn ~ 5450 3450
-NoConn ~ 5450 3750
-NoConn ~ 5450 3950
-NoConn ~ 5450 4050
-NoConn ~ 5450 4150
-NoConn ~ 5450 3850
-NoConn ~ 3450 5250
-NoConn ~ 3450 5150
-NoConn ~ 3450 5050
-NoConn ~ 3450 4950
 Wire Notes Line
 	7100 5850 7050 5850
 Wire Notes Line
 	7100 6150 7100 5850
 Wire Notes Line
 	7050 6150 7100 6150
-Wire Wire Line
-	3450 3950 3100 3950
 Wire Wire Line
 	2700 2750 3450 2750
 Connection ~ 3350 5950
@@ -246,38 +229,6 @@ Wire Notes Line
 	7100 4750 7050 4750
 Wire Notes Line
 	7100 4750 7100 5300
-Wire Wire Line
-	3450 4750 3300 4750
-Wire Wire Line
-	3450 4650 3200 4650
-Wire Wire Line
-	3450 4550 3100 4550
-Wire Wire Line
-	3000 4450 3450 4450
-Wire Wire Line
-	2900 4350 3450 4350
-Wire Wire Line
-	2700 4250 3450 4250
-Wire Wire Line
-	2900 4150 3450 4150
-Wire Wire Line
-	3000 4050 3450 4050
-Wire Wire Line
-	5450 2850 5600 2850
-Wire Wire Line
-	5450 2750 5750 2750
-Wire Wire Line
-	5450 2650 5850 2650
-Wire Wire Line
-	5450 2550 5950 2550
-Wire Wire Line
-	5450 2450 6050 2450
-Wire Wire Line
-	5450 2350 5950 2350
-Wire Wire Line
-	5450 2250 5850 2250
-Wire Wire Line
-	5450 2150 5750 2150
 Wire Notes Line
 	7100 5450 7050 5450
 Wire Notes Line
@@ -302,100 +253,40 @@ Wire Wire Line
 	2800 2900 2800 2850
 Wire Wire Line
 	2800 2850 3450 2850
-Text GLabel 2700 3800 0    60   Input ~ 0
+Text GLabel 2700 3550 0    60   Input ~ 0
 ATX_PS_ON
-Text GLabel 2700 3950 0    60   Input ~ 0
+Text GLabel 2700 3700 0    60   Input ~ 0
 LED_IA_9(1.8)
-Text GLabel 2700 4100 0    60   Input ~ 0
+Text GLabel 2700 3850 0    60   Input ~ 0
 LED_IA_10(1.8)
-Text GLabel 2700 4250 0    60   Input ~ 0
+Text GLabel 2700 4000 0    60   Input ~ 0
 LED_IA_11(1.8)
-Text GLabel 2700 4400 0    60   Input ~ 0
+Text GLabel 2700 4150 0    60   Input ~ 0
 LED_IA_12(1.8)
-Text GLabel 2700 4550 0    60   Input ~ 0
+Text GLabel 2700 4300 0    60   Input ~ 0
 LED_IA_13(1.8)
-Text GLabel 2700 4700 0    60   Input ~ 0
+Text GLabel 2700 4450 0    60   Input ~ 0
 LED_IA_14(1.8)
-Text GLabel 2700 4850 0    60   Input ~ 0
+Text GLabel 2700 4600 0    60   Input ~ 0
 LED_IA_15(1.8)
-Text GLabel 2700 5000 0    60   Input ~ 0
+Text GLabel 2700 4750 0    60   Input ~ 0
 LED_IA_16(1.8)
-Wire Wire Line
-	3100 3950 3100 3800
-Wire Wire Line
-	3100 3800 2700 3800
-Wire Wire Line
-	3000 4050 3000 3950
-Wire Wire Line
-	3000 3950 2700 3950
-Wire Wire Line
-	2900 4150 2900 4100
-Wire Wire Line
-	2900 4100 2700 4100
-Wire Wire Line
-	2900 4350 2900 4400
-Wire Wire Line
-	2900 4400 2700 4400
-Wire Wire Line
-	3000 4450 3000 4550
-Wire Wire Line
-	3000 4550 2700 4550
-Wire Wire Line
-	3100 4550 3100 4700
-Wire Wire Line
-	3100 4700 2700 4700
-Wire Wire Line
-	3200 4650 3200 4850
-Wire Wire Line
-	3200 4850 2700 4850
-Wire Wire Line
-	2700 5000 3300 5000
-Wire Wire Line
-	3300 5000 3300 4750
-Text GLabel 6050 2000 2    60   Input ~ 0
+Text GLabel 6050 1650 2    60   Input ~ 0
 LED_IA_1(1.8)
-Text GLabel 6050 2150 2    60   Input ~ 0
+Text GLabel 6050 1800 2    60   Input ~ 0
 LED_IA_2(1.8)
-Text GLabel 6050 2300 2    60   Input ~ 0
+Text GLabel 6050 1950 2    60   Input ~ 0
 LED_IA_3(1.8)
-Text GLabel 6050 2450 2    60   Input ~ 0
+Text GLabel 6050 2100 2    60   Input ~ 0
 LED_IA_4(1.8)
-Text GLabel 6050 2600 2    60   Input ~ 0
+Text GLabel 6050 2250 2    60   Input ~ 0
 LED_IA_5(1.8)
-Text GLabel 6050 2750 2    60   Input ~ 0
+Text GLabel 6050 2400 2    60   Input ~ 0
 LED_IA_6(1.8)
-Text GLabel 6050 2900 2    60   Input ~ 0
+Text GLabel 6050 2550 2    60   Input ~ 0
 LED_IA_7(1.8)
-Text GLabel 6050 3050 2    60   Input ~ 0
+Text GLabel 6050 2700 2    60   Input ~ 0
 LED_IA_8(1.8)
-Wire Wire Line
-	5750 2150 5750 2000
-Wire Wire Line
-	5750 2000 6050 2000
-Wire Wire Line
-	5850 2250 5850 2150
-Wire Wire Line
-	5850 2150 6050 2150
-Wire Wire Line
-	5950 2350 5950 2300
-Wire Wire Line
-	5950 2300 6050 2300
-Wire Wire Line
-	6050 2600 5950 2600
-Wire Wire Line
-	5950 2600 5950 2550
-Wire Wire Line
-	5850 2650 5850 2750
-Wire Wire Line
-	5850 2750 6050 2750
-Wire Wire Line
-	5750 2750 5750 2900
-Wire Wire Line
-	5750 2900 6050 2900
-Wire Wire Line
-	5600 2850 5600 3050
-Wire Wire Line
-	5600 3050 6050 3050
 Text GLabel 6050 4400 2    60   Input ~ 0
 UART_TX(1.8)
 Text GLabel 6050 4550 2    60   Input ~ 0
@@ -466,4 +357,194 @@ Wire Wire Line
 	5850 6050 5850 5950
 Wire Wire Line
 	5850 5950 5450 5950
+Text GLabel 6050 3000 2    60   Input ~ 0
+MCU_GPIO_X_1
+Text GLabel 6050 3150 2    60   Input ~ 0
+MCU_GPIO_X_2
+Text GLabel 6050 3300 2    60   Input ~ 0
+MCU_GPIO_X_3/UART_RX
+Text GLabel 6050 3450 2    60   Input ~ 0
+MCU_GPIO_X_4/UART_TX
+Text GLabel 6050 3600 2    60   Input ~ 0
+MCU_GPIO_X_5
+Text GLabel 6050 3750 2    60   Input ~ 0
+MCU_GPIO_X_6
+Text GLabel 6050 3900 2    60   Input ~ 0
+MCU_GPIO_X_7
+Text GLabel 6050 4050 2    60   Input ~ 0
+MCU_GPIO_X_8
+Text GLabel 6050 4200 2    60   Input ~ 0
+MCU_GPIO_X_9
+Wire Wire Line
+	5450 4150 6000 4150
+Wire Wire Line
+	5450 4050 6050 4050
+Wire Wire Line
+	5450 3950 6000 3950
+Wire Wire Line
+	6000 3950 6000 3900
+Wire Wire Line
+	6000 3900 6050 3900
+Wire Wire Line
+	5450 3850 5950 3850
+Wire Wire Line
+	5950 3850 5950 3750
+Wire Wire Line
+	5950 3750 6050 3750
+Wire Wire Line
+	5450 3750 5900 3750
+Wire Wire Line
+	5900 3750 5900 3600
+Wire Wire Line
+	5900 3600 6050 3600
+Wire Wire Line
+	5450 3450 6050 3450
+Wire Wire Line
+	5450 3350 5950 3350
+Wire Wire Line
+	5950 3350 5950 3300
+Wire Wire Line
+	5950 3300 6050 3300
+Wire Wire Line
+	5450 3250 5900 3250
+Wire Wire Line
+	5900 3250 5900 3150
+Wire Wire Line
+	5900 3150 6050 3150
+Wire Wire Line
+	5450 3150 5850 3150
+Wire Wire Line
+	5850 3150 5850 3000
+Wire Wire Line
+	5850 3000 6050 3000
+Wire Wire Line
+	5450 2850 6000 2850
+Wire Wire Line
+	6000 2850 6000 2700
+Wire Wire Line
+	6000 2700 6050 2700
+Wire Wire Line
+	5450 2750 5950 2750
+Wire Wire Line
+	5950 2750 5950 2550
+Wire Wire Line
+	5950 2550 6050 2550
+Wire Wire Line
+	5450 2650 5900 2650
+Wire Wire Line
+	5900 2650 5900 2400
+Wire Wire Line
+	5900 2400 6050 2400
+Wire Wire Line
+	5450 2550 5850 2550
+Wire Wire Line
+	5850 2550 5850 2250
+Wire Wire Line
+	5850 2250 6050 2250
+Wire Wire Line
+	5450 2450 5800 2450
+Wire Wire Line
+	5800 2450 5800 2100
+Wire Wire Line
+	5800 2100 6050 2100
+Wire Wire Line
+	5450 2350 5750 2350
+Wire Wire Line
+	5750 2350 5750 1950
+Wire Wire Line
+	5750 1950 6050 1950
+Wire Wire Line
+	5450 2250 5700 2250
+Wire Wire Line
+	5700 2250 5700 1800
+Wire Wire Line
+	5700 1800 6050 1800
+Wire Wire Line
+	5450 2150 5650 2150
+Wire Wire Line
+	5650 2150 5650 1650
+Wire Wire Line
+	5650 1650 6050 1650
+Wire Wire Line
+	6000 4150 6000 4200
+Wire Wire Line
+	6000 4200 6050 4200
+Wire Wire Line
+	2700 4750 3450 4750
+Wire Wire Line
+	3450 4650 2750 4650
+Wire Wire Line
+	2750 4650 2750 4600
+Wire Wire Line
+	2750 4600 2700 4600
+Wire Wire Line
+	2700 4450 2800 4450
+Wire Wire Line
+	2800 4450 2800 4550
+Wire Wire Line
+	2800 4550 3450 4550
+Wire Wire Line
+	3450 4450 2850 4450
+Wire Wire Line
+	2850 4450 2850 4300
+Wire Wire Line
+	2850 4300 2700 4300
+Wire Wire Line
+	2700 4150 2900 4150
+Wire Wire Line
+	2900 4150 2900 4350
+Wire Wire Line
+	2900 4350 3450 4350
+Wire Wire Line
+	3450 4250 2950 4250
+Wire Wire Line
+	2950 4250 2950 4000
+Wire Wire Line
+	2950 4000 2700 4000
+Wire Wire Line
+	2700 3850 3000 3850
+Wire Wire Line
+	3000 3850 3000 4150
+Wire Wire Line
+	3000 4150 3450 4150
+Wire Wire Line
+	3450 4050 3050 4050
+Wire Wire Line
+	3050 4050 3050 3700
+Wire Wire Line
+	3050 3700 2700 3700
+Wire Wire Line
+	2700 3550 3100 3550
+Wire Wire Line
+	3100 3550 3100 3950
+Wire Wire Line
+	3100 3950 3450 3950
+Text GLabel 2700 4950 0    60   Input ~ 0
+MCU_GPIO_X_10/PWM1
+Wire Wire Line
+	2700 4950 3450 4950
+Text GLabel 2700 5100 0    60   Input ~ 0
+MCU_GPIO_X_11/PWM2
+Text GLabel 2700 5250 0    60   Input ~ 0
+MCU_GPIO_X_12/PWM3
+Text GLabel 2700 5400 0    60   Input ~ 0
+MCU_GPIO_X_13/PWM4
+Wire Wire Line
+	2700 5100 2750 5100
+Wire Wire Line
+	2750 5100 2750 5050
+Wire Wire Line
+	2750 5050 3450 5050
+Wire Wire Line
+	2700 5250 2800 5250
+Wire Wire Line
+	2800 5250 2800 5150
+Wire Wire Line
+	2800 5150 3450 5150
+Wire Wire Line
+	2700 5400 2850 5400
+Wire Wire Line
+	2850 5400 2850 5250
+Wire Wire Line
+	2850 5250 3450 5250
 $EndSCHEMATC
