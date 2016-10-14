@@ -1,0 +1,3977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/jasonmerlo/Google Drive/GitHub/Muse V2.0/Hardware/museV2.sch</source>
+    <date>Thursday, October 13, 2016 'PMt' 11:37:21 PM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>muse v2.0</title>
+        <company/>
+        <rev>0</rev>
+        <date/>
+        <source>museV2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="All Rights Reserved"/>
+        <comment number="4" value="Created by: Jason Merlo"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SPLIT_RAIL_REG/" tstamps="/57DAB826/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SPLIT_RAIL_REG.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/POWER/" tstamps="/57F76E2F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>POWER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/AUDIO_ICS/" tstamps="/57F7A095/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AUDIO_ICS.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/DAC/" tstamps="/57F89F43/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DAC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/">
+      <title_block>
+        <title>Audio Filter</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Audio_Filter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/">
+      <title_block>
+        <title>Audio Filter</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Audio_Filter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/EDISON/" tstamps="/57F8C841/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EDISON.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/LEVEL_SHIFTER/" tstamps="/57F9982A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LEVEL_SHIFTER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/LIGHT_CONN/" tstamps="/57F9EB06/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LIGHT_CONN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TPS65130</value>
+      <libsource lib="museV2-cache" part="TPS65130"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAC8D6</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10nF</value>
+      <datasheet>10 nF, ceramic, 16 V, X7R</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DACA1F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7nF</value>
+      <datasheet>4.7 nF, 50 V, C0G</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DACA4A</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>4.7uH</value>
+      <datasheet>Wurth Elektronik 7447789004</datasheet>
+      <libsource lib="museV2-cache" part="L_Small"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DACB47</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1.3M</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DACF39</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>7.5pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DACF8B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>104.8k</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DACFF1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>220nF</value>
+      <datasheet>220 nF, ceramic, 6.3 V, X5R</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DADA01</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <datasheet>0.1 µF, ceramic, 10 V, X5R</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAE032</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAE140</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PMOS</value>
+      <datasheet>MOSFET, P-channel, 12 V, 4 A, Vishay</datasheet>
+      <libsource lib="museV2-cache" part="Q_PMOS_DGS"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAE59E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <datasheet>4.7 µF, ceramic, 6.3 V, X5R</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAEAFC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1A, 20V</value>
+      <datasheet>Schottky, 1 A, 20 V, Onsemi MBRM120</datasheet>
+      <libsource lib="museV2-cache" part="D_Schottky_Small"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAECB1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>85.8k</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAF2BE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>975k</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAF532</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>6.8pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAF6D3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <datasheet>4 x 4.7 µF, ceramic, 25 V, X7R</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DAF88B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <datasheet>4.7 µF, ceramic, 6.3 V, X5R</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DB07FA</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <datasheet>4 x 4.7 µF, ceramic, 25 V, X7R</datasheet>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DB11B4</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <datasheet>Wurth Elektronik 7447789004</datasheet>
+      <libsource lib="museV2-cache" part="L_Small"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DB2AB9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1A, 20V</value>
+      <datasheet>Schottky, 1 A, 20 V, Onsemi MBRM120</datasheet>
+      <libsource lib="museV2-cache" part="D_Schottky_Small"/>
+      <sheetpath names="/SPLIT_RAIL_REG/" tstamps="/57DAB826/"/>
+      <tstamp>57DB3BBA</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>576</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EAFFFB</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>PWR_LED</value>
+      <libsource lib="museV2-cache" part="LED-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB0002</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>SOT-23</footprint>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB000F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB0016</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB0026</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>PWR_BTN</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB002D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB0040</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LP38692</value>
+      <libsource lib="museV2-cache" part="LP38692-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB0792</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB07A0</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB07A7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ATX24</value>
+      <libsource lib="atx24" part="ATX24"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB43B0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ATX24</value>
+      <libsource lib="atx24" part="ATX24"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EB43BF</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EBFC46</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EBFCB8</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <libsource lib="museV2-cache" part="LED-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EBFCF6</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <libsource lib="museV2-cache" part="LED-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57EBFDD5</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>PLT133/T10W</value>
+      <libsource lib="opto" part="PLT133/T10W"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7A2</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>PLR135/T10</value>
+      <libsource lib="opto" part="PLR135/10"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7AA</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>3.5mm_Audio</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7BC</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>3.5mm_Audio</value>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7C9</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>RCA_Stero_Jack</value>
+      <libsource lib="muse-cache" part="RCA_Stero_Jack"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7E0</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>RCA_Stero_Jack</value>
+      <libsource lib="muse-cache" part="RCA_Stero_Jack"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7E7</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>POM-3535L-3-R</value>
+      <libsource lib="audio" part="POM-3535L-3-R"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7EF</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>POM-3535L-3-R</value>
+      <libsource lib="audio" part="POM-3535L-3-R"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7F6</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>POM-3535L-3-R</value>
+      <libsource lib="audio" part="POM-3535L-3-R"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D7FD</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>POM-3535L-3-R</value>
+      <libsource lib="audio" part="POM-3535L-3-R"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57F7D804</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57FA2233</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/POWER/" tstamps="/57F76E2F/"/>
+      <tstamp>57FA2246</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>27pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FC56</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>680</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FC63</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>4700pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FC70</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>.068uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FC7D</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FC96</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FC9D</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>PCM9211</value>
+      <libsource lib="digital-audio" part="PCM9211"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCA4</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCC7</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCCE</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCD5</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCDC</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCE3</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCEA</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCF1</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCF8</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>27pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FCFF</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD24</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD32</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD39</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD40</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD47</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD66</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD6D</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD74</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD7B</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>PCM1863</value>
+      <libsource lib="audio" part="PCM1863"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD82</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD8D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FD9A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FDA1</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FDA8</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F2FDAF</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>24.576 MHz</value>
+      <libsource lib="device" part="CRYSTAL_SMD"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57F6D35A</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA08C5</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA08CC</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA08D9</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA08E0</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA08E7</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA08EE</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA1F87</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA1F8E</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA1F96</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA1F9D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/AUDIO_ICS/" tstamps="/57F7A095/"/>
+      <tstamp>57FA1FA4</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A4F4</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A4FB</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A515</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A51C</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A523</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A52A</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A531</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>PCM1796</value>
+      <libsource lib="digital-audio" part="PCM1796"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A55D</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A56A</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>47uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/" tstamps="/57F89F43/"/>
+      <tstamp>57F8A577</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>2700pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E0AF</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>820</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E0B6</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>22pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E0C8</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>2700pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E0E8</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>820</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E0EF</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>220</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E101</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>220</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E108</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>27000pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E115</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>180</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E122</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>180</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E129</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>200</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E13A</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>200</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E143</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>8200pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E14C</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>8200pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E155</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>NE5534</value>
+      <libsource lib="linear" part="NE5534"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E165</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>22pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E172</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>NE5534</value>
+      <libsource lib="linear" part="NE5534"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E179</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>NE5534</value>
+      <libsource lib="linear" part="NE5534"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E186</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>22pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E19A</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57B0E1AD</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57F9FAAF</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57F9FABD</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57F9FAD1</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57FA1599</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57FA15A7</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E6/" tstamps="/57F89F43/57F8A539/"/>
+      <tstamp>57FA15BB</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>2700pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E0AF</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>820</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E0B6</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>22pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E0C8</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>2700pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E0E8</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>820</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E0EF</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>220</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E101</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>220</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E108</tstamp>
+    </comp>
+    <comp ref="C75">
+      <value>27000pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E115</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>180</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E122</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>180</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E129</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>200</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E13A</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>200</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E143</tstamp>
+    </comp>
+    <comp ref="C73">
+      <value>8200pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E14C</tstamp>
+    </comp>
+    <comp ref="C77">
+      <value>8200pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E155</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>NE5534</value>
+      <libsource lib="linear" part="NE5534"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E165</tstamp>
+    </comp>
+    <comp ref="C76">
+      <value>22pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E172</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>NE5534</value>
+      <libsource lib="linear" part="NE5534"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E179</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>NE5534</value>
+      <libsource lib="linear" part="NE5534"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E186</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>22pF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E19A</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>100</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57B0E1AD</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57F9FAAF</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57F9FABD</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57F9FAD1</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57FA1599</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57FA15A7</tstamp>
+    </comp>
+    <comp ref="C70">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/DAC/sheet57F8A4E7/" tstamps="/57F89F43/57F8A547/"/>
+      <tstamp>57FA15BB</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>EdisonConnector</value>
+      <libsource lib="IntelEdisonBlockTemplate-cache" part="EdisonConnector"/>
+      <sheetpath names="/EDISON/" tstamps="/57F8C841/"/>
+      <tstamp>57F8CAB1</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X06</value>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/EDISON/" tstamps="/57F8C841/"/>
+      <tstamp>57F8CAD1</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>200K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EAF16C</tstamp>
+    </comp>
+    <comp ref="C78">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB002E</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EAEBB0</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>GTL2010</value>
+      <libsource lib="museV2-cache" part="GTL2010"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57E813B7</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0C19</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0C42</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0C69</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0C93</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0CC0</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0CF2</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0D25</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0D5B</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0D94</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0DD0</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0E1F</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0E61</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0EA8</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0EF0</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0F85</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB0FD3</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB1024</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB1078</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>2.2K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB10D1</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>200K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB26E5</tstamp>
+    </comp>
+    <comp ref="C79">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB26F2</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB271C</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>GTL2010</value>
+      <libsource lib="museV2-cache" part="GTL2010"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2722</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2728</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB272E</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2734</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB273A</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2740</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2746</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB274C</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2752</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2758</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB275E</tstamp>
+    </comp>
+    <comp ref="R77">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2764</tstamp>
+    </comp>
+    <comp ref="R78">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB276A</tstamp>
+    </comp>
+    <comp ref="R79">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2770</tstamp>
+    </comp>
+    <comp ref="R80">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2776</tstamp>
+    </comp>
+    <comp ref="R81">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB277C</tstamp>
+    </comp>
+    <comp ref="R82">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2782</tstamp>
+    </comp>
+    <comp ref="R83">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2788</tstamp>
+    </comp>
+    <comp ref="R84">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB278E</tstamp>
+    </comp>
+    <comp ref="R85">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB2794</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>GTL2010</value>
+      <libsource lib="museV2-cache" part="GTL2010"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>57EB308D</tstamp>
+    </comp>
+    <comp ref="R86">
+      <value>200K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A987</tstamp>
+    </comp>
+    <comp ref="C80">
+      <value>0.1uF</value>
+      <libsource lib="museV2-cache" part="C-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A994</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A9B2</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A9B8</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A9BE</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A9C4</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A9CA</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800A9D0</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD06</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD0C</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD12</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD18</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD1E</tstamp>
+    </comp>
+    <comp ref="R99">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD24</tstamp>
+    </comp>
+    <comp ref="R98">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD2A</tstamp>
+    </comp>
+    <comp ref="R97">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD30</tstamp>
+    </comp>
+    <comp ref="R96">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD36</tstamp>
+    </comp>
+    <comp ref="R95">
+      <value>4.7K</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800AD3C</tstamp>
+    </comp>
+    <comp ref="R87">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800DD3D</tstamp>
+    </comp>
+    <comp ref="R88">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800DE3B</tstamp>
+    </comp>
+    <comp ref="R89">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800EA37</tstamp>
+    </comp>
+    <comp ref="R90">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800EA3D</tstamp>
+    </comp>
+    <comp ref="R91">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800EAFB</tstamp>
+    </comp>
+    <comp ref="R92">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800EB01</tstamp>
+    </comp>
+    <comp ref="R93">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800EC57</tstamp>
+    </comp>
+    <comp ref="R94">
+      <value>0</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LEVEL_SHIFTER/" tstamps="/57F9982A/"/>
+      <tstamp>5800EC5D</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231CC</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231D3</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231DA</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231E1</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231E8</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231EF</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231F6</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E231FD</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E23204</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E2320B</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E23212</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E23219</tstamp>
+    </comp>
+    <comp ref="R123">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E23220</tstamp>
+    </comp>
+    <comp ref="R124">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E23227</tstamp>
+    </comp>
+    <comp ref="R125">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E2322E</tstamp>
+    </comp>
+    <comp ref="R126">
+      <value>470</value>
+      <libsource lib="museV2-cache" part="R-RESCUE-museV2"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E23235</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>PCA9685BS</value>
+      <libsource lib="museV2-cache" part="PCA9685BS"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57E4C04E</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_02X14</value>
+      <libsource lib="conn" part="CONN_02X14"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFA1B9</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFB8FE</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFBBB2</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFBEA2</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFBEAF</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFD3EF</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFE1F7</tstamp>
+    </comp>
+    <comp ref="P21">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFEA97</tstamp>
+    </comp>
+    <comp ref="P23">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>57FFF0C1</tstamp>
+    </comp>
+    <comp ref="P30">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58004BCB</tstamp>
+    </comp>
+    <comp ref="P29">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58004C4E</tstamp>
+    </comp>
+    <comp ref="P27">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58004CB6</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58006FC1</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58006FC7</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58006FCD</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007233</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007781</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007787</tstamp>
+    </comp>
+    <comp ref="P20">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007A71</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007A77</tstamp>
+    </comp>
+    <comp ref="P22">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007B6F</tstamp>
+    </comp>
+    <comp ref="P24">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007CAC</tstamp>
+    </comp>
+    <comp ref="P26">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007CB5</tstamp>
+    </comp>
+    <comp ref="P25">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007CBB</tstamp>
+    </comp>
+    <comp ref="P28">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58007CC4</tstamp>
+    </comp>
+    <comp ref="P39">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58016560</tstamp>
+    </comp>
+    <comp ref="P36">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58016566</tstamp>
+    </comp>
+    <comp ref="P33">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>5801656C</tstamp>
+    </comp>
+    <comp ref="P42">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>5801661A</tstamp>
+    </comp>
+    <comp ref="P38">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58016BC2</tstamp>
+    </comp>
+    <comp ref="P35">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58016BC8</tstamp>
+    </comp>
+    <comp ref="P32">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58016BCE</tstamp>
+    </comp>
+    <comp ref="P41">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58016BD7</tstamp>
+    </comp>
+    <comp ref="P37">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58017A8F</tstamp>
+    </comp>
+    <comp ref="P34">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58017A95</tstamp>
+    </comp>
+    <comp ref="P31">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58017A9B</tstamp>
+    </comp>
+    <comp ref="P40">
+      <value>CONN_01X01</value>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/LIGHT_CONN/" tstamps="/57F9EB06/"/>
+      <tstamp>58017AA4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atx24" part="ATX24">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ATX24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="3V3" type="power_out"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="5V" type="power_out"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="5V" type="power_out"/>
+        <pin num="7" name="GND" type="power_out"/>
+        <pin num="8" name="POK" type="power_out"/>
+        <pin num="9" name="5VSB" type="power_out"/>
+        <pin num="10" name="12V" type="power_out"/>
+        <pin num="11" name="12V" type="power_out"/>
+        <pin num="12" name="3V3" type="power_out"/>
+        <pin num="13" name="3V3" type="power_out"/>
+        <pin num="14" name="-12" type="power_out"/>
+        <pin num="15" name="GND" type="power_out"/>
+        <pin num="16" name="PS_ON" type="input"/>
+        <pin num="17" name="GND" type="power_out"/>
+        <pin num="18" name="GND" type="power_out"/>
+        <pin num="19" name="GND" type="power_out"/>
+        <pin num="20" name="-5V" type="power_out"/>
+        <pin num="21" name="5V" type="power_out"/>
+        <pin num="22" name="5V" type="power_out"/>
+        <pin num="23" name="5V" type="power_out"/>
+        <pin num="24" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BSS138">
+      <description>BSS138, 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="C-RESCUE-museV2">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-museV2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X14">
+      <footprints>
+        <fp>Pin_Header_Straight_2X14</fp>
+        <fp>Pin_Header_Angled_2X14</fp>
+        <fp>Socket_Strip_Straight_2X14</fp>
+        <fp>Socket_Strip_Angled_2X14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CRYSTAL_SMD">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL_SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="case" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="D_Schottky_Small">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IntelEdisonBlockTemplate-cache" part="EdisonConnector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EdisonConnector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VSYS" type="power_in"/>
+        <pin num="3" name="USB_ID" type="input"/>
+        <pin num="4" name="VSYS" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VSYS" type="power_in"/>
+        <pin num="7" name="MSIC_SLP_CLK" type="input"/>
+        <pin num="8" name="3.3V" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="3.3V" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="1.8V" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="DCIN" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="USB_DP" type="BiDi"/>
+        <pin num="17" name="PWRBTN#" type="input"/>
+        <pin num="18" name="USB_DN" type="BiDi"/>
+        <pin num="19" name="FAULT" type="input"/>
+        <pin num="20" name="USB_VBUS" type="power_in"/>
+        <pin num="21" name="PSW" type="input"/>
+        <pin num="22" name="GP134_UART_2_RX" type="BiDi"/>
+        <pin num="23" name="V_VAT_BKUP" type="power_in"/>
+        <pin num="24" name="GP44" type="BiDi"/>
+        <pin num="25" name="GP165" type="BiDi"/>
+        <pin num="26" name="GP45" type="BiDi"/>
+        <pin num="27" name="GP135_UART_2_TX" type="BiDi"/>
+        <pin num="28" name="GP46" type="BiDi"/>
+        <pin num="30" name="GP47" type="BiDi"/>
+        <pin num="31" name="RCVR_MODE" type="input"/>
+        <pin num="32" name="GP48" type="BiDi"/>
+        <pin num="33" name="GP13_PWM1" type="BiDi"/>
+        <pin num="34" name="GP49" type="BiDi"/>
+        <pin num="35" name="GP12_PWM0" type="BiDi"/>
+        <pin num="36" name="RESET_OUT#" type="output"/>
+        <pin num="37" name="GP182_PWM2" type="BiDi"/>
+        <pin num="39" name="GP183_PWM3" type="BiDi"/>
+        <pin num="41" name="GP19_I2C_1_SCL" type="BiDi"/>
+        <pin num="42" name="GP15" type="BiDi"/>
+        <pin num="43" name="GP20_I2C_1_SDA" type="BiDi"/>
+        <pin num="44" name="GP84_SD_CLK_FB" type="BiDi"/>
+        <pin num="45" name="GP27_I2C_6_SCL" type="BiDi"/>
+        <pin num="46" name="GP131_UART_1_TX" type="BiDi"/>
+        <pin num="47" name="GP28_I2C_6_SDA" type="BiDi"/>
+        <pin num="48" name="GP14" type="BiDi"/>
+        <pin num="50" name="GP42_I2S_2_RXD" type="BiDi"/>
+        <pin num="51" name="GP111_SPI_2_FS1" type="BiDi"/>
+        <pin num="52" name="GP40_I2S_2_CLK" type="BiDi"/>
+        <pin num="53" name="GP110_SPI_2_FS0" type="BiDi"/>
+        <pin num="54" name="GP41_I2S_2_FS" type="BiDi"/>
+        <pin num="55" name="GP109_SPI_2_CLK" type="BiDi"/>
+        <pin num="56" name="GP43_I2S_2_TXD" type="BiDi"/>
+        <pin num="57" name="GP115_SPI_2_TXD" type="BiDi"/>
+        <pin num="58" name="GP78_SD_0_CLK" type="BiDi"/>
+        <pin num="59" name="GP114_SPI_2_RXD" type="BiDi"/>
+        <pin num="60" name="GP77_SD_0_CD#" type="BiDi"/>
+        <pin num="61" name="GP130_UART_1_RX" type="BiDi"/>
+        <pin num="62" name="GP79_SD_0_CMD" type="BiDi"/>
+        <pin num="63" name="GP129_UART_1_RTS" type="BiDi"/>
+        <pin num="64" name="GP82_SD_0_DAT2" type="BiDi"/>
+        <pin num="65" name="GP128_UART_1_CTS" type="BiDi"/>
+        <pin num="66" name="GP80_SD_0_DAT0" type="BiDi"/>
+        <pin num="67" name="OSC_CLK_OUT_0" type="output"/>
+        <pin num="68" name="GP83_SD_0_DAT3" type="BiDi"/>
+        <pin num="69" name="FW_RCVR" type="input"/>
+        <pin num="70" name="GP81_SD_0_DAT1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="GTL2010">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GTL2010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_out"/>
+        <pin num="2" name="SREF" type="input"/>
+        <pin num="3" name="S1" type="BiDi"/>
+        <pin num="4" name="S2" type="BiDi"/>
+        <pin num="5" name="S3" type="BiDi"/>
+        <pin num="6" name="S4" type="BiDi"/>
+        <pin num="7" name="S5" type="BiDi"/>
+        <pin num="8" name="S6" type="BiDi"/>
+        <pin num="9" name="S7" type="BiDi"/>
+        <pin num="10" name="S8" type="BiDi"/>
+        <pin num="11" name="S9" type="BiDi"/>
+        <pin num="12" name="S10" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D9" type="BiDi"/>
+        <pin num="15" name="D8" type="BiDi"/>
+        <pin num="16" name="D7" type="BiDi"/>
+        <pin num="17" name="D6" type="BiDi"/>
+        <pin num="18" name="D5" type="BiDi"/>
+        <pin num="19" name="D4" type="BiDi"/>
+        <pin num="20" name="D3" type="BiDi"/>
+        <pin num="21" name="D2" type="BiDi"/>
+        <pin num="22" name="D1" type="BiDi"/>
+        <pin num="23" name="DREF" type="input"/>
+        <pin num="24" name="GREF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="LED-RESCUE-museV2">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-museV2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="LP38692-RESCUE-museV2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP38692-RESCUE-museV2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="N/C" type="output"/>
+        <pin num="3" name="OUT" type="power_out"/>
+        <pin num="4" name="IN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="L_Small">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="NE5534">
+      <description>Op amp</description>
+      <docs>AmpliOp.sch</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE5534</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="input"/>
+        <pin num="8" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="PCA9685BS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9685BS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A3" type="input"/>
+        <pin num="3" name="LED0" type="input"/>
+        <pin num="4" name="LED1" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="LED3" type="input"/>
+        <pin num="7" name="LED4" type="input"/>
+        <pin num="8" name="LED5" type="input"/>
+        <pin num="9" name="LED6" type="input"/>
+        <pin num="10" name="LED7" type="input"/>
+        <pin num="11" name="VSS" type="input"/>
+        <pin num="12" name="LED8" type="input"/>
+        <pin num="13" name="LED9" type="input"/>
+        <pin num="14" name="LED10" type="input"/>
+        <pin num="15" name="LED11" type="input"/>
+        <pin num="16" name="LED12" type="input"/>
+        <pin num="17" name="LED13" type="input"/>
+        <pin num="18" name="LED14" type="input"/>
+        <pin num="19" name="LED15" type="input"/>
+        <pin num="20" name="OE" type="input"/>
+        <pin num="21" name="A5" type="input"/>
+        <pin num="22" name="EXTCLK" type="input"/>
+        <pin num="23" name="SCL" type="input"/>
+        <pin num="24" name="SDA" type="input"/>
+        <pin num="25" name="VDD" type="input"/>
+        <pin num="26" name="A0" type="input"/>
+        <pin num="27" name="A1" type="input"/>
+        <pin num="28" name="A2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="digital-audio" part="PCM1796">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCM1796</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ZERO_L" type="input"/>
+        <pin num="2" name="ZERO_R" type="input"/>
+        <pin num="3" name="MSEL" type="input"/>
+        <pin num="4" name="LRCK" type="input"/>
+        <pin num="5" name="DATA" type="input"/>
+        <pin num="6" name="BCK" type="input"/>
+        <pin num="7" name="SCK" type="input"/>
+        <pin num="8" name="DGND" type="input"/>
+        <pin num="9" name="VDD" type="input"/>
+        <pin num="10" name="MS" type="input"/>
+        <pin num="11" name="MDI" type="input"/>
+        <pin num="12" name="MC" type="input"/>
+        <pin num="13" name="MDO" type="input"/>
+        <pin num="14" name="RST" type="input"/>
+        <pin num="15" name="VCC_2R" type="input"/>
+        <pin num="16" name="AGND_3R" type="input"/>
+        <pin num="17" name="IOUT_R+" type="input"/>
+        <pin num="18" name="IOUT_R-" type="input"/>
+        <pin num="19" name="AGND_1" type="input"/>
+        <pin num="20" name="IREF" type="input"/>
+        <pin num="21" name="VCOM_R" type="input"/>
+        <pin num="22" name="VCOM_L" type="input"/>
+        <pin num="23" name="VCC_1" type="input"/>
+        <pin num="24" name="AGND_2" type="input"/>
+        <pin num="25" name="IOUT_L+" type="input"/>
+        <pin num="26" name="IOUT_L-" type="input"/>
+        <pin num="27" name="AGND_3L" type="input"/>
+        <pin num="28" name="VCC_2L" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio" part="PCM1863">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCM1863</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VINL2/VIN1M" type="output"/>
+        <pin num="2" name="VINR2/VIN2M" type="output"/>
+        <pin num="3" name="VINL1/VIN1P" type="output"/>
+        <pin num="4" name="VINR1/VIN2P" type="output"/>
+        <pin num="5" name="Mic_Bias" type="output"/>
+        <pin num="6" name="VREF" type="output"/>
+        <pin num="7" name="AGND" type="output"/>
+        <pin num="8" name="AVDD" type="output"/>
+        <pin num="9" name="XO" type="output"/>
+        <pin num="10" name="XI" type="output"/>
+        <pin num="11" name="LDO/1.8V_IN" type="output"/>
+        <pin num="12" name="DGND" type="output"/>
+        <pin num="13" name="DVDD" type="output"/>
+        <pin num="14" name="IOVDD" type="output"/>
+        <pin num="15" name="SCKI(3.3V)" type="output"/>
+        <pin num="16" name="LRCK" type="output"/>
+        <pin num="17" name="BCK" type="output"/>
+        <pin num="18" name="DOUT" type="output"/>
+        <pin num="19" name="GPIO_3/Int_C" type="output"/>
+        <pin num="20" name="GPIO_2/Int_B/DMCLK" type="output"/>
+        <pin num="21" name="GPIO_1/Int_A/DMIN" type="output"/>
+        <pin num="22" name="MISO/GPIO_0" type="output"/>
+        <pin num="23" name="MOSI/SDA" type="output"/>
+        <pin num="24" name="MC/SCL" type="output"/>
+        <pin num="25" name="MS/AD" type="output"/>
+        <pin num="26" name="MD0" type="output"/>
+        <pin num="27" name="VINL4/VIN4M" type="output"/>
+        <pin num="28" name="VINR4/VIN3M" type="output"/>
+        <pin num="29" name="VINL3/VIN4P" type="output"/>
+        <pin num="30" name="VINR3/VIN3P" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="digital-audio" part="PCM9211">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCM9211</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ERR/INT0" type="input"/>
+        <pin num="2" name="NPCM/INT1" type="input"/>
+        <pin num="3" name="GPIO_A0" type="BiDi"/>
+        <pin num="4" name="GPIO_A1" type="BiDi"/>
+        <pin num="5" name="GPIO_A2" type="BiDi"/>
+        <pin num="6" name="GPIO_A3" type="BiDi"/>
+        <pin num="7" name="GPIO_C0" type="BiDi"/>
+        <pin num="8" name="GPIO_C1" type="BiDi"/>
+        <pin num="9" name="GPIO_C2" type="BiDi"/>
+        <pin num="10" name="GPIO_C3" type="BiDi"/>
+        <pin num="11" name="GPIO_B0" type="BiDi"/>
+        <pin num="12" name="GPIO_B1" type="BiDi"/>
+        <pin num="13" name="GPIO_B2" type="BiDi"/>
+        <pin num="14" name="GPIO_B3" type="BiDi"/>
+        <pin num="15" name="GPO0" type="output"/>
+        <pin num="16" name="GPO1" type="output"/>
+        <pin num="17" name="DOUT" type="output"/>
+        <pin num="18" name="LRCK" type="output"/>
+        <pin num="19" name="BCK" type="output"/>
+        <pin num="20" name="SCK0" type="output"/>
+        <pin num="21" name="DGND" type="power_in"/>
+        <pin num="22" name="DVDD" type="power_in"/>
+        <pin num="23" name="MDO/ADR0" type="BiDi"/>
+        <pin num="24" name="MDI/SDA" type="BiDi"/>
+        <pin num="25" name="MC/SCL" type="input"/>
+        <pin num="26" name="MS/ADR1" type="input"/>
+        <pin num="27" name="MODE" type="input"/>
+        <pin num="28" name="RXIN7/ADIN0" type="input"/>
+        <pin num="29" name="RXIN6/ALRCKI0" type="input"/>
+        <pin num="30" name="RXIN5/ABCKI0" type="input"/>
+        <pin num="31" name="RXIN4/ASCKI0" type="input"/>
+        <pin num="32" name="RXIN3" type="input"/>
+        <pin num="33" name="RXIN2" type="input"/>
+        <pin num="34" name="RST" type="input"/>
+        <pin num="35" name="RXIN1" type="input"/>
+        <pin num="36" name="VDDRX" type="power_in"/>
+        <pin num="37" name="RXIN0" type="input"/>
+        <pin num="38" name="GNDRX" type="power_in"/>
+        <pin num="39" name="XTI" type="input"/>
+        <pin num="40" name="XT0" type="output"/>
+        <pin num="41" name="AGND" type="power_in"/>
+        <pin num="42" name="VCC" type="power_in"/>
+        <pin num="43" name="FILT" type="output"/>
+        <pin num="44" name="VCOM" type="output"/>
+        <pin num="45" name="AGNDAD" type="power_in"/>
+        <pin num="46" name="VCCAD" type="power_in"/>
+        <pin num="47" name="VINL" type="input"/>
+        <pin num="48" name="VINR" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="PLR135/10">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PLR135/10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="~" name="CASE" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="PLT133/T10W">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PLT133/T10W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="input"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="~" name="SHIELD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio" part="POM-3535L-3-R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">POM-3535L-3-R</field>
+      </fields>
+      <pins>
+        <pin num="~" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="Q_PMOS_DGS">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="R-RESCUE-museV2">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-museV2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="muse-cache" part="RCA_Stero_Jack">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">RCA_Stero_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Left" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="museV2-cache" part="TPS65130">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS65130</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INP" type="input"/>
+        <pin num="2" name="PGND" type="power_out"/>
+        <pin num="3" name="PGND" type="power_out"/>
+        <pin num="4" name="VIN" type="input"/>
+        <pin num="5" name="INN" type="input"/>
+        <pin num="6" name="INN" type="input"/>
+        <pin num="7" name="BSW" type="output"/>
+        <pin num="8" name="ENP" type="input"/>
+        <pin num="9" name="PSP" type="input"/>
+        <pin num="10" name="ENN" type="input"/>
+        <pin num="11" name="PSN" type="input"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="OUTN" type="output"/>
+        <pin num="14" name="OUTN" type="output"/>
+        <pin num="15" name="VNEG" type="input"/>
+        <pin num="16" name="FBN" type="input"/>
+        <pin num="17" name="VREF" type="output"/>
+        <pin num="18" name="CN" type="input"/>
+        <pin num="19" name="AGND" type="power_out"/>
+        <pin num="20" name="NC" type="NotConnected"/>
+        <pin num="21" name="CP" type="input"/>
+        <pin num="22" name="FBP" type="input"/>
+        <pin num="23" name="VPOS" type="input"/>
+        <pin num="24" name="INP" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="museV2-cache">
+      <uri>/Users/jasonmerlo/Google Drive/GitHub/Muse V2.0/Hardware/museV2-cache.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/Users/jasonmerlo/Library/Application Support/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="audio">
+      <uri>/Users/jasonmerlo/Library/Application Support/kicad/library/audio.lib</uri>
+    </library>
+    <library logical="muse-cache">
+      <uri>/Users/jasonmerlo/Google Drive/GitHub/Muse V2.0/Hardware/Libraries/muse-cache.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>/Users/jasonmerlo/Library/Application Support/kicad/library/opto.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Users/jasonmerlo/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="atx24">
+      <uri>/Users/jasonmerlo/Google Drive/GitHub/Muse V2.0/Hardware/Libraries/conn-pwr_atx/atx24.lib</uri>
+    </library>
+    <library logical="IntelEdisonBlockTemplate-cache">
+      <uri>/Users/jasonmerlo/Google Drive/GitHub/Muse V2.0/Hardware/Libraries/IntelEdisonTemplate-mogar/IntelEdisonBlockTemplate-cache.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/Users/jasonmerlo/Library/Application Support/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Users/jasonmerlo/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="digital-audio">
+      <uri>/Users/jasonmerlo/Library/Application Support/kicad/library/digital-audio.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R18" pin="2"/>
+      <node ref="J1" pin="24"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U10" pin="26"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U10" pin="25"/>
+      <node ref="U10" pin="12"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U9" pin="41"/>
+      <node ref="U9" pin="21"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U10" pin="7"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U11" pin="8"/>
+      <node ref="C42" pin="2"/>
+      <node ref="U11" pin="16"/>
+      <node ref="U11" pin="24"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="J1" pin="19"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J1" pin="17"/>
+      <node ref="J1" pin="15"/>
+      <node ref="X1" pin="3"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="24"/>
+      <node ref="J2" pin="15"/>
+      <node ref="J2" pin="17"/>
+      <node ref="J2" pin="18"/>
+      <node ref="J2" pin="19"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="7"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U9" pin="38"/>
+      <node ref="U9" pin="27"/>
+      <node ref="U9" pin="46"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U9" pin="45"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U22" pin="20"/>
+      <node ref="U22" pin="11"/>
+      <node ref="U22" pin="22"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P23" pin="1"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="U14" pin="3"/>
+      <node ref="C67" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U15" pin="3"/>
+      <node ref="C77" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C63" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C66" pin="2"/>
+      <node ref="C65" pin="2"/>
+      <node ref="C70" pin="2"/>
+      <node ref="C69" pin="2"/>
+      <node ref="C68" pin="2"/>
+      <node ref="U17" pin="3"/>
+      <node ref="R34" pin="2"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U6" pin="~"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U18" pin="5"/>
+      <node ref="P5" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="~"/>
+      <node ref="P4" pin="1"/>
+      <node ref="U18" pin="9"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U18" pin="1"/>
+      <node ref="U18" pin="15"/>
+      <node ref="U18" pin="13"/>
+      <node ref="U18" pin="11"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U19" pin="1"/>
+      <node ref="C78" pin="2"/>
+      <node ref="U21" pin="1"/>
+      <node ref="U20" pin="1"/>
+      <node ref="C79" pin="2"/>
+      <node ref="U11" pin="27"/>
+      <node ref="C80" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U11" pin="19"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="5" name="+5VSB">
+      <node ref="C49" pin="1"/>
+      <node ref="U11" pin="15"/>
+      <node ref="U11" pin="23"/>
+      <node ref="U11" pin="28"/>
+      <node ref="R65" pin="1"/>
+      <node ref="P14" pin="1"/>
+      <node ref="R94" pin="1"/>
+      <node ref="R88" pin="1"/>
+      <node ref="R90" pin="1"/>
+      <node ref="R92" pin="1"/>
+      <node ref="R86" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="7" name="-15V">
+      <node ref="D2" pin="2"/>
+      <node ref="U16" pin="4"/>
+      <node ref="U17" pin="4"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U14" pin="4"/>
+      <node ref="U15" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C67" pin="1"/>
+      <node ref="P10" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C66" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U13" pin="4"/>
+    </net>
+    <net code="8" name="+15V">
+      <node ref="C56" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="C69" pin="1"/>
+      <node ref="C68" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U17" pin="7"/>
+      <node ref="U16" pin="7"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U12" pin="7"/>
+      <node ref="U14" pin="7"/>
+      <node ref="U1" pin="23"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="C70" pin="1"/>
+      <node ref="U13" pin="7"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U15" pin="7"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C7-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="13" name="Net-(C9-Pad1)">
+      <node ref="U1" pin="18"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="15" name="Net-(C4-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="13"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="17" name="SPDIF_OUT">
+      <node ref="U6" pin="1"/>
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="18" name="+3.3VSB">
+      <node ref="R10" pin="1"/>
+      <node ref="R87" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R89" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="P19" pin="1"/>
+      <node ref="U9" pin="22"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U9" pin="42"/>
+      <node ref="U9" pin="23"/>
+      <node ref="U10" pin="13"/>
+      <node ref="U10" pin="14"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U11" pin="11"/>
+      <node ref="U11" pin="10"/>
+      <node ref="U11" pin="9"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R91" pin="1"/>
+      <node ref="U18" pin="14"/>
+      <node ref="U9" pin="26"/>
+      <node ref="U9" pin="36"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U18" pin="2"/>
+      <node ref="U18" pin="4"/>
+      <node ref="U18" pin="6"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R44" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R93" pin="1"/>
+    </net>
+    <net code="19" name="EDISON_PWR_BTN">
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="20" name="ATX_PS_ON">
+      <node ref="U18" pin="24"/>
+      <node ref="J2" pin="16"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="21" name="ATX_PS_1_OK">
+      <node ref="D4" pin="2"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="22" name="SPDIF_IN">
+      <node ref="U9" pin="33"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="23" name="+12V">
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="24" name="ATX_PS_2_OK">
+      <node ref="J2" pin="8"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="27" name="ANALOG_OUT_R">
+      <node ref="R39" pin="1"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P4" pin="3"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="28" name="3.5_IN_L">
+      <node ref="C29" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="29" name="3.5_IN_R">
+      <node ref="P3" pin="3"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad20)">
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad14)">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="32" name="MIC_4">
+      <node ref="C33" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U8" pin="~"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="33" name="MIC_3">
+      <node ref="R22" pin="1"/>
+      <node ref="U7" pin="~"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="34" name="MIC_2">
+      <node ref="C31" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U5" pin="~"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="35" name="MIC_1">
+      <node ref="U4" pin="~"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="36" name="RCA_IN_R">
+      <node ref="C26" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="37" name="RCA_IN_L">
+      <node ref="P1" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C27" pin="2"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="39" name="+3V3">
+      <node ref="J1" pin="2"/>
+      <node ref="C48" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U22" pin="28"/>
+      <node ref="U22" pin="27"/>
+      <node ref="U22" pin="26"/>
+      <node ref="U22" pin="25"/>
+      <node ref="P17" pin="1"/>
+      <node ref="U22" pin="21"/>
+      <node ref="J1" pin="13"/>
+      <node ref="J1" pin="12"/>
+      <node ref="U22" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="41" name="EDISON_RST_OUT(1.8)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="43" name="+1.8VSB">
+      <node ref="R75" pin="1"/>
+      <node ref="P21" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R74" pin="1"/>
+      <node ref="R70" pin="1"/>
+      <node ref="R71" pin="1"/>
+      <node ref="R72" pin="1"/>
+      <node ref="R73" pin="1"/>
+      <node ref="R46" pin="1"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R49" pin="1"/>
+      <node ref="R96" pin="1"/>
+      <node ref="R97" pin="1"/>
+      <node ref="R98" pin="1"/>
+      <node ref="R99" pin="1"/>
+      <node ref="R100" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="R50" pin="1"/>
+      <node ref="R51" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="U18" pin="12"/>
+      <node ref="R45" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="U19" pin="2"/>
+      <node ref="R54" pin="1"/>
+      <node ref="R66" pin="1"/>
+      <node ref="R67" pin="1"/>
+      <node ref="R68" pin="1"/>
+      <node ref="R69" pin="1"/>
+      <node ref="U21" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U20" pin="2"/>
+      <node ref="R102" pin="1"/>
+      <node ref="U10" pin="11"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R95" pin="1"/>
+    </net>
+    <net code="44" name="Net-(R10-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="45" name="+5V">
+      <node ref="J2" pin="22"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="21"/>
+      <node ref="J2" pin="23"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="P12" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="23"/>
+      <node ref="J1" pin="22"/>
+      <node ref="J1" pin="21"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="46" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="47" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="48" name="Net-(J2-Pad20)">
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="53" name="I2S_SCK(3.3)">
+      <node ref="U11" pin="7"/>
+      <node ref="U9" pin="20"/>
+      <node ref="U9" pin="31"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="54" name="I2S_MCU_BCK(3.3)">
+      <node ref="U9" pin="30"/>
+      <node ref="U19" pin="18"/>
+      <node ref="R59" pin="2"/>
+      <node ref="U9" pin="19"/>
+    </net>
+    <net code="55" name="I2S_MCU_LRCK(3.3)">
+      <node ref="U9" pin="29"/>
+      <node ref="U9" pin="18"/>
+      <node ref="R58" pin="2"/>
+      <node ref="U19" pin="19"/>
+    </net>
+    <net code="56" name="I2S_MCU_DOUT(3.3)">
+      <node ref="R57" pin="2"/>
+      <node ref="U9" pin="28"/>
+      <node ref="U19" pin="20"/>
+    </net>
+    <net code="57" name="I2S_DAC_BCK">
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="58" name="I2S_DAC_LRCK">
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="59" name="I2S_DAC_DIN">
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="60" name="DAC_RST">
+      <node ref="U9" pin="3"/>
+      <node ref="U11" pin="14"/>
+    </net>
+    <net code="61" name="I2S_MCU_DIN(3.3)">
+      <node ref="U19" pin="17"/>
+      <node ref="R60" pin="2"/>
+    </net>
+    <net code="63" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="U9" pin="39"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C25-Pad1)">
+      <node ref="U9" pin="40"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="65" name="I2C_SDA">
+      <node ref="U9" pin="24"/>
+    </net>
+    <net code="66" name="I2C_SCL">
+      <node ref="U9" pin="25"/>
+    </net>
+    <net code="67" name="DFE_RST">
+      <node ref="U9" pin="34"/>
+    </net>
+    <net code="68" name="Net-(C21-Pad1)">
+      <node ref="U9" pin="44"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C35-Pad1)">
+      <node ref="C35" pin="1"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="70" name="I2C_SDA(3.3)">
+      <node ref="U11" pin="13"/>
+      <node ref="U10" pin="23"/>
+    </net>
+    <net code="71" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="72" name="Net-(C24-Pad1)">
+      <node ref="U9" pin="43"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="73" name="DFE_GPIO_X_3">
+      <node ref="U9" pin="6"/>
+      <node ref="P30" pin="1"/>
+    </net>
+    <net code="74" name="DFE_GPIO_X_2">
+      <node ref="P29" pin="1"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="75" name="DFE_GPIO_X_1">
+      <node ref="U9" pin="4"/>
+      <node ref="P27" pin="1"/>
+    </net>
+    <net code="76" name="I2S_ADC_BCK">
+      <node ref="U10" pin="17"/>
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="77" name="I2S_ADC_LRCK">
+      <node ref="U9" pin="13"/>
+      <node ref="U10" pin="16"/>
+    </net>
+    <net code="78" name="I2S_ADC_DOUT">
+      <node ref="U9" pin="14"/>
+      <node ref="U10" pin="18"/>
+    </net>
+    <net code="79" name="I2S_SCK">
+      <node ref="U9" pin="11"/>
+      <node ref="U10" pin="15"/>
+    </net>
+    <net code="80" name="I2C_SCL(3.3)">
+      <node ref="U10" pin="24"/>
+      <node ref="U11" pin="12"/>
+      <node ref="U19" pin="13"/>
+      <node ref="R64" pin="2"/>
+    </net>
+    <net code="81" name="ADC_ESEN_INT">
+      <node ref="U10" pin="21"/>
+    </net>
+    <net code="82" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="83" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="84" name="Net-(U9-Pad35)">
+      <node ref="U9" pin="35"/>
+    </net>
+    <net code="85" name="Net-(U9-Pad16)">
+      <node ref="U9" pin="16"/>
+    </net>
+    <net code="86" name="Net-(U9-Pad17)">
+      <node ref="U9" pin="17"/>
+    </net>
+    <net code="87" name="Net-(U9-Pad37)">
+      <node ref="U9" pin="37"/>
+    </net>
+    <net code="88" name="Net-(U9-Pad47)">
+      <node ref="U9" pin="47"/>
+    </net>
+    <net code="89" name="Net-(U9-Pad48)">
+      <node ref="U9" pin="48"/>
+    </net>
+    <net code="90" name="Net-(U10-Pad19)">
+      <node ref="U10" pin="19"/>
+    </net>
+    <net code="91" name="Net-(U10-Pad22)">
+      <node ref="U10" pin="22"/>
+    </net>
+    <net code="92" name="Net-(U10-Pad10)">
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="93" name="Net-(U10-Pad9)">
+      <node ref="U10" pin="9"/>
+    </net>
+    <net code="94" name="Net-(U9-Pad32)">
+      <node ref="U9" pin="32"/>
+    </net>
+    <net code="95" name="Net-(U9-Pad1)">
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="96" name="Net-(U9-Pad2)">
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="97" name="Net-(C34-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="98" name="Net-(C31-Pad1)">
+      <node ref="C31" pin="1"/>
+      <node ref="U10" pin="29"/>
+    </net>
+    <net code="99" name="Net-(C30-Pad1)">
+      <node ref="C30" pin="1"/>
+      <node ref="U10" pin="30"/>
+    </net>
+    <net code="100" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="101" name="Net-(C29-Pad1)">
+      <node ref="U10" pin="1"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="102" name="ADC_CLKE_INT">
+      <node ref="U10" pin="20"/>
+    </net>
+    <net code="103" name="Net-(C33-Pad1)">
+      <node ref="U10" pin="27"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="104" name="Net-(C32-Pad1)">
+      <node ref="U10" pin="28"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="105" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="U11" pin="20"/>
+    </net>
+    <net code="106" name="/DAC/sheet57F8A4E7/ANALOG_OUT+">
+      <node ref="U17" pin="2"/>
+      <node ref="R42" pin="2"/>
+      <node ref="C74" pin="2"/>
+      <node ref="U11" pin="17"/>
+    </net>
+    <net code="107" name="/DAC/sheet57F8A4E7/ANALOG_OUT-">
+      <node ref="R35" pin="2"/>
+      <node ref="U11" pin="18"/>
+      <node ref="C64" pin="2"/>
+      <node ref="U15" pin="2"/>
+    </net>
+    <net code="108" name="ANALOG_OUT_L">
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="109" name="/DAC/sheet57F8A4E6/ANALOG_OUT-">
+      <node ref="C50" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U11" pin="26"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="110" name="I2S_DAC_LRCK(3.3)">
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="111" name="I2S_DAC_DIN(3.3)">
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="112" name="I2S_DAC_BCK(3.3)">
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="113" name="/DAC/sheet57F8A4E6/ANALOG_OUT+">
+      <node ref="R33" pin="2"/>
+      <node ref="U11" pin="25"/>
+      <node ref="U14" pin="2"/>
+      <node ref="C60" pin="2"/>
+    </net>
+    <net code="114" name="Net-(C49-Pad2)">
+      <node ref="C49" pin="2"/>
+      <node ref="U11" pin="21"/>
+      <node ref="U11" pin="22"/>
+    </net>
+    <net code="115" name="Net-(U11-Pad1)">
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="116" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="117" name="UART_RX(1.8)">
+      <node ref="R46" pin="2"/>
+      <node ref="U18" pin="22"/>
+      <node ref="U19" pin="4"/>
+    </net>
+    <net code="118" name="LED_IA_1(1.8)">
+      <node ref="U20" pin="3"/>
+      <node ref="R66" pin="2"/>
+      <node ref="U18" pin="44"/>
+    </net>
+    <net code="119" name="LED_IA_15(1.8)">
+      <node ref="U18" pin="42"/>
+      <node ref="R99" pin="2"/>
+      <node ref="U21" pin="7"/>
+    </net>
+    <net code="120" name="UART_TX(1.8)">
+      <node ref="R45" pin="2"/>
+      <node ref="U19" pin="3"/>
+      <node ref="U18" pin="27"/>
+    </net>
+    <net code="121" name="I2S_MCU_LRCK(1.8)">
+      <node ref="R48" pin="2"/>
+      <node ref="U19" pin="6"/>
+      <node ref="U18" pin="54"/>
+    </net>
+    <net code="122" name="I2S_MCU_DIN(1.8)">
+      <node ref="U19" pin="8"/>
+      <node ref="U18" pin="50"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="123" name="I2C_PWM_SCL(1.8)">
+      <node ref="R52" pin="2"/>
+      <node ref="U19" pin="10"/>
+      <node ref="U18" pin="45"/>
+    </net>
+    <net code="124" name="I2C_SCA(1.8)">
+      <node ref="U18" pin="43"/>
+      <node ref="U19" pin="11"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="125" name="I2C_SCL(1.8)">
+      <node ref="R54" pin="2"/>
+      <node ref="U19" pin="12"/>
+      <node ref="U18" pin="41"/>
+    </net>
+    <net code="126" name="I2S_MCU_DOUT(1.8)">
+      <node ref="R47" pin="2"/>
+      <node ref="U19" pin="5"/>
+      <node ref="U18" pin="56"/>
+    </net>
+    <net code="127" name="UART_TX(3.3)">
+      <node ref="U19" pin="22"/>
+      <node ref="R55" pin="2"/>
+      <node ref="P5" pin="5"/>
+    </net>
+    <net code="128" name="UART_RX(3.3)">
+      <node ref="R56" pin="2"/>
+      <node ref="U19" pin="21"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="129" name="EDI_RST_OUT(1.8)">
+      <node ref="U18" pin="36"/>
+    </net>
+    <net code="130" name="LED_IA_10(1.8)">
+      <node ref="R75" pin="2"/>
+      <node ref="U18" pin="26"/>
+      <node ref="U20" pin="12"/>
+    </net>
+    <net code="131" name="LED_IA_12(1.8)">
+      <node ref="R96" pin="2"/>
+      <node ref="U18" pin="30"/>
+      <node ref="U21" pin="4"/>
+    </net>
+    <net code="132" name="LED_IA_13(1.8)">
+      <node ref="U18" pin="32"/>
+      <node ref="R97" pin="2"/>
+      <node ref="U21" pin="5"/>
+    </net>
+    <net code="133" name="MCU_GPIO_X_8">
+      <node ref="U18" pin="53"/>
+      <node ref="P20" pin="1"/>
+    </net>
+    <net code="134" name="MCU_GPIO_X_7">
+      <node ref="P18" pin="1"/>
+      <node ref="U18" pin="55"/>
+    </net>
+    <net code="135" name="MCU_GPIO_X_6">
+      <node ref="P16" pin="1"/>
+      <node ref="U18" pin="57"/>
+    </net>
+    <net code="136" name="MCU_GPIO_X_5">
+      <node ref="U18" pin="59"/>
+      <node ref="P15" pin="1"/>
+    </net>
+    <net code="137" name="MCU_GPIO_X_4/UART_TX">
+      <node ref="P13" pin="1"/>
+      <node ref="U18" pin="46"/>
+    </net>
+    <net code="138" name="MCU_GPIO_X_3/UART_RX">
+      <node ref="U18" pin="61"/>
+      <node ref="P11" pin="1"/>
+    </net>
+    <net code="139" name="MCU_GPIO_X_2">
+      <node ref="P9" pin="1"/>
+      <node ref="U18" pin="63"/>
+    </net>
+    <net code="140" name="MCU_GPIO_X_1">
+      <node ref="U18" pin="65"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="141" name="LED_IA_8(1.8)">
+      <node ref="R73" pin="2"/>
+      <node ref="U20" pin="10"/>
+      <node ref="U18" pin="60"/>
+    </net>
+    <net code="142" name="LED_IA_7(1.8)">
+      <node ref="R72" pin="2"/>
+      <node ref="U20" pin="9"/>
+      <node ref="U18" pin="58"/>
+    </net>
+    <net code="143" name="LED_IA_6(1.8)">
+      <node ref="U18" pin="62"/>
+      <node ref="R71" pin="2"/>
+      <node ref="U20" pin="8"/>
+    </net>
+    <net code="144" name="I2S_MCU_BCK(1.8)">
+      <node ref="R49" pin="2"/>
+      <node ref="U19" pin="7"/>
+      <node ref="U18" pin="52"/>
+    </net>
+    <net code="145" name="I2C_PWM_SDA(1.8)">
+      <node ref="U18" pin="47"/>
+      <node ref="U19" pin="9"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="146" name="MCU_GPIO_X_9">
+      <node ref="U18" pin="51"/>
+      <node ref="P22" pin="1"/>
+    </net>
+    <net code="147" name="Net-(U18-Pad20)">
+      <node ref="U18" pin="20"/>
+    </net>
+    <net code="148" name="Net-(U18-Pad10)">
+      <node ref="U18" pin="10"/>
+    </net>
+    <net code="149" name="Net-(U18-Pad8)">
+      <node ref="U18" pin="8"/>
+    </net>
+    <net code="150" name="Net-(U18-Pad7)">
+      <node ref="U18" pin="7"/>
+    </net>
+    <net code="151" name="Net-(U18-Pad3)">
+      <node ref="U18" pin="3"/>
+    </net>
+    <net code="152" name="Net-(U18-Pad16)">
+      <node ref="U18" pin="16"/>
+    </net>
+    <net code="153" name="LED_IA_5(1.8)">
+      <node ref="U18" pin="66"/>
+      <node ref="R70" pin="2"/>
+      <node ref="U20" pin="7"/>
+    </net>
+    <net code="154" name="EDI_PWR_BTN">
+      <node ref="U18" pin="17"/>
+    </net>
+    <net code="155" name="LED_IA_9(1.8)">
+      <node ref="U18" pin="25"/>
+      <node ref="R74" pin="2"/>
+      <node ref="U20" pin="11"/>
+    </net>
+    <net code="156" name="LED_IA_3(1.8)">
+      <node ref="U20" pin="5"/>
+      <node ref="U18" pin="64"/>
+      <node ref="R68" pin="2"/>
+    </net>
+    <net code="157" name="LED_IA_14(1.8)">
+      <node ref="R98" pin="2"/>
+      <node ref="U21" pin="6"/>
+      <node ref="U18" pin="34"/>
+    </net>
+    <net code="158" name="Net-(U18-Pad23)">
+      <node ref="U18" pin="23"/>
+    </net>
+    <net code="159" name="Net-(U18-Pad31)">
+      <node ref="U18" pin="31"/>
+    </net>
+    <net code="160" name="Net-(U18-Pad21)">
+      <node ref="U18" pin="21"/>
+    </net>
+    <net code="161" name="LED_IA_4(1.8)">
+      <node ref="U20" pin="6"/>
+      <node ref="U18" pin="70"/>
+      <node ref="R69" pin="2"/>
+    </net>
+    <net code="162" name="Net-(U18-Pad19)">
+      <node ref="U18" pin="19"/>
+    </net>
+    <net code="163" name="Net-(U18-Pad67)">
+      <node ref="U18" pin="67"/>
+    </net>
+    <net code="164" name="Net-(U18-Pad18)">
+      <node ref="U18" pin="18"/>
+    </net>
+    <net code="165" name="LED_IA_11(1.8)">
+      <node ref="U18" pin="28"/>
+      <node ref="R95" pin="2"/>
+      <node ref="U21" pin="3"/>
+    </net>
+    <net code="166" name="LED_IA_16(1.8)">
+      <node ref="U21" pin="8"/>
+      <node ref="U18" pin="48"/>
+      <node ref="R100" pin="2"/>
+    </net>
+    <net code="167" name="LED_IA_2(1.8)">
+      <node ref="U18" pin="68"/>
+      <node ref="U20" pin="4"/>
+      <node ref="R67" pin="2"/>
+    </net>
+    <net code="168" name="Net-(U18-Pad69)">
+      <node ref="U18" pin="69"/>
+    </net>
+    <net code="169" name="Net-(P5-Pad6)">
+      <node ref="P5" pin="6"/>
+    </net>
+    <net code="170" name="Net-(P5-Pad3)">
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="171" name="MCU_GPIO_X_10/PWM1">
+      <node ref="U18" pin="35"/>
+    </net>
+    <net code="172" name="MCU_GPIO_X_11/PWM2">
+      <node ref="U18" pin="33"/>
+    </net>
+    <net code="173" name="MCU_GPIO_X_12/PWM3">
+      <node ref="U18" pin="37"/>
+    </net>
+    <net code="174" name="MCU_GPIO_X_13/PWM4">
+      <node ref="U18" pin="39"/>
+    </net>
+    <net code="175" name="LED_IA_16">
+      <node ref="U21" pin="17"/>
+      <node ref="R126" pin="2"/>
+      <node ref="R110" pin="2"/>
+    </net>
+    <net code="176" name="LED_IA_14">
+      <node ref="R108" pin="2"/>
+      <node ref="U21" pin="19"/>
+      <node ref="R124" pin="2"/>
+    </net>
+    <net code="177" name="LED_IA_13">
+      <node ref="R107" pin="2"/>
+      <node ref="R123" pin="2"/>
+      <node ref="U21" pin="20"/>
+    </net>
+    <net code="178" name="LED_IA_12">
+      <node ref="R106" pin="2"/>
+      <node ref="R122" pin="2"/>
+      <node ref="U21" pin="21"/>
+    </net>
+    <net code="179" name="LED_IA_15">
+      <node ref="R125" pin="2"/>
+      <node ref="U21" pin="18"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="180" name="LED_IA_11">
+      <node ref="R105" pin="2"/>
+      <node ref="R121" pin="2"/>
+      <node ref="U21" pin="22"/>
+    </net>
+    <net code="181" name="Net-(C80-Pad1)">
+      <node ref="R108" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="R110" pin="1"/>
+      <node ref="R105" pin="1"/>
+      <node ref="C80" pin="1"/>
+      <node ref="R86" pin="2"/>
+      <node ref="U21" pin="24"/>
+      <node ref="U21" pin="23"/>
+      <node ref="R106" pin="1"/>
+      <node ref="R107" pin="1"/>
+    </net>
+    <net code="182" name="LVL_SHIFT_2">
+      <node ref="P36" pin="1"/>
+      <node ref="R89" pin="2"/>
+      <node ref="U21" pin="15"/>
+      <node ref="R90" pin="2"/>
+    </net>
+    <net code="183" name="LVL_SHIFT_1">
+      <node ref="U21" pin="16"/>
+      <node ref="P33" pin="1"/>
+      <node ref="R87" pin="2"/>
+      <node ref="R88" pin="2"/>
+    </net>
+    <net code="184" name="LVL_SHIFT_4">
+      <node ref="P42" pin="1"/>
+      <node ref="R93" pin="2"/>
+      <node ref="U21" pin="13"/>
+      <node ref="R94" pin="2"/>
+    </net>
+    <net code="185" name="LVL_SHIFT_3">
+      <node ref="U21" pin="14"/>
+      <node ref="R91" pin="2"/>
+      <node ref="R92" pin="2"/>
+      <node ref="P39" pin="1"/>
+    </net>
+    <net code="186" name="LVL_SHIFT_1(1.8)">
+      <node ref="R101" pin="2"/>
+      <node ref="U21" pin="9"/>
+      <node ref="P32" pin="1"/>
+    </net>
+    <net code="187" name="LVL_SHIFT_2(1.8)">
+      <node ref="R102" pin="2"/>
+      <node ref="P35" pin="1"/>
+      <node ref="U21" pin="10"/>
+    </net>
+    <net code="188" name="LVL_SHIFT_3(1.8)">
+      <node ref="U21" pin="11"/>
+      <node ref="P38" pin="1"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="189" name="LVL_SHIFT_4(1.8)">
+      <node ref="P41" pin="1"/>
+      <node ref="U21" pin="12"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="190" name="Net-(C78-Pad1)">
+      <node ref="R63" pin="1"/>
+      <node ref="R64" pin="1"/>
+      <node ref="R60" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="R58" pin="1"/>
+      <node ref="R57" pin="1"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R55" pin="1"/>
+      <node ref="C78" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R61" pin="1"/>
+      <node ref="U19" pin="23"/>
+      <node ref="U19" pin="24"/>
+      <node ref="R62" pin="1"/>
+    </net>
+    <net code="191" name="I2C_PWM_SDA(3.3)">
+      <node ref="R61" pin="2"/>
+      <node ref="U19" pin="16"/>
+      <node ref="U22" pin="24"/>
+    </net>
+    <net code="192" name="I2C_PWM_SCL(3.3)">
+      <node ref="U22" pin="23"/>
+      <node ref="R62" pin="2"/>
+      <node ref="U19" pin="15"/>
+    </net>
+    <net code="193" name="I2C_SCA(3.3)">
+      <node ref="R63" pin="2"/>
+      <node ref="U19" pin="14"/>
+    </net>
+    <net code="194" name="LED_IA_1">
+      <node ref="U20" pin="22"/>
+      <node ref="R111" pin="2"/>
+      <node ref="R76" pin="2"/>
+    </net>
+    <net code="195" name="LED_IA_2">
+      <node ref="U20" pin="21"/>
+      <node ref="R112" pin="2"/>
+      <node ref="R77" pin="2"/>
+    </net>
+    <net code="196" name="LED_IA_3">
+      <node ref="R78" pin="2"/>
+      <node ref="U20" pin="20"/>
+      <node ref="R113" pin="2"/>
+    </net>
+    <net code="197" name="LED_IA_4">
+      <node ref="R114" pin="2"/>
+      <node ref="R79" pin="2"/>
+      <node ref="U20" pin="19"/>
+    </net>
+    <net code="198" name="LED_IA_5">
+      <node ref="U20" pin="18"/>
+      <node ref="R80" pin="2"/>
+      <node ref="R115" pin="2"/>
+    </net>
+    <net code="199" name="LED_IA_6">
+      <node ref="R116" pin="2"/>
+      <node ref="U20" pin="17"/>
+      <node ref="R81" pin="2"/>
+    </net>
+    <net code="200" name="LED_IA_7">
+      <node ref="R117" pin="2"/>
+      <node ref="U20" pin="16"/>
+      <node ref="R82" pin="2"/>
+    </net>
+    <net code="201" name="LED_IA_8">
+      <node ref="U20" pin="15"/>
+      <node ref="R118" pin="2"/>
+      <node ref="R83" pin="2"/>
+    </net>
+    <net code="202" name="LED_IA_9">
+      <node ref="R119" pin="2"/>
+      <node ref="U20" pin="14"/>
+      <node ref="R84" pin="2"/>
+    </net>
+    <net code="203" name="LED_IA_10">
+      <node ref="U20" pin="13"/>
+      <node ref="R85" pin="2"/>
+      <node ref="R120" pin="2"/>
+    </net>
+    <net code="204" name="Net-(C79-Pad1)">
+      <node ref="R76" pin="1"/>
+      <node ref="U20" pin="24"/>
+      <node ref="U20" pin="23"/>
+      <node ref="R77" pin="1"/>
+      <node ref="R78" pin="1"/>
+      <node ref="R79" pin="1"/>
+      <node ref="R80" pin="1"/>
+      <node ref="R81" pin="1"/>
+      <node ref="R82" pin="1"/>
+      <node ref="R83" pin="1"/>
+      <node ref="R85" pin="1"/>
+      <node ref="C79" pin="1"/>
+      <node ref="R84" pin="1"/>
+      <node ref="R65" pin="2"/>
+    </net>
+    <net code="205" name="/LIGHT_CONN/LED_IA_9_O">
+      <node ref="R119" pin="1"/>
+      <node ref="P6" pin="14"/>
+    </net>
+    <net code="206" name="/LIGHT_CONN/LED_IA_10_O">
+      <node ref="R120" pin="1"/>
+      <node ref="P6" pin="16"/>
+    </net>
+    <net code="207" name="/LIGHT_CONN/LED_IA_11_O">
+      <node ref="P6" pin="18"/>
+      <node ref="R121" pin="1"/>
+    </net>
+    <net code="208" name="/LIGHT_CONN/LED_IA_12_O">
+      <node ref="P6" pin="20"/>
+      <node ref="R122" pin="1"/>
+    </net>
+    <net code="209" name="/LIGHT_CONN/LED_IA_13_O">
+      <node ref="R123" pin="1"/>
+      <node ref="P6" pin="22"/>
+    </net>
+    <net code="210" name="/LIGHT_CONN/LED_IA_14_O">
+      <node ref="P6" pin="24"/>
+      <node ref="R124" pin="1"/>
+    </net>
+    <net code="211" name="/LIGHT_CONN/LED_IA_8_O">
+      <node ref="P6" pin="12"/>
+      <node ref="R118" pin="1"/>
+    </net>
+    <net code="212" name="/LIGHT_CONN/LED_IA_7_O">
+      <node ref="P6" pin="10"/>
+      <node ref="R117" pin="1"/>
+    </net>
+    <net code="213" name="/LIGHT_CONN/LED_IA_6_O">
+      <node ref="R116" pin="1"/>
+      <node ref="P6" pin="8"/>
+    </net>
+    <net code="214" name="/LIGHT_CONN/LED_IA_5_O">
+      <node ref="R115" pin="1"/>
+      <node ref="P6" pin="6"/>
+    </net>
+    <net code="215" name="/LIGHT_CONN/LED_IA_4_O">
+      <node ref="R114" pin="1"/>
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="216" name="/LIGHT_CONN/LED_IA_3_O">
+      <node ref="P6" pin="2"/>
+      <node ref="R113" pin="1"/>
+    </net>
+    <net code="217" name="/LIGHT_CONN/LED_IA_16_O">
+      <node ref="P6" pin="28"/>
+      <node ref="R126" pin="1"/>
+    </net>
+    <net code="218" name="/LIGHT_CONN/LED_IA_15_O">
+      <node ref="R125" pin="1"/>
+      <node ref="P6" pin="26"/>
+    </net>
+    <net code="219" name="/LIGHT_CONN/LED_R_1">
+      <node ref="P6" pin="1"/>
+      <node ref="U22" pin="3"/>
+    </net>
+    <net code="220" name="/LIGHT_CONN/LED_R_2">
+      <node ref="U22" pin="6"/>
+      <node ref="P6" pin="7"/>
+    </net>
+    <net code="221" name="/LIGHT_CONN/LED_B_1">
+      <node ref="P6" pin="5"/>
+      <node ref="U22" pin="5"/>
+    </net>
+    <net code="222" name="/LIGHT_CONN/LED_R_4">
+      <node ref="U22" pin="13"/>
+      <node ref="P6" pin="19"/>
+    </net>
+    <net code="223" name="/LIGHT_CONN/LED_B_3">
+      <node ref="P6" pin="17"/>
+      <node ref="U22" pin="12"/>
+    </net>
+    <net code="224" name="/LIGHT_CONN/LED_G_3">
+      <node ref="P6" pin="15"/>
+      <node ref="U22" pin="10"/>
+    </net>
+    <net code="225" name="/LIGHT_CONN/LED_B_4">
+      <node ref="U22" pin="15"/>
+      <node ref="P6" pin="23"/>
+    </net>
+    <net code="226" name="/LIGHT_CONN/LED_R_3">
+      <node ref="P6" pin="13"/>
+      <node ref="U22" pin="9"/>
+    </net>
+    <net code="227" name="/LIGHT_CONN/LED_G_4">
+      <node ref="P6" pin="21"/>
+      <node ref="U22" pin="14"/>
+    </net>
+    <net code="228" name="/LIGHT_CONN/LED_B_2">
+      <node ref="P6" pin="11"/>
+      <node ref="U22" pin="8"/>
+    </net>
+    <net code="229" name="/LIGHT_CONN/LED_G_2">
+      <node ref="U22" pin="7"/>
+      <node ref="P6" pin="9"/>
+    </net>
+    <net code="230" name="/LIGHT_CONN/LED_IA_2_O">
+      <node ref="R112" pin="1"/>
+      <node ref="P6" pin="27"/>
+    </net>
+    <net code="231" name="/LIGHT_CONN/LED_IA_1_O">
+      <node ref="P6" pin="25"/>
+      <node ref="R111" pin="1"/>
+    </net>
+    <net code="232" name="/LIGHT_CONN/LED_G_1">
+      <node ref="P6" pin="3"/>
+      <node ref="U22" pin="4"/>
+    </net>
+    <net code="233" name="MCU_GPIO_X_13/PWM_4">
+      <node ref="P28" pin="1"/>
+    </net>
+    <net code="234" name="MCU_GPIO_X_12/PWM_3">
+      <node ref="P26" pin="1"/>
+    </net>
+    <net code="235" name="MCU_GPIO_X_11/PWM_2">
+      <node ref="P25" pin="1"/>
+    </net>
+    <net code="236" name="MCU_GPIO_X_10/PWM_1">
+      <node ref="P24" pin="1"/>
+    </net>
+    <net code="237" name="PWM_X_4">
+      <node ref="P40" pin="1"/>
+      <node ref="U22" pin="19"/>
+    </net>
+    <net code="238" name="PWM_X_3">
+      <node ref="U22" pin="18"/>
+      <node ref="P37" pin="1"/>
+    </net>
+    <net code="239" name="PWM_X_2">
+      <node ref="P34" pin="1"/>
+      <node ref="U22" pin="17"/>
+    </net>
+    <net code="240" name="PWM_X_1">
+      <node ref="P31" pin="1"/>
+      <node ref="U22" pin="16"/>
+    </net>
+    <net code="241" name="Net-(C58-Pad2)">
+      <node ref="U13" pin="8"/>
+      <node ref="C58" pin="2"/>
+    </net>
+    <net code="242" name="Net-(C58-Pad1)">
+      <node ref="U13" pin="5"/>
+      <node ref="C58" pin="1"/>
+    </net>
+    <net code="243" name="Net-(C59-Pad1)">
+      <node ref="U13" pin="6"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C59" pin="1"/>
+    </net>
+    <net code="244" name="Net-(C57-Pad1)">
+      <node ref="C57" pin="1"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="245" name="Net-(C62-Pad2)">
+      <node ref="U14" pin="8"/>
+      <node ref="C62" pin="2"/>
+    </net>
+    <net code="246" name="Net-(C62-Pad1)">
+      <node ref="U14" pin="5"/>
+      <node ref="C62" pin="1"/>
+    </net>
+    <net code="247" name="Net-(C60-Pad1)">
+      <node ref="U14" pin="6"/>
+      <node ref="R33" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="248" name="Net-(C50-Pad1)">
+      <node ref="R28" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="U12" pin="6"/>
+      <node ref="C50" pin="1"/>
+    </net>
+    <net code="249" name="Net-(C57-Pad2)">
+      <node ref="C57" pin="2"/>
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="250" name="Net-(C61-Pad2)">
+      <node ref="R32" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="C61" pin="2"/>
+    </net>
+    <net code="251" name="Net-(C61-Pad1)">
+      <node ref="C61" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="252" name="Net-(C59-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="U13" pin="2"/>
+      <node ref="C59" pin="2"/>
+    </net>
+    <net code="253" name="Net-(C63-Pad1)">
+      <node ref="U13" pin="3"/>
+      <node ref="C63" pin="1"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="254" name="Net-(C72-Pad2)">
+      <node ref="U16" pin="8"/>
+      <node ref="C72" pin="2"/>
+    </net>
+    <net code="255" name="Net-(C72-Pad1)">
+      <node ref="U16" pin="5"/>
+      <node ref="C72" pin="1"/>
+    </net>
+    <net code="256" name="Net-(C73-Pad1)">
+      <node ref="R36" pin="1"/>
+      <node ref="C73" pin="1"/>
+      <node ref="U16" pin="6"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="257" name="Net-(C71-Pad1)">
+      <node ref="C71" pin="1"/>
+      <node ref="U15" pin="5"/>
+    </net>
+    <net code="258" name="Net-(C76-Pad2)">
+      <node ref="U17" pin="8"/>
+      <node ref="C76" pin="2"/>
+    </net>
+    <net code="259" name="Net-(C76-Pad1)">
+      <node ref="U17" pin="5"/>
+      <node ref="C76" pin="1"/>
+    </net>
+    <net code="260" name="Net-(C74-Pad1)">
+      <node ref="R40" pin="2"/>
+      <node ref="U17" pin="6"/>
+      <node ref="R42" pin="1"/>
+      <node ref="C74" pin="1"/>
+    </net>
+    <net code="261" name="Net-(C64-Pad1)">
+      <node ref="C64" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="U15" pin="6"/>
+      <node ref="R37" pin="2"/>
+    </net>
+    <net code="262" name="Net-(C71-Pad2)">
+      <node ref="U15" pin="8"/>
+      <node ref="C71" pin="2"/>
+    </net>
+    <net code="263" name="Net-(C75-Pad2)">
+      <node ref="R40" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C75" pin="2"/>
+    </net>
+    <net code="264" name="Net-(C75-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="C75" pin="1"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="265" name="Net-(C73-Pad2)">
+      <node ref="C73" pin="2"/>
+      <node ref="R38" pin="1"/>
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="266" name="Net-(C77-Pad1)">
+      <node ref="R41" pin="1"/>
+      <node ref="U16" pin="3"/>
+      <node ref="C77" pin="1"/>
+    </net>
+  </nets>
+</export>
