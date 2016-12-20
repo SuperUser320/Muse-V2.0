@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name MF_Aesthetics)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_Aesthetics.pretty")(options "")(descr ""))
+  (lib (name MF_Connectors)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_Connectors.pretty")(options "")(descr ""))
+  (lib (name MF_Discrete_Semiconductor)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_Discrete_Semiconductor.pretty")(options "")(descr ""))
+  (lib (name MF_Displays)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_Displays.pretty")(options "")(descr ""))
+  (lib (name MF_Frequency_Control)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_Frequency_Control.pretty")(options "")(descr ""))
+  (lib (name MF_IC_Digital)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_IC_Digital.pretty")(options "")(descr ""))
+  (lib (name MF_IC_Power)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_IC_Power.pretty")(options "")(descr ""))
+  (lib (name MF_LEDs)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_LEDs.pretty")(options "")(descr ""))
+  (lib (name MF_Passives)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_Passives.pretty")(options "")(descr ""))
+  (lib (name MF_Switches)(type KiCad)(uri "$(KIPRJMOD)/Libraries/MacroFab/Footprints/MF_Switches.pretty")(options "")(descr ""))
+  (lib (name muse-v2-lib)(type KiCad)(uri "$(KIPRJMOD)/muse-v2-lib.pretty")(options "")(descr ""))
+)
