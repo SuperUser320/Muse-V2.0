@@ -246,17 +246,15 @@ Wire Wire Line
 Wire Wire Line
 	1450 1700 1450 1650
 Text GLabel 2700 2750 0    60   Input ~ 0
-EDI_PWR_BTN
+EDISON_PWR_BTN
 Text GLabel 2700 2900 0    60   Input ~ 0
-MCU_RST_OUT
+EDISON_RST_OUT
 Wire Wire Line
 	2700 2900 2800 2900
 Wire Wire Line
 	2800 2900 2800 2850
 Wire Wire Line
 	2800 2850 3450 2850
-Text GLabel 2700 3550 0    60   Input ~ 0
-ATX_PS_ON
 Text GLabel 2700 3700 0    60   Input ~ 0
 LED_IA_9(1.8)
 Text GLabel 2700 3850 0    60   Input ~ 0
@@ -360,21 +358,21 @@ Wire Wire Line
 Wire Wire Line
 	5850 5950 5450 5950
 Text GLabel 6050 3000 2    60   Input ~ 0
-MCU_GPIO_X_1
-Text GLabel 6050 3150 2    60   Input ~ 0
-MCU_GPIO_X_2
-Text GLabel 6050 3300 2    60   Input ~ 0
-MCU_GPIO_X_3/UART_RX
-Text GLabel 6050 3450 2    60   Input ~ 0
-MCU_GPIO_X_4/UART_TX
-Text GLabel 6050 3600 2    60   Input ~ 0
 MCU_GPIO_X_5
-Text GLabel 6050 3750 2    60   Input ~ 0
+Text GLabel 6050 3150 2    60   Input ~ 0
 MCU_GPIO_X_6
+Text GLabel 6050 3300 2    60   Input ~ 0
+MCU_GPIO_X_7/UART_RX
+Text GLabel 6050 3450 2    60   Input ~ 0
+MCU_GPIO_X_8/UART_TX
+Text GLabel 6050 3600 2    60   Input ~ 0
+MCU_GPIO_X_9
+Text GLabel 6050 3750 2    60   Input ~ 0
+MCU_GPIO_X_10
 Text GLabel 6050 3900 2    60   Input ~ 0
-MCU_GPIO_X_7
+ADC_CLKE_INT
 Text GLabel 6050 4050 2    60   Input ~ 0
-MCU_GPIO_X_8
+ADC_ESEN_INT
 Text GLabel 6050 4200 2    60   Input ~ 0
 BT_PAIR_BTN
 Wire Wire Line
@@ -515,22 +513,16 @@ Wire Wire Line
 	3050 4050 3050 3700
 Wire Wire Line
 	3050 3700 2700 3700
-Wire Wire Line
-	2700 3550 3100 3550
-Wire Wire Line
-	3100 3550 3100 3950
-Wire Wire Line
-	3100 3950 3450 3950
 Text GLabel 2700 4950 0    60   Input ~ 0
-MCU_GPIO_X_9/PWM1
+MCU_GPIO_X_1/PWM1
 Wire Wire Line
 	2700 4950 3450 4950
 Text GLabel 2700 5100 0    60   Input ~ 0
-MCU_GPIO_X_10/PWM2
+MCU_GPIO_X_2/PWM2
 Text GLabel 2700 5250 0    60   Input ~ 0
-MCU_GPIO_X_11/PWM3
+MCU_GPIO_X_3/PWM3
 Text GLabel 2700 5400 0    60   Input ~ 0
-MCU_GPIO_X_12/PWM4
+MCU_GPIO_X_4/PWM4
 Wire Wire Line
 	2700 5100 2750 5100
 Wire Wire Line
@@ -623,4 +615,5 @@ Wire Wire Line
 	1450 6900 1350 6900
 Text Notes 900  6550 0    60   ~ 0
 Buetooth Pair Button
+NoConn ~ 3450 3950
 $EndSCHEMATC

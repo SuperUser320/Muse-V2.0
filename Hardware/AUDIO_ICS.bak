@@ -1082,11 +1082,11 @@ Wire Wire Line
 Text GLabel 2300 2100 0    60   Input ~ 0
 DFE_RST
 Text GLabel 6300 4150 2    60   Input ~ 0
-I2S_DAC_DIN
+I2S_DAC_DIN(3.3)
 Text GLabel 6300 4000 2    60   Input ~ 0
-I2S_DAC_LRCK
+I2S_DAC_LRCK(3.3)
 Text GLabel 6300 3850 2    60   Input ~ 0
-I2S_DAC_BCK
+I2S_DAC_BCK(3.3)
 Text GLabel 6300 3700 2    60   Input ~ 0
 I2S_SCK(3.3)
 Wire Wire Line
