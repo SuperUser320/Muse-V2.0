@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 3.5mm_conn_tip_switch
+D DC Barrel Jack
+$ENDCMP
+#
+$CMP RCA_conn_x2
+D RCA Connector
+$ENDCMP
+#
 #End Doc Library
