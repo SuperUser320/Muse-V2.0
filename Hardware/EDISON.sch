@@ -357,14 +357,10 @@ Wire Wire Line
 	5850 6050 5850 5950
 Wire Wire Line
 	5850 5950 5450 5950
-Text GLabel 6050 3000 2    60   Input ~ 0
-MCU_GPIO_X_5
-Text GLabel 6050 3150 2    60   Input ~ 0
-MCU_GPIO_X_6
 Text GLabel 6050 3300 2    60   Input ~ 0
-MCU_GPIO_X_7/UART_RX
+MCU_GPIO_X_1/UART_RX
 Text GLabel 6050 3450 2    60   Input ~ 0
-MCU_GPIO_X_8/UART_TX
+MCU_GPIO_X_2/UART_TX
 Text GLabel 6050 3600 2    60   Input ~ 0
 PSU_CTL
 Text GLabel 6050 3750 2    60   Input ~ 0
@@ -514,15 +510,15 @@ Wire Wire Line
 Wire Wire Line
 	3050 3700 2700 3700
 Text GLabel 2700 4950 0    60   Input ~ 0
-MCU_GPIO_X_1/PWM_X_1
+MCU_GPIO_X_3/PWM_X_1
 Wire Wire Line
 	2700 4950 3450 4950
 Text GLabel 2700 5100 0    60   Input ~ 0
-MCU_GPIO_X_2/PWM_X_2
+MCU_GPIO_X_4/PWM_X_2
 Text GLabel 2700 5250 0    60   Input ~ 0
-MCU_GPIO_X_3/PWM_X_3
+MCU_GPIO_X_5/PWM_X_3
 Text GLabel 2700 5400 0    60   Input ~ 0
-MCU_GPIO_X_4/PWM_X_4
+MCU_GPIO_X_6/PWM_X_4
 Wire Wire Line
 	2700 5100 2750 5100
 Wire Wire Line
@@ -616,4 +612,8 @@ Wire Wire Line
 Text Notes 900  6550 0    60   ~ 0
 Buetooth Pair Button
 NoConn ~ 3450 3950
+Text GLabel 6050 3000 2    60   Input ~ 0
+3.5_IN_SEN
+Text GLabel 6050 3150 2    60   Input ~ 0
+3.5_OUT_SEN
 $EndSCHEMATC
