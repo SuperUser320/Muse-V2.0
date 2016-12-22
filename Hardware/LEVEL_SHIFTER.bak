@@ -1770,7 +1770,7 @@ U 1 1 5800DD3D
 P 5600 6900
 F 0 "R87" V 5680 6900 40  0000 C CNN
 F 1 "0" V 5607 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 5530 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5530 6900 30  0001 C CNN
 F 3 "" H 5600 6900 30  0000 C CNN
 	1    5600 6900
 	1    0    0    -1  
@@ -1781,7 +1781,7 @@ U 1 1 5800DE3B
 P 5750 6900
 F 0 "R88" V 5830 6900 40  0000 C CNN
 F 1 "0" V 5757 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 5680 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5680 6900 30  0001 C CNN
 F 3 "" H 5750 6900 30  0000 C CNN
 	1    5750 6900
 	1    0    0    -1  
@@ -1792,7 +1792,7 @@ U 1 1 5800EA37
 P 5900 6900
 F 0 "R89" V 5980 6900 40  0000 C CNN
 F 1 "0" V 5907 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 5830 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5830 6900 30  0001 C CNN
 F 3 "" H 5900 6900 30  0000 C CNN
 	1    5900 6900
 	1    0    0    -1  
@@ -1803,7 +1803,7 @@ U 1 1 5800EA3D
 P 6050 6900
 F 0 "R90" V 6130 6900 40  0000 C CNN
 F 1 "0" V 6057 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 5980 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5980 6900 30  0001 C CNN
 F 3 "" H 6050 6900 30  0000 C CNN
 	1    6050 6900
 	1    0    0    -1  
@@ -1814,7 +1814,7 @@ U 1 1 5800EAFB
 P 6200 6900
 F 0 "R91" V 6280 6900 40  0000 C CNN
 F 1 "0" V 6207 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6130 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6130 6900 30  0001 C CNN
 F 3 "" H 6200 6900 30  0000 C CNN
 	1    6200 6900
 	1    0    0    -1  
@@ -1825,7 +1825,7 @@ U 1 1 5800EB01
 P 6350 6900
 F 0 "R92" V 6430 6900 40  0000 C CNN
 F 1 "0" V 6357 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6280 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6280 6900 30  0001 C CNN
 F 3 "" H 6350 6900 30  0000 C CNN
 	1    6350 6900
 	1    0    0    -1  
@@ -1836,7 +1836,7 @@ U 1 1 5800EC57
 P 6500 6900
 F 0 "R93" V 6580 6900 40  0000 C CNN
 F 1 "0" V 6507 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6430 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6430 6900 30  0001 C CNN
 F 3 "" H 6500 6900 30  0000 C CNN
 	1    6500 6900
 	1    0    0    -1  
@@ -1847,7 +1847,7 @@ U 1 1 5800EC5D
 P 6650 6900
 F 0 "R94" V 6730 6900 40  0000 C CNN
 F 1 "0" V 6657 6901 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6580 6900 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6580 6900 30  0001 C CNN
 F 3 "" H 6650 6900 30  0000 C CNN
 	1    6650 6900
 	1    0    0    -1  
