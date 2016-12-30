@@ -77,17 +77,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L EdisonConnector U18
-U 1 1 57F8CAB1
-P 3650 1550
-F 0 "U18" H 3700 1600 60  0000 C CNN
-F 1 "EdisonConnector" H 4850 -3000 60  0000 C CNN
-F 2 "muse-v2-lib:Intel_Edison" H 3650 1950 60  0001 C CNN
-F 3 "" H 3650 1950 60  0000 C CNN
-	1    3650 1550
-	1    0    0    -1  
-$EndComp
 Text Notes 7150 5200 0    60   ~ 0
 To DFE\n(IADC/\n DAC/\n SPDIF)
 $Comp
@@ -255,37 +244,37 @@ Wire Wire Line
 	2800 2900 2800 2850
 Wire Wire Line
 	2800 2850 3450 2850
-Text GLabel 2700 3700 0    60   Input ~ 0
-LED_IA_9(1.8)
-Text GLabel 2700 3850 0    60   Input ~ 0
-LED_IA_10(1.8)
-Text GLabel 2700 4000 0    60   Input ~ 0
-LED_IA_11(1.8)
-Text GLabel 2700 4150 0    60   Input ~ 0
-LED_IA_12(1.8)
-Text GLabel 2700 4300 0    60   Input ~ 0
-LED_IA_13(1.8)
-Text GLabel 2700 4450 0    60   Input ~ 0
-LED_IA_14(1.8)
-Text GLabel 2700 4600 0    60   Input ~ 0
-LED_IA_15(1.8)
 Text GLabel 2700 4750 0    60   Input ~ 0
-LED_IA_16(1.8)
-Text GLabel 6050 1650 2    60   Input ~ 0
-LED_IA_1(1.8)
-Text GLabel 6050 1800 2    60   Input ~ 0
-LED_IA_2(1.8)
-Text GLabel 6050 1950 2    60   Input ~ 0
-LED_IA_3(1.8)
-Text GLabel 6050 2100 2    60   Input ~ 0
-LED_IA_4(1.8)
-Text GLabel 6050 2250 2    60   Input ~ 0
-LED_IA_5(1.8)
-Text GLabel 6050 2400 2    60   Input ~ 0
-LED_IA_6(1.8)
+LED_IA_9(1.8)
 Text GLabel 6050 2550 2    60   Input ~ 0
-LED_IA_7(1.8)
+LED_IA_10(1.8)
 Text GLabel 6050 2700 2    60   Input ~ 0
+LED_IA_11(1.8)
+Text GLabel 6050 2400 2    60   Input ~ 0
+LED_IA_12(1.8)
+Text GLabel 6050 1950 2    60   Input ~ 0
+LED_IA_13(1.8)
+Text GLabel 6050 2250 2    60   Input ~ 0
+LED_IA_14(1.8)
+Text GLabel 6050 1800 2    60   Input ~ 0
+LED_IA_15(1.8)
+Text GLabel 6050 2100 2    60   Input ~ 0
+LED_IA_16(1.8)
+Text GLabel 2700 3550 0    60   Input ~ 0
+LED_IA_1(1.8)
+Text GLabel 2700 3850 0    60   Input ~ 0
+LED_IA_2(1.8)
+Text GLabel 2700 4000 0    60   Input ~ 0
+LED_IA_3(1.8)
+Text GLabel 2700 4150 0    60   Input ~ 0
+LED_IA_4(1.8)
+Text GLabel 2700 4300 0    60   Input ~ 0
+LED_IA_5(1.8)
+Text GLabel 2700 4450 0    60   Input ~ 0
+LED_IA_6(1.8)
+Text GLabel 2700 4600 0    60   Input ~ 0
+LED_IA_7(1.8)
+Text GLabel 6050 1650 2    60   Input ~ 0
 LED_IA_8(1.8)
 Text GLabel 6050 4400 2    60   Input ~ 0
 UART_TX(1.8)
@@ -358,9 +347,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 5950 5450 5950
 Text GLabel 6050 3300 2    60   Input ~ 0
-MCU_GPIO_X_1/UART_RX
+MCU_GPIO_X_7/UART_RX
 Text GLabel 6050 3450 2    60   Input ~ 0
-MCU_GPIO_X_2/UART_TX
+MCU_GPIO_X_6/UART_TX
 Text GLabel 6050 3600 2    60   Input ~ 0
 PSU_CTL
 Text GLabel 6050 3750 2    60   Input ~ 0
@@ -509,16 +498,16 @@ Wire Wire Line
 	3050 4050 3050 3700
 Wire Wire Line
 	3050 3700 2700 3700
-Text GLabel 2700 4950 0    60   Input ~ 0
-MCU_GPIO_X_3/PWM_X_1
+Text GLabel 2700 5100 0    60   Input ~ 0
+MCU_GPIO_X_2/PWM_X_1
 Wire Wire Line
 	2700 4950 3450 4950
-Text GLabel 2700 5100 0    60   Input ~ 0
-MCU_GPIO_X_4/PWM_X_2
+Text GLabel 2700 4950 0    60   Input ~ 0
+MCU_GPIO_X_3/PWM_X_2
 Text GLabel 2700 5250 0    60   Input ~ 0
-MCU_GPIO_X_5/PWM_X_3
+MCU_GPIO_X_4/PWM_X_3
 Text GLabel 2700 5400 0    60   Input ~ 0
-MCU_GPIO_X_6/PWM_X_4
+MCU_GPIO_X_5/PWM_X_4
 Wire Wire Line
 	2700 5100 2750 5100
 Wire Wire Line
@@ -611,9 +600,27 @@ Wire Wire Line
 	1450 6900 1350 6900
 Text Notes 900  6550 0    60   ~ 0
 Buetooth Pair Button
-NoConn ~ 3450 3950
 Text GLabel 6050 3000 2    60   Input ~ 0
 3.5_IN_SEN
 Text GLabel 6050 3150 2    60   Input ~ 0
 3.5_OUT_SEN
+$Comp
+L EdisonConnector U18
+U 1 1 57F8CAB1
+P 3650 1550
+F 0 "U18" H 3700 1600 60  0000 C CNN
+F 1 "EdisonConnector" H 4850 -3000 60  0000 C CNN
+F 2 "muse-v2-lib:Intel_Edison" H 3650 1950 60  0001 C CNN
+F 3 "" H 3650 1950 60  0000 C CNN
+	1    3650 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 3700 0    60   Input ~ 0
+MCU_GPIO_X_1
+Wire Wire Line
+	2700 3550 3100 3550
+Wire Wire Line
+	3100 3550 3100 3950
+Wire Wire Line
+	3100 3950 3450 3950
 $EndSCHEMATC

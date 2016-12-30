@@ -693,9 +693,9 @@ F 3 "" H 3500 7050 60  0001 C CNN
 	1    3700 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 1750 0    60   Input ~ 0
-UART_TX(1.8)
 Text GLabel 1500 1900 0    60   Input ~ 0
+UART_TX(1.8)
+Text GLabel 1500 1750 0    60   Input ~ 0
 UART_RX(1.8)
 Text GLabel 1500 2050 0    60   Input ~ 0
 I2S_MCU_DOUT(1.8)
@@ -733,9 +733,9 @@ Text GLabel 1500 5750 0    60   Input ~ 0
 LED_IA_9(1.8)
 Text GLabel 1500 5900 0    60   Input ~ 0
 LED_IA_10(1.8)
-Text GLabel 6750 1750 2    60   Input ~ 0
-UART_TX(3.3)
 Text GLabel 6750 1900 2    60   Input ~ 0
+UART_TX(3.3)
+Text GLabel 6750 1750 2    60   Input ~ 0
 UART_RX(3.3)
 Text GLabel 6750 2050 2    60   Input ~ 0
 I2S_MCU_DOUT(3.3)
@@ -750,7 +750,7 @@ I2C_PWM_SDA(3.3)
 Text GLabel 6750 2800 2    60   Input ~ 0
 I2C_PWM_SCL(3.3)
 Text GLabel 6750 2950 2    60   Input ~ 0
-I2C_SCA(3.3)
+I2C_SDA(3.3)
 Text GLabel 6750 3100 2    60   Input ~ 0
 I2C_SCL(3.3)
 Text GLabel 6750 4550 2    60   Input ~ 0
@@ -1551,7 +1551,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 7050 5600 8250
 Wire Wire Line
-	5450 7100 5450 7250
+	5450 6700 5450 7250
 Wire Wire Line
 	5300 7100 5300 7250
 Connection ~ 5300 7100
@@ -1879,17 +1879,6 @@ Wire Wire Line
 	5750 7150 5750 7050
 Connection ~ 5600 7150
 $Comp
-L +5VSB #PWR0116
-U 1 1 58010FD6
-P 6650 6500
-F 0 "#PWR0116" H 6650 6590 20  0001 C CNN
-F 1 "+5VSB" H 6650 6650 55  0000 C CNN
-F 2 "" H 6650 6500 60  0000 C CNN
-F 3 "" H 6650 6500 60  0000 C CNN
-	1    6650 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3.3VSB #PWR0117
 U 1 1 5801107C
 P 5600 6500
@@ -1913,19 +1902,20 @@ Connection ~ 5900 6650
 Wire Wire Line
 	6500 6650 6500 6750
 Connection ~ 6200 6650
-Wire Wire Line
-	5750 6750 5750 6550
-Wire Wire Line
-	5750 6550 6650 6550
-Wire Wire Line
-	6650 6500 6650 6750
-Wire Wire Line
-	6050 6750 6050 6550
-Connection ~ 6050 6550
-Wire Wire Line
-	6350 6750 6350 6550
-Connection ~ 6350 6550
-Connection ~ 6650 6550
 Text Notes 6700 6250 2    60   ~ 0
 Selectable pullup voltage
+Wire Wire Line
+	5750 6750 5750 6700
+Wire Wire Line
+	5450 6700 6650 6700
+Connection ~ 5450 7100
+Wire Wire Line
+	6050 6700 6050 6750
+Connection ~ 5750 6700
+Wire Wire Line
+	6350 6700 6350 6750
+Connection ~ 6050 6700
+Wire Wire Line
+	6650 6700 6650 6750
+Connection ~ 6350 6700
 $EndSCHEMATC

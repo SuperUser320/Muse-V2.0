@@ -693,9 +693,9 @@ F 3 "" H 3500 7050 60  0001 C CNN
 	1    3700 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 1750 0    60   Input ~ 0
-UART_TX(1.8)
 Text GLabel 1500 1900 0    60   Input ~ 0
+UART_TX(1.8)
+Text GLabel 1500 1750 0    60   Input ~ 0
 UART_RX(1.8)
 Text GLabel 1500 2050 0    60   Input ~ 0
 I2S_MCU_DOUT(1.8)
@@ -733,9 +733,9 @@ Text GLabel 1500 5750 0    60   Input ~ 0
 LED_IA_9(1.8)
 Text GLabel 1500 5900 0    60   Input ~ 0
 LED_IA_10(1.8)
-Text GLabel 6750 1750 2    60   Input ~ 0
-UART_TX(3.3)
 Text GLabel 6750 1900 2    60   Input ~ 0
+UART_TX(3.3)
+Text GLabel 6750 1750 2    60   Input ~ 0
 UART_RX(3.3)
 Text GLabel 6750 2050 2    60   Input ~ 0
 I2S_MCU_DOUT(3.3)
@@ -750,7 +750,7 @@ I2C_PWM_SDA(3.3)
 Text GLabel 6750 2800 2    60   Input ~ 0
 I2C_PWM_SCL(3.3)
 Text GLabel 6750 2950 2    60   Input ~ 0
-I2C_SCA(3.3)
+I2C_SDA(3.3)
 Text GLabel 6750 3100 2    60   Input ~ 0
 I2C_SCL(3.3)
 Text GLabel 6750 4550 2    60   Input ~ 0
