@@ -80,10 +80,10 @@ $EndDescr
 Text Notes 7150 5200 0    60   ~ 0
 To DFE\n(IADC/\n DAC/\n SPDIF)
 $Comp
-L +1.8VSB #PWR098
+L +1.8VSB #PWR095
 U 1 1 57F8CABA
 P 3150 1400
-F 0 "#PWR098" H 3150 1540 20  0001 C CNN
+F 0 "#PWR095" H 3150 1540 20  0001 C CNN
 F 1 "+1.8VSB" H 3150 1510 30  0000 C CNN
 F 2 "" H 3150 1400 60  0000 C CNN
 F 3 "" H 3150 1400 60  0000 C CNN
@@ -91,10 +91,10 @@ F 3 "" H 3150 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VSB #PWR099
+L +3.3VSB #PWR096
 U 1 1 57F8CAC0
 P 3350 1400
-F 0 "#PWR099" H 3350 1360 30  0001 C CNN
+F 0 "#PWR096" H 3350 1360 30  0001 C CNN
 F 1 "+3.3VSB" H 3350 1510 30  0000 C CNN
 F 2 "" H 3350 1400 60  0000 C CNN
 F 3 "" H 3350 1400 60  0000 C CNN
@@ -106,10 +106,10 @@ Edison UART \nInterface
 NoConn ~ 1250 1450
 NoConn ~ 1250 1750
 $Comp
-L GND-RESCUE-museV2-RESCUE-museV2 #PWR0100
+L GND-RESCUE-museV2-RESCUE-museV2 #PWR097
 U 1 1 57F8CACB
 P 1350 2050
-F 0 "#PWR0100" H 1350 2050 30  0001 C CNN
+F 0 "#PWR097" H 1350 2050 30  0001 C CNN
 F 1 "GND" H 1350 1980 30  0001 C CNN
 F 2 "" H 1350 2050 60  0000 C CNN
 F 3 "" H 1350 2050 60  0000 C CNN
@@ -143,10 +143,10 @@ NoConn ~ 3450 2050
 Text Notes 2650 1200 0    60   ~ 0
 Intel Edison Connection
 $Comp
-L GND-RESCUE-museV2-RESCUE-museV2 #PWR0101
+L GND-RESCUE-museV2-RESCUE-museV2 #PWR098
 U 1 1 57F8CAEE
 P 3350 6200
-F 0 "#PWR0101" H 3350 6200 30  0001 C CNN
+F 0 "#PWR098" H 3350 6200 30  0001 C CNN
 F 1 "GND" H 3350 6130 30  0001 C CNN
 F 2 "" H 3350 6200 60  0000 C CNN
 F 3 "" H 3350 6200 60  0000 C CNN
@@ -157,6 +157,163 @@ Text Notes 7150 6150 0    60   ~ 0
 To DFE/\n   ADC/\n   DAC
 Text Notes 7150 5750 0    60   ~ 0
 To LED\nPWM\ngenerator
+Text GLabel 1600 1550 2    60   Input ~ 0
+UART_TX(3.3)
+Text GLabel 1600 1700 2    60   Input ~ 0
+UART_RX(3.3)
+Text GLabel 2700 2750 0    60   Input ~ 0
+EDISON_PWR_BTN
+Text GLabel 2700 2900 0    60   Input ~ 0
+EDISON_RST_OUT
+Text GLabel 2700 4750 0    60   Input ~ 0
+LED_IA_9(1.8)
+Text GLabel 6050 2550 2    60   Input ~ 0
+LED_IA_10(1.8)
+Text GLabel 6050 2700 2    60   Input ~ 0
+LED_IA_11(1.8)
+Text GLabel 6050 2400 2    60   Input ~ 0
+LED_IA_12(1.8)
+Text GLabel 6050 1950 2    60   Input ~ 0
+LED_IA_13(1.8)
+Text GLabel 6050 2250 2    60   Input ~ 0
+LED_IA_14(1.8)
+Text GLabel 6050 1800 2    60   Input ~ 0
+LED_IA_15(1.8)
+Text GLabel 6050 2100 2    60   Input ~ 0
+LED_IA_16(1.8)
+Text GLabel 2700 3550 0    60   Input ~ 0
+LED_IA_1(1.8)
+Text GLabel 2700 3850 0    60   Input ~ 0
+LED_IA_2(1.8)
+Text GLabel 2700 4000 0    60   Input ~ 0
+LED_IA_3(1.8)
+Text GLabel 2700 4150 0    60   Input ~ 0
+LED_IA_4(1.8)
+Text GLabel 2700 4300 0    60   Input ~ 0
+LED_IA_5(1.8)
+Text GLabel 2700 4450 0    60   Input ~ 0
+LED_IA_6(1.8)
+Text GLabel 2700 4600 0    60   Input ~ 0
+LED_IA_7(1.8)
+Text GLabel 6050 1650 2    60   Input ~ 0
+LED_IA_8(1.8)
+Text GLabel 6050 4400 2    60   Input ~ 0
+UART_TX(1.8)
+Text GLabel 6050 4550 2    60   Input ~ 0
+UART_RX(1.8)
+Text GLabel 6050 4800 2    60   Input ~ 0
+I2S_MCU_DOUT(1.8)
+Text GLabel 6050 4950 2    60   Input ~ 0
+I2S_MCU_LRCK(1.8)
+Text GLabel 6050 5100 2    60   Input ~ 0
+I2S_MCU_BCK(1.8)
+Text GLabel 6050 5250 2    60   Input ~ 0
+I2S_MCU_DIN(1.8)
+Text GLabel 6050 5500 2    60   Input ~ 0
+I2C_PWM_SDA(1.8)
+Text GLabel 6050 5650 2    60   Input ~ 0
+I2C_PWM_SCL(1.8)
+Text GLabel 6050 5900 2    60   Input ~ 0
+I2C_SCA(1.8)
+Text GLabel 6050 6050 2    60   Input ~ 0
+I2C_SCL(1.8)
+Text GLabel 6050 3300 2    60   Input ~ 0
+MCU_GPIO_X_7/UART_RX
+Text GLabel 6050 3450 2    60   Input ~ 0
+MCU_GPIO_X_6/UART_TX
+Text GLabel 6050 3600 2    60   Input ~ 0
+PSU_CTL
+Text GLabel 6050 3750 2    60   Input ~ 0
+DFE_RST
+Text GLabel 6050 3900 2    60   Input ~ 0
+ADC_CLKE_INT
+Text GLabel 6050 4050 2    60   Input ~ 0
+ADC_ESEN_INT
+Text GLabel 6050 4200 2    60   Input ~ 0
+BT_PAIR_BTN
+Text GLabel 2700 5100 0    60   Input ~ 0
+MCU_GPIO_X_2/PWM_X_1
+Text GLabel 2700 4950 0    60   Input ~ 0
+MCU_GPIO_X_3/PWM_X_2
+Text GLabel 2700 5250 0    60   Input ~ 0
+MCU_GPIO_X_4/PWM_X_3
+Text GLabel 2700 5400 0    60   Input ~ 0
+MCU_GPIO_X_5/PWM_X_4
+$Comp
+L GND-RESCUE-museV2-RESCUE-museV2 #PWR099
+U 1 1 58589956
+P 1150 8600
+F 0 "#PWR099" H 1150 8600 30  0001 C CNN
+F 1 "GND" H 1150 8530 30  0001 C CNN
+F 2 "" H 1150 8600 60  0000 C CNN
+F 3 "" H 1150 8600 60  0000 C CNN
+	1    1150 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-museV2 R127
+U 1 1 5858995C
+P 1150 7200
+F 0 "R127" V 1230 7200 40  0000 C CNN
+F 1 "10K" V 1157 7201 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 1080 7200 30  0001 C CNN
+F 3 "" H 1150 7200 30  0000 C CNN
+	1    1150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 58589963
+P 1150 7850
+F 0 "SW2" H 1300 7960 50  0000 C CNN
+F 1 "PAIR_BTN" H 1150 7770 50  0000 C CNN
+F 2 "MF_Switches:MF_Switches-TACT4.2MM" H 1150 7850 60  0001 C CNN
+F 3 "" H 1150 7850 60  0000 C CNN
+	1    1150 7850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-museV2 R128
+U 1 1 5858996E
+P 1350 7200
+F 0 "R128" V 1430 7200 40  0000 C CNN
+F 1 "220" V 1357 7201 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 1280 7200 30  0001 C CNN
+F 3 "" H 1350 7200 30  0000 C CNN
+	1    1350 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3VSB #PWR0100
+U 1 1 58589976
+P 1150 6750
+F 0 "#PWR0100" H 1150 6710 30  0001 C CNN
+F 1 "+3.3VSB" H 1150 6860 30  0000 C CNN
+F 2 "" H 1150 6750 60  0000 C CNN
+F 3 "" H 1150 6750 60  0000 C CNN
+	1    1150 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 6900 2    60   Input ~ 0
+BT_PAIR_BTN
+Text Notes 900  6550 0    60   ~ 0
+Buetooth Pair Button
+Text GLabel 6050 3000 2    60   Input ~ 0
+3.5_IN_SEN
+Text GLabel 6050 3150 2    60   Input ~ 0
+3.5_OUT_SEN
+$Comp
+L EdisonConnector U18
+U 1 1 57F8CAB1
+P 3650 1550
+F 0 "U18" H 3700 1600 60  0000 C CNN
+F 1 "EdisonConnector" H 4850 -3000 60  0000 C CNN
+F 2 "muse-v2-lib:Intel_Edison" H 3650 1950 60  0001 C CNN
+F 3 "" H 3650 1950 60  0000 C CNN
+	1    3650 1550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 4050
 Wire Notes Line
 	7100 5850 7050 5850
 Wire Notes Line
@@ -226,82 +383,22 @@ Wire Notes Line
 	7100 5750 7100 5450
 Wire Notes Line
 	7050 5750 7100 5750
-Text GLabel 1600 1550 2    60   Input ~ 0
-UART_TX(3.3)
-Text GLabel 1600 1700 2    60   Input ~ 0
-UART_RX(3.3)
 Wire Wire Line
 	1600 1700 1450 1700
 Wire Wire Line
 	1450 1700 1450 1650
-Text GLabel 2700 2750 0    60   Input ~ 0
-EDISON_PWR_BTN
-Text GLabel 2700 2900 0    60   Input ~ 0
-EDISON_RST_OUT
 Wire Wire Line
 	2700 2900 2800 2900
 Wire Wire Line
 	2800 2900 2800 2850
 Wire Wire Line
 	2800 2850 3450 2850
-Text GLabel 2700 4750 0    60   Input ~ 0
-LED_IA_9(1.8)
-Text GLabel 6050 2550 2    60   Input ~ 0
-LED_IA_10(1.8)
-Text GLabel 6050 2700 2    60   Input ~ 0
-LED_IA_11(1.8)
-Text GLabel 6050 2400 2    60   Input ~ 0
-LED_IA_12(1.8)
-Text GLabel 6050 1950 2    60   Input ~ 0
-LED_IA_13(1.8)
-Text GLabel 6050 2250 2    60   Input ~ 0
-LED_IA_14(1.8)
-Text GLabel 6050 1800 2    60   Input ~ 0
-LED_IA_15(1.8)
-Text GLabel 6050 2100 2    60   Input ~ 0
-LED_IA_16(1.8)
-Text GLabel 2700 3550 0    60   Input ~ 0
-LED_IA_1(1.8)
-Text GLabel 2700 3850 0    60   Input ~ 0
-LED_IA_2(1.8)
-Text GLabel 2700 4000 0    60   Input ~ 0
-LED_IA_3(1.8)
-Text GLabel 2700 4150 0    60   Input ~ 0
-LED_IA_4(1.8)
-Text GLabel 2700 4300 0    60   Input ~ 0
-LED_IA_5(1.8)
-Text GLabel 2700 4450 0    60   Input ~ 0
-LED_IA_6(1.8)
-Text GLabel 2700 4600 0    60   Input ~ 0
-LED_IA_7(1.8)
-Text GLabel 6050 1650 2    60   Input ~ 0
-LED_IA_8(1.8)
-Text GLabel 6050 4400 2    60   Input ~ 0
-UART_TX(1.8)
-Text GLabel 6050 4550 2    60   Input ~ 0
-UART_RX(1.8)
 Wire Wire Line
 	5450 4450 5950 4450
 Wire Wire Line
 	5950 4450 5950 4400
 Wire Wire Line
 	5950 4400 6050 4400
-Text GLabel 6050 4800 2    60   Input ~ 0
-I2S_MCU_DOUT(1.8)
-Text GLabel 6050 4950 2    60   Input ~ 0
-I2S_MCU_LRCK(1.8)
-Text GLabel 6050 5100 2    60   Input ~ 0
-I2S_MCU_BCK(1.8)
-Text GLabel 6050 5250 2    60   Input ~ 0
-I2S_MCU_DIN(1.8)
-Text GLabel 6050 5500 2    60   Input ~ 0
-I2C_PWM_SDA(1.8)
-Text GLabel 6050 5650 2    60   Input ~ 0
-I2C_PWM_SCL(1.8)
-Text GLabel 6050 5900 2    60   Input ~ 0
-I2C_SCA(1.8)
-Text GLabel 6050 6050 2    60   Input ~ 0
-I2C_SCL(1.8)
 Wire Wire Line
 	5450 4850 5950 4850
 Wire Wire Line
@@ -346,20 +443,6 @@ Wire Wire Line
 	5850 6050 5850 5950
 Wire Wire Line
 	5850 5950 5450 5950
-Text GLabel 6050 3300 2    60   Input ~ 0
-MCU_GPIO_X_7/UART_RX
-Text GLabel 6050 3450 2    60   Input ~ 0
-MCU_GPIO_X_6/UART_TX
-Text GLabel 6050 3600 2    60   Input ~ 0
-PSU_CTL
-Text GLabel 6050 3750 2    60   Input ~ 0
-DFE_RST
-Text GLabel 6050 3900 2    60   Input ~ 0
-ADC_CLKE_INT
-Text GLabel 6050 4050 2    60   Input ~ 0
-ADC_ESEN_INT
-Text GLabel 6050 4200 2    60   Input ~ 0
-BT_PAIR_BTN
 Wire Wire Line
 	5450 4150 6000 4150
 Wire Wire Line
@@ -493,21 +576,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 4150 3450 4150
 Wire Wire Line
-	3450 4050 3050 4050
-Wire Wire Line
-	3050 4050 3050 3700
-Wire Wire Line
-	3050 3700 2700 3700
-Text GLabel 2700 5100 0    60   Input ~ 0
-MCU_GPIO_X_2/PWM_X_1
-Wire Wire Line
 	2700 4950 3450 4950
-Text GLabel 2700 4950 0    60   Input ~ 0
-MCU_GPIO_X_3/PWM_X_2
-Text GLabel 2700 5250 0    60   Input ~ 0
-MCU_GPIO_X_4/PWM_X_3
-Text GLabel 2700 5400 0    60   Input ~ 0
-MCU_GPIO_X_5/PWM_X_4
 Wire Wire Line
 	2700 5100 2750 5100
 Wire Wire Line
@@ -526,39 +595,6 @@ Wire Wire Line
 	2850 5400 2850 5250
 Wire Wire Line
 	2850 5250 3450 5250
-$Comp
-L GND-RESCUE-museV2-RESCUE-museV2 #PWR0102
-U 1 1 58589956
-P 1150 8600
-F 0 "#PWR0102" H 1150 8600 30  0001 C CNN
-F 1 "GND" H 1150 8530 30  0001 C CNN
-F 2 "" H 1150 8600 60  0000 C CNN
-F 3 "" H 1150 8600 60  0000 C CNN
-	1    1150 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-RESCUE-museV2 R127
-U 1 1 5858995C
-P 1150 7200
-F 0 "R127" V 1230 7200 40  0000 C CNN
-F 1 "10K" V 1157 7201 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 1080 7200 30  0001 C CNN
-F 3 "" H 1150 7200 30  0000 C CNN
-	1    1150 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW_PUSH SW2
-U 1 1 58589963
-P 1150 7850
-F 0 "SW2" H 1300 7960 50  0000 C CNN
-F 1 "PWR_BTN" H 1150 7770 50  0000 C CNN
-F 2 "MF_Switches:MF_Switches-TACT4.2MM" H 1150 7850 60  0001 C CNN
-F 3 "" H 1150 7850 60  0000 C CNN
-	1    1150 7850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1150 8600 1150 8150
 Wire Wire Line
@@ -566,57 +602,14 @@ Wire Wire Line
 Connection ~ 1150 7450
 Wire Wire Line
 	1150 7350 1150 7550
-$Comp
-L R-RESCUE-museV2 R128
-U 1 1 5858996E
-P 1350 7200
-F 0 "R128" V 1430 7200 40  0000 C CNN
-F 1 "220" V 1357 7201 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 1280 7200 30  0001 C CNN
-F 3 "" H 1350 7200 30  0000 C CNN
-	1    1350 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 7450 1150 7450
-$Comp
-L +3.3VSB #PWR0103
-U 1 1 58589976
-P 1150 6750
-F 0 "#PWR0103" H 1150 6710 30  0001 C CNN
-F 1 "+3.3VSB" H 1150 6860 30  0000 C CNN
-F 2 "" H 1150 6750 60  0000 C CNN
-F 3 "" H 1150 6750 60  0000 C CNN
-	1    1150 6750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 7350 1350 7450
 Wire Wire Line
 	1350 6900 1350 7050
-Text GLabel 1450 6900 2    60   Input ~ 0
-BT_PAIR_BTN
 Wire Wire Line
 	1450 6900 1350 6900
-Text Notes 900  6550 0    60   ~ 0
-Buetooth Pair Button
-Text GLabel 6050 3000 2    60   Input ~ 0
-3.5_IN_SEN
-Text GLabel 6050 3150 2    60   Input ~ 0
-3.5_OUT_SEN
-$Comp
-L EdisonConnector U18
-U 1 1 57F8CAB1
-P 3650 1550
-F 0 "U18" H 3700 1600 60  0000 C CNN
-F 1 "EdisonConnector" H 4850 -3000 60  0000 C CNN
-F 2 "muse-v2-lib:Intel_Edison" H 3650 1950 60  0001 C CNN
-F 3 "" H 3650 1950 60  0000 C CNN
-	1    3650 1550
-	1    0    0    -1  
-$EndComp
-Text GLabel 2700 3700 0    60   Input ~ 0
-MCU_GPIO_X_1
 Wire Wire Line
 	2700 3550 3100 3550
 Wire Wire Line
