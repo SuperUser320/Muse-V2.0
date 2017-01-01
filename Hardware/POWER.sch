@@ -203,16 +203,12 @@ Wire Wire Line
 Wire Wire Line
 	2050 6200 2050 7150
 Wire Wire Line
-	2850 7000 2850 7100
-Wire Wire Line
-	2850 7100 2850 7450
+	2850 7000 2850 7450
 Wire Wire Line
 	2850 5600 2850 5900
 Connection ~ 2850 6300
 Wire Wire Line
-	2850 6200 2850 6300
-Wire Wire Line
-	2850 6300 2850 6400
+	2850 6200 2850 6400
 $Comp
 L R-RESCUE-museV2 R11
 U 1 1 57EB0040
@@ -238,7 +234,7 @@ F 3 "" H 2850 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 6200 3050 6300
+	3050 6300 3050 6200
 Wire Wire Line
 	3050 5750 3050 5900
 $Comp
@@ -288,35 +284,21 @@ $EndComp
 Text Notes 750  3050 0    60   ~ 12
 5VSB->3.3VSB LDO
 Wire Wire Line
-	1000 3250 1000 3450
-Wire Wire Line
-	1000 3450 1000 3550
-Wire Wire Line
-	1000 3550 1000 3750
-Wire Wire Line
-	1000 3750 1000 3850
+	1000 3250 1000 3850
 Wire Wire Line
 	1000 3550 1100 3550
 Wire Wire Line
 	1100 3450 1000 3450
 Connection ~ 1000 3450
 Wire Wire Line
-	1550 4050 1550 4450
+	1550 4050 1550 4550
 Wire Wire Line
-	1550 4450 1550 4550
-Wire Wire Line
-	2100 3250 2100 3450
-Wire Wire Line
-	2100 3450 2100 3550
-Wire Wire Line
-	2100 3550 2100 3850
+	2100 3250 2100 3850
 Connection ~ 1000 3550
 Wire Wire Line
 	1000 4150 1000 4450
 Wire Wire Line
-	1000 4450 1550 4450
-Wire Wire Line
-	1550 4450 2100 4450
+	1000 4450 2100 4450
 Connection ~ 1550 4450
 Wire Wire Line
 	2100 4450 2100 4150
@@ -332,9 +314,7 @@ Wire Wire Line
 Text GLabel 1950 7150 0    60   Input ~ 0
 EDISON_RST_OUT
 Wire Wire Line
-	1950 7150 2050 7150
-Wire Wire Line
-	2050 7150 2150 7150
+	1950 7150 2150 7150
 Wire Notes Line
 	5350 2750 5350 7800
 Wire Notes Line
@@ -500,13 +480,7 @@ Connection ~ 10500 5650
 Connection ~ 10500 5050
 Connection ~ 10500 4450
 Wire Wire Line
-	10500 3850 10500 4450
-Wire Wire Line
-	10500 4450 10500 5050
-Wire Wire Line
-	10500 5050 10500 5650
-Wire Wire Line
-	10500 5650 10500 5850
+	10500 3850 10500 5850
 Wire Wire Line
 	10200 3850 10500 3850
 Wire Wire Line
@@ -534,18 +508,14 @@ Wire Wire Line
 Wire Wire Line
 	6150 3900 6250 3900
 Wire Wire Line
-	6150 4000 6150 4100
-Wire Wire Line
-	6150 4100 6150 4300
+	6150 4000 6150 4300
 Wire Wire Line
 	6150 4000 6250 4000
 Wire Wire Line
 	6250 4100 6150 4100
 Connection ~ 6150 4100
 Wire Wire Line
-	7800 5200 7800 5300
-Wire Wire Line
-	7800 5300 7800 5500
+	7800 5200 7800 5500
 Wire Wire Line
 	7800 5200 7700 5200
 Wire Wire Line

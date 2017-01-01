@@ -221,7 +221,7 @@ F 3 "" H 3050 6050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 6300 3150 6300
+	2850 6300 3050 6300
 $Comp
 L +3.3VSB #PWR018
 U 1 1 57EB0048
@@ -234,7 +234,7 @@ F 3 "" H 2850 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 6200 3050 6300
+	3050 6300 3050 6200
 Wire Wire Line
 	3050 5750 3050 5900
 $Comp
@@ -797,23 +797,5 @@ F 3 "" H 1000 3250 60  0000 C CNN
 	1    1000 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L SW_PUSH SW3
-U 1 1 5867735E
-P 3150 6700
-F 0 "SW3" H 3300 6810 50  0000 C CNN
-F 1 "PWR_BTN" H 3150 6620 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3150 6700 60  0001 C CNN
-F 3 "" H 3150 6700 60  0000 C CNN
-	1    3150 6700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3150 7000 3150 7100
-Wire Wire Line
-	3150 7100 2850 7100
 Connection ~ 2850 7100
-Wire Wire Line
-	3150 6300 3150 6400
-Connection ~ 3050 6300
 $EndSCHEMATC
