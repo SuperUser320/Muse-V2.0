@@ -2624,15 +2624,15 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5861983C) (tstamp 585C2219)
-    (at 166.55 145.05 90)
+    (at 166.55 145.05 270)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /57F7A095/57FA08C5)
     (attr smd)
-    (fp_text reference C41 (at 0 -1.7 90) (layer F.SilkS) hide
+    (fp_text reference C41 (at 0 -1.7 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at 0 1.7 90) (layer F.Fab)
+    (fp_text value 0.1uF (at 0 1.7 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end 1.15 -0.6) (layer F.CrtYd) (width 0.05))
@@ -2641,9 +2641,9 @@
     (fp_line (start 1.15 -0.6) (end 1.15 0.6) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.25 -0.475) (end -0.25 -0.475) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.25 0.475) (end 0.25 0.475) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -0.55 0 90) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 36 +1.8VSB))
-    (pad 2 smd rect (at 0.55 0 90) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -3831,7 +3831,7 @@
   )
 
   (module muse-v2-lib:PJRAS2X2S01X (layer F.Cu) (tedit 585B5F8B) (tstamp 585C2368)
-    (at 137.889 112.557 270)
+    (at 137.889 112.457 270)
     (path /57F76E2F/585AC7CF)
     (fp_text reference P1 (at -2.7 -2.9 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
