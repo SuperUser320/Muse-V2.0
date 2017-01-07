@@ -1,14 +1,17 @@
 doctype html
 html
     head
-        // Drag and drop list
-        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
-        script(src='http://rubaxa.github.io/Sortable/Sortable.js')
+        // jQuery
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
 
-        script(type='text/javascript').
+        // Drag and drop list
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css")
+        script(src="http://rubaxa.github.io/Sortable/Sortable.js")
+
+        script(type="text/javascript").
             window.onload = function() {
-                Sortable.create(document.getElementById('visibleList'), {group: 'opts'});
-                Sortable.create(document.getElementById('hiddenList'), {group: 'opts'});
+                Sortable.create(document.getElementById("visibleList"), {group: "opts"});
+                Sortable.create(document.getElementById("hiddenList"), {group: "opts"});
             }
 
             // Reload all possible visualizers from server
@@ -20,38 +23,54 @@ html
             // Send new order of visualizer buttons to server
             function save() {
                 // Get references to the two lists
-                visibleList = document.getElementById('visibleList').childNodes;
-                hiddenList = document.getElementById('hiddenList').childNodes;
+                visibleList = document.getElementById("visibleList").childNodes;
+                hiddenList = document.getElementById("hiddenList").childNodes;
 
                 // Create list of visible ids and hidden ids
                 visibleIds = [];
                 hiddenIds = [];
                 for (var i = 0; i < visibleList.length; i++) {
-                    if (visibleList[i].id != '') {
+                    if (visibleList[i].id != "") {
                         visibleIds.push(visibleList[i].id);
                     }
                 }
                 for (var i = 0; i < hiddenList.length; i++) {
-                    if (hiddenList[i].id != '') {
+                    if (hiddenList[i].id != "") {
                         hiddenIds.push(hiddenList[i].id);
                     }
                 }
-                console.log('Visible Ids: ' + visibleIds);
-                console.log('Hidden Ids: ' + hiddenIds);
+                console.log("Visible Ids: " + visibleIds);
+                console.log("Hidden Ids: " + hiddenIds);
+
+                // Bundle both ID lists
+                postData = {
+                    "visibleIds": visibleIds,
+                    "hiddenIds": hiddenIds
+                }
+                console.log(JSON.stringify(postData));
+
+                // Post the lists to the server
+                $.ajax({
+                    url: "/",
+                    type: "POST",
+                    dataType: "json",
+                    contentType: "application/json",
+                    data: JSON.stringify(postData)
+                });
             }
     body
-        button(type='button', onclick='refresh') Refresh Visualizer
+        button(type="button", onclick="refresh") Refresh Visualizer
 
-        div(id='listDiv', style='display: flex;')
-            div(style='align-items: stretch; width: 50%; min-height: 100%; float:left;')
-                p(style='text-align: center;') Display:
-                div.list-group(id='visibleList', style='align-items: stretch; min-height: 100%;')
+        div(id="listDiv", style="display: flex;")
+            div(style="align-items: stretch; width: 50%; min-height: 100%; float:left;")
+                p(style="text-align: center;") Display:
+                div.list-group(id="visibleList", style="align-items: stretch; min-height: 100%;")
                     each vis in visualizers
-                        div.list-group-item(id=vis.directory_name)= vis.display_name + ':' + vis.directory_name
+                        div.list-group-item(id=vis.directory_name)= vis.display_name + ":" + vis.directory_name
 
-            div(style='align-items: stretch; width: 50%; min-height: 100%; float:right;')
-                p(style='text-align: center;') Do Not Display:
-                div.list-group(id='hiddenList', style='align-items: stretch; min-height: 100%;')
-                    div.list-group-item= 'dummy'
+            div(style="align-items: stretch; width: 50%; min-height: 100%; float:right;")
+                p(style="text-align: center;") Do Not Display:
+                div.list-group(id="hiddenList", style="align-items: stretch; min-height: 100%;")
+                    div.list-group-item= "dummy"
 
-        button(type='button', onclick='save()') Save
+        button(type="button", onclick="save()") Save
