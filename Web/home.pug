@@ -1,8 +1,10 @@
 doctype html
 html
     head
+        // Drag and drop list
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
         script(src='http://rubaxa.github.io/Sortable/Sortable.js')
+
         script(type='text/javascript').
             window.onload = function() {
                 Sortable.create(document.getElementById('visibleList'), {group: 'opts'});
@@ -40,13 +42,16 @@ html
     body
         button(type='button', onclick='refresh') Refresh Visualizer
 
-        p Visualizers to pick from:
+        div(id='listDiv', style='display: flex;')
+            div(style='align-items: stretch; width: 50%; min-height: 100%; float:left;')
+                p(style='text-align: center;') Display:
+                div.list-group(id='visibleList', style='align-items: stretch; min-height: 100%;')
+                    each vis in visualizers
+                        div.list-group-item(id=vis.directory_name)= vis.display_name + ':' + vis.directory_name
 
-        div.list-group(id='visibleList')
-            each vis in visualizers
-                div.list-group-item(id=vis.directory_name)= vis.display_name + ':' + vis.directory_name
-
-        div.list-group(id='hiddenList')
-            div.list-group-item= 'dummy'
+            div(style='align-items: stretch; width: 50%; min-height: 100%; float:right;')
+                p(style='text-align: center;') Do Not Display:
+                div.list-group(id='hiddenList', style='align-items: stretch; min-height: 100%;')
+                    div.list-group-item= 'dummy'
 
         button(type='button', onclick='save()') Save
