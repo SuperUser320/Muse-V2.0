@@ -1,0 +1,11 @@
+{
+    "name": "muse",
+    "description": "Web app and webserver for Muse",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "*",
+        "pug": "*",
+        "node-readfiles": "*",
+        "body-parser": "*"
+    }
+}

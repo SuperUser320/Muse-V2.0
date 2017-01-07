@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css")
+        script(src="http://rubaxa.github.io/Sortable/Sortable.js")
+        script(type='text/javascript').
+            window.onload = function() {
+                Sortable.create(document.getElementById('simpleList'), {group: 'opts'});
+                Sortable.create(document.getElementById('hiddenList'), {group: 'opts'});
+            }
+            function save() {
+                list = document.getElementById('simpleList');
+                alert(list.childNodes[0].id);
+            }
+    body
+        form(action="/refresh_vis")
+            button(type="submit") Refresh Visualizer
+        p Visualizers to pick from:
+        div.list-group(id='simpleList')
+            each vis in visualizers
+                div.list-group-item(id=vis.directory_name)= vis.display_name + ':' + vis.directory_name
+        div.list-group(id='hiddenList')
+            div.list-group-item= 'dummy'
+        button(type='button', onclick='save()') Save
