@@ -1,24 +1,52 @@
 doctype html
 html
     head
-        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css")
-        script(src="http://rubaxa.github.io/Sortable/Sortable.js")
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+        script(src='http://rubaxa.github.io/Sortable/Sortable.js')
         script(type='text/javascript').
             window.onload = function() {
-                Sortable.create(document.getElementById('simpleList'), {group: 'opts'});
+                Sortable.create(document.getElementById('visibleList'), {group: 'opts'});
                 Sortable.create(document.getElementById('hiddenList'), {group: 'opts'});
             }
+
+            // Reload all possible visualizers from server
+            // Display new visualizers at end of enabled list
+            function refresh() {
+
+            }
+
+            // Send new order of visualizer buttons to server
             function save() {
-                list = document.getElementById('simpleList');
-                alert(list.childNodes[0].id);
+                // Get references to the two lists
+                visibleList = document.getElementById('visibleList').childNodes;
+                hiddenList = document.getElementById('hiddenList').childNodes;
+
+                // Create list of visible ids and hidden ids
+                visibleIds = [];
+                hiddenIds = [];
+                for (var i = 0; i < visibleList.length; i++) {
+                    if (visibleList[i].id != '') {
+                        visibleIds.push(visibleList[i].id);
+                    }
+                }
+                for (var i = 0; i < hiddenList.length; i++) {
+                    if (hiddenList[i].id != '') {
+                        hiddenIds.push(hiddenList[i].id);
+                    }
+                }
+                console.log('Visible Ids: ' + visibleIds);
+                console.log('Hidden Ids: ' + hiddenIds);
             }
     body
-        form(action="/refresh_vis")
-            button(type="submit") Refresh Visualizer
+        button(type='button', onclick='refresh') Refresh Visualizer
+
         p Visualizers to pick from:
-        div.list-group(id='simpleList')
+
+        div.list-group(id='visibleList')
             each vis in visualizers
                 div.list-group-item(id=vis.directory_name)= vis.display_name + ':' + vis.directory_name
+
         div.list-group(id='hiddenList')
             div.list-group-item= 'dummy'
+
         button(type='button', onclick='save()') Save
