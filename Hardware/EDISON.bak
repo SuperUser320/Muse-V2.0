@@ -298,10 +298,6 @@ Text GLabel 1450 6900 2    60   Input ~ 0
 BT_PAIR_BTN
 Text Notes 900  6550 0    60   ~ 0
 Buetooth Pair Button
-Text GLabel 6050 3000 2    60   Input ~ 0
-3.5_IN_SEN
-Text GLabel 6050 3150 2    60   Input ~ 0
-3.5_OUT_SEN
 $Comp
 L EdisonConnector U18
 U 1 1 57F8CAB1
@@ -474,18 +470,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3300 6050 3300
 Wire Wire Line
-	5450 3250 5900 3250
-Wire Wire Line
-	5900 3250 5900 3150
-Wire Wire Line
-	5900 3150 6050 3150
-Wire Wire Line
-	5450 3150 5850 3150
-Wire Wire Line
-	5850 3150 5850 3000
-Wire Wire Line
-	5850 3000 6050 3000
-Wire Wire Line
 	5450 2850 6000 2850
 Wire Wire Line
 	6000 2850 6000 2700
@@ -616,4 +600,6 @@ Wire Wire Line
 	3100 3550 3100 3950
 Wire Wire Line
 	3100 3950 3450 3950
+NoConn ~ 5450 3250
+NoConn ~ 5450 3150
 $EndSCHEMATC
