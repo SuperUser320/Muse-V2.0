@@ -7,6 +7,7 @@ var app = express();
 //var urlencodedParser = bodyParser.urlencoded({extended: false});
 //app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
+app.use(express.static("frontend"));
 
 // Load the list of visualizers
 vis.loadVisualizers();

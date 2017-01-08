@@ -2,7 +2,7 @@ doctype html
 html
     head
         title Muse Settings
-        
+
         // jQuery
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
 
@@ -10,7 +10,8 @@ html
         link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css")
         script(src="http://rubaxa.github.io/Sortable/Sortable.js")
 
-        script(type="text/javascript").
+        // Save, refresh and onload functions
+        script.
             window.onload = function() {
                 // Create the sortable lists once the elements load
                 Sortable.create(document.getElementById("visibleList"), {group: "opts"});
@@ -94,7 +95,6 @@ html
             div(style="align-items: stretch; width: 50%; min-height: 100%; float:right;")
                 p(style="text-align: center;") Do Not Display:
                 div.list-group(id="hiddenList", style="align-items: stretch; min-height: 100%;")
-                    div.list-group-item= "dummy"
                     each id in hiddenIds
                         div.list-group-item(id=visualizerData[id].directory_name)= visualizerData[id].display_name + ":" + visualizerData[id].directory_name
 
