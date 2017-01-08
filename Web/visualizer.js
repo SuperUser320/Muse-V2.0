@@ -1,7 +1,7 @@
 var fs = require("fs");
 var readfiles = require("node-readfiles");
 const pug = require("pug");
-const compiledFunction = pug.compileFile("settings.pug");
+const compiledFunction = pug.compileFile("frontend/settings.pug");
 
 var allVisualizerData = {}; // Map between Ids and full visualizer config info
 var visibleIds = []; // Ids of all explicity marked visible visualizers
@@ -41,7 +41,7 @@ exports.getSettingsHTML = function() {
 exports.setVisible = function (visible) {
     visibleIds = visible;
     // Save the visible Ids
-    fs.writeFile(__dirname+"/visibleIds.json", JSON.stringify(visible), function(err) {
+    fs.writeFile(__dirname+"/settings/visibleIds.json", JSON.stringify(visible), function(err) {
         if (err)
             return console.log(err);
     });
@@ -50,7 +50,7 @@ exports.setVisible = function (visible) {
 // Save the set of hidden Ids to a file
 exports.setHidden = function (hidden) {
     hiddenIds = hidden;
-    fs.writeFile(__dirname+"/hiddenIds.json", JSON.stringify(hidden), function(err) {
+    fs.writeFile(__dirname+"/settings/hiddenIds.json", JSON.stringify(hidden), function(err) {
         if (err)
             return console.log(err);
     });
@@ -73,7 +73,7 @@ function readAllConfigs() {
 }
 
 function readVisibleIds() {
-    fs.readFile(__dirname+"/visibleIds.json", 'utf8', function (err, data) {
+    fs.readFile(__dirname+"/settings/visibleIds.json", 'utf8', function (err, data) {
         if (err) throw err;
         visibleIds = JSON.parse(data);
         console.log("Loaded visible ids: " + visibleIds);
@@ -81,7 +81,7 @@ function readVisibleIds() {
 }
 
 function readHiddenIds() {
-    fs.readFile(__dirname+"/hiddenIds.json", 'utf8', function (err, data) {
+    fs.readFile(__dirname+"/settings/hiddenIds.json", 'utf8', function (err, data) {
         if (err) throw err;
         hiddenIds = JSON.parse(data);
         console.log("Loaded hidden ids: " + hiddenIds);
