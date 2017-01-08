@@ -7,12 +7,15 @@ html
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
 
         // Add the CSS
-        link(rel="stylesheet", href="/control_style.css")
+        link(rel="stylesheet", href="/muse_style.css")
 
         // Add the meta for mobile support
         meta(id="meta" name="viewport" content="height=device-height, initial-scale=1.0")
 
     body
-        div.button_div
+        div.control_button_div
             for id in visibleIds
-                button(value=visualizerData[id].directory_name) #{visualizerData[id].display_name}
+                button.control_button(value=visualizerData[id].directory_name) #{visualizerData[id].display_name}
+
+        br
+        a(href="/settings") Settings

@@ -1,3 +1,11 @@
+a {
+    border-color: #E87722;
+    color: #E87722;
+    font-size: 24px;
+    text-align: middle;
+    margin: 4px;
+    line-height: 1.5;
+}
 body {
     background-color: #002058;
     font-family: sans-serif;
@@ -8,11 +16,11 @@ h1 {
     font-size: 24px;
     text-align: center;
 }
-div {
+.control_button_div {
     display: inline-block;
     width: 60%;
 }
-button {
+.control_button {
     background-color: #002058;
     border-color: #E87722;
     color: #E87722;
@@ -21,18 +29,18 @@ button {
     margin: 4px;
     line-height: 1.5;
 }
-button:hover {
+.control_button:hover {
     background-color: #606EB2;
     border-color: #606EB2;
 }
 @media screen and (min-width: 1024px) {
-    button {
+    .control_button {
         height: 100px;
         width: 35%;
     }
 }
 @media screen and (max-width: 1023px) {
-    button {
+    .control_button {
         height: 100px;
         width: 100%;
     }
