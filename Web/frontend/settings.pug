@@ -21,7 +21,11 @@ html
             // Reload all possible visualizers from server
             // Display new visualizers at end of enabled list
             function refresh() {
-
+                // Post the refresh request
+                $.ajax({
+                    url: "/refresh",
+                    type: "POST"
+                });
             }
 
             // Send new order of visualizer buttons to server
@@ -55,7 +59,7 @@ html
 
                 // Post the lists to the server
                 $.ajax({
-                    url: "/",
+                    url: "/save",
                     type: "POST",
                     dataType: "json",
                     contentType: "application/json",
@@ -70,14 +74,15 @@ html
         meta(id="meta" name="viewport" content="height=device-height, initial-scale=1.0")
 
     body
-        button(type="button", onclick="refresh") Refresh Visualizer
+        button(type="button", onclick="refresh()") Refresh Visualizer
 
         div(id="listDiv", style="display: flex;")
             div(style="align-items: stretch; width: 50%; min-height: 100%; float:left;")
                 h1(style="text-align: center;") Display:
                 div.list-group(id="visibleList", style="align-items: stretch; min-height: 100%;")
                     each id in visibleIds
-                        div.list-group-item(id=visualizerData[id].directory_name)= visualizerData[id].display_name + ":" + visualizerData[id].directory_name
+                        if visualizerData[id]
+                            div.list-group-item(id=visualizerData[id].directory_name)= visualizerData[id].display_name + ":" + visualizerData[id].directory_name
                     //- For each visualizer we have data on
                     each vis in visualizerData
                         -
@@ -103,7 +108,8 @@ html
                 h1(style="text-align: center;") Do Not Display:
                 div.list-group(id="hiddenList", style="align-items: stretch; min-height: 100%;")
                     each id in hiddenIds
-                        div.list-group-item(id=visualizerData[id].directory_name)= visualizerData[id].display_name + ":" + visualizerData[id].directory_name
+                        if visualizerData[id]
+                            div.list-group-item(id=visualizerData[id].directory_name)= visualizerData[id].display_name + ":" + visualizerData[id].directory_name
 
         button(type="button", onclick="save()") Save
 

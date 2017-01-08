@@ -12,7 +12,12 @@ app.use(express.static("frontend"));
 // Load the list of visualizers
 vis.loadVisualizers();
 
-app.post("/", function(req, res) {
+app.post("/refresh", function(req, res) {
+    console.log("Got POST request to refresh visualizers");
+    vis.loadVisualizers();
+});
+
+app.post("/save", function(req, res) {
     console.log(req.body);
     //console.log(req.body.visibleIds);
     //console.log(req.body.hiddenIds);

@@ -15,7 +15,8 @@ html
     body
         div.control_button_div
             for id in visibleIds
-                button.control_button(value=visualizerData[id].directory_name) #{visualizerData[id].display_name}
+                if visualizerData[id]
+                    button.control_button(value=visualizerData[id].directory_name) #{visualizerData[id].display_name}
 
         br
         a(href="/settings") Settings
