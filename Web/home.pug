@@ -65,12 +65,34 @@ html
             div(style="align-items: stretch; width: 50%; min-height: 100%; float:left;")
                 p(style="text-align: center;") Display:
                 div.list-group(id="visibleList", style="align-items: stretch; min-height: 100%;")
-                    each vis in visualizers
-                        div.list-group-item(id=vis.directory_name)= vis.display_name + ":" + vis.directory_name
+                    each id in visibleIds
+                        div.list-group-item(id=visualizerData[id].directory_name)= visualizerData[id].display_name + ":" + visualizerData[id].directory_name
+                    //- For each visualizer we have data on
+                    each vis in visualizerData
+                        -
+                            var found = false;
+                            for (var i = 0; i < hiddenIds.length; i++) {
+                                if (vis.directory_name == hiddenIds[i]) {
+                                    found = true;
+                                    break;
+                                }
+                            }
+                            for (var i = 0; i < visibleIds.length; i++) {
+                                if (vis.directory_name == visibleIds[i]) {
+                                    found = true;
+                                    break;
+                                }
+                            }
+                        //- If the above for loop does not find this ID in hiddenIds add it to this list
+                        unless found
+                            div.list-group-item(id=vis.directory_name)= vis.display_name + ":" + vis.directory_name
+
 
             div(style="align-items: stretch; width: 50%; min-height: 100%; float:right;")
                 p(style="text-align: center;") Do Not Display:
                 div.list-group(id="hiddenList", style="align-items: stretch; min-height: 100%;")
                     div.list-group-item= "dummy"
+                    each id in hiddenIds
+                        div.list-group-item(id=visualizerData[id].directory_name)= visualizerData[id].display_name + ":" + visualizerData[id].directory_name
 
         button(type="button", onclick="save()") Save

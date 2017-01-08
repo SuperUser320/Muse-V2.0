@@ -15,12 +15,18 @@ app.post("/", function(req, res) {
     console.log(req.body);
     //console.log(req.body.visibleIds);
     //console.log(req.body.hiddenIds);
+    vis.setVisible(req.body.visibleIds);
+    vis.setHidden(req.body.hiddenIds);
 });
 
-app.get("/index.html", function(req, res) {
-    console.log("Got a GET request for /index.html");
-    res.send(vis.getVisualizerSelectHTML());
-    //res.sendFile(__dirname + "/" + "index.html");
+app.get("/", function(req, res) {
+    console.log("Got a GET request for /");
+    res.send(vis.getControlHTML());
+});
+
+app.get("/settings", function(req, res) {
+    console.log("Got a GET request for /settings");
+    res.send(vis.getSettingsHTML());
 });
 
 var server = app.listen(8080, function() {
