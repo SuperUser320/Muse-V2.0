@@ -1,7 +1,7 @@
 var fs = require("fs");
 var readfiles = require("node-readfiles");
 const pug = require("pug");
-const compiledFunction = pug.compileFile("home.pug");
+const compiledFunction = pug.compileFile("settings.pug");
 
 var allVisualizerData = {}; // Map between Ids and full visualizer config info
 var visibleIds = []; // Ids of all explicity marked visible visualizers
