@@ -1,7 +1,8 @@
 var fs = require("fs");
 var readfiles = require("node-readfiles");
 const pug = require("pug");
-const compiledFunction = pug.compileFile("frontend/settings.pug");
+const compiledControlFunction = pug.compileFile("frontend/control.pug");
+const compiledSettingsFunction = pug.compileFile("frontend/settings.pug");
 
 var allVisualizerData = {}; // Map between Ids and full visualizer config info
 var visibleIds = []; // Ids of all explicity marked visible visualizers
@@ -24,7 +25,7 @@ exports.loadVisualizers = function () {
 // Return the rendered control webpage
 exports.getControlHTML = function () {
     // Render page
-    controlHTML = compiledFunction({"visualizerData": allVisualizerData, "visibleIds": visibleIds, "hiddenIds": hiddenIds});
+    controlHTML = compiledControlFunction({"visualizerData": allVisualizerData, "visibleIds": visibleIds, "hiddenIds": hiddenIds});
     console.log("Rendered visualizer select page");
     return controlHTML;
 }
@@ -32,7 +33,7 @@ exports.getControlHTML = function () {
 // Return the rendered settings webpage
 exports.getSettingsHTML = function() {
     // Render page
-    settingsHTML = compiledFunction({"visualizerData": allVisualizerData, "visibleIds": visibleIds, "hiddenIds": hiddenIds});
+    settingsHTML = compiledSettingsFunction({"visualizerData": allVisualizerData, "visibleIds": visibleIds, "hiddenIds": hiddenIds});
     console.log("Rendered visualizer select page");
     return settingsHTML;
 }
